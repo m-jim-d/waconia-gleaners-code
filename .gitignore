@@ -9,6 +9,9 @@
 !README.md
 !wgl_*
 
+# Explicitly ignore specific config file
+wgl_python_config.py
+
 # Even if they are in subdirectories
 !*/
 

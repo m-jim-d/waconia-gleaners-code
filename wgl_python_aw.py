@@ -13,7 +13,7 @@ Written by: Jim Miller (7/6/2025)
 An example of an XML report from a single station.
 
 Here is an example of a single-site query:
-http://aviationweather.gov/adds/dataserver_current/httpparam?dataSource=metars&requestType=retrieve&format=xml&mostrecentforeachstation=constraint&hoursBeforeNow=2&stationString=KMKT
+https://aviationweather.gov/cgi-bin/data/dataserver.php?dataSource=metars&requestType=retrieve&format=xml&mostrecentforeachstation=constraint&hoursBeforeNow=2&stationString=KMKT
 
 And the XML report:
 <response version="1.2" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/metar1_2.xsd">
