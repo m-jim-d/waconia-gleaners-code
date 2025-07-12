@@ -76,7 +76,7 @@ def processMultipleStations_json( station_dictionary):
     url_base = ("https://api.synopticdata.com/v2/stations/latest?" + 
                "vars=air_temp,dew_point_temperature,wind_speed,wind_direction,wind_gust,sea_level_pressure" + 
                "&obtimezone=local&output=json&units=english" + 
-               "&token=45d3bd33f12c4d87aed5925e0f4da854&stid=")
+               "&token=45d3bd33f--------------54&stid=")
 
     # Get count of stations
     station_count = len(station_dictionary)
