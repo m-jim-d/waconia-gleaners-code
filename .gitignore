@@ -1,0 +1,22 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!license.txt
+!LICENSE.txt
+!readme.md
+!README.md
+!wgl_*
+
+# Even if they are in subdirectories
+!*/
+
+# But still ignore subdirectories themselves
+*/
+
+# Re-ignore everything in subdirectories
+/*/*
+
+# Except wgl_* files in the root directory
+!/wgl_*

@@ -1,0 +1,1108 @@
+
+
+
+		<!doctype html>
+<html lang="en-US">
+	<head>
+		<meta name="viewport" content="initial-scale=1">
+		
+			<base href="https://www.hanford.gov/" />
+			
+
+			<link rel="STYLESHEET" type="text/css" href="style/style.css" />
+			<link rel="STYLESHEET" type="text/css" href="style/hanford2023/EOCWeather.css" />
+			<link rel="STYLESHEET" type="text/css" href="style/hanford2023/cards.css" />
+			<link rel="STYLESHEET" type="text/css" href="style/hanford2023/style.css" /> 
+
+			<script src="ext_scripts/prototype.js"></script>
+			<script src="scripts/linkProcessor.js"></script>
+			<script src="scripts/hanford2023/includes.js"></script>
+			<script src="scripts/hanford2023/Social.js"></script>
+			<script src="scripts/hanford2023/dropDown.js"></script>
+			<script>
+				DropDownItems.fullWidthDropDown = false; 
+				DropDownItems.stickyHeader = true;
+			</script>
+			
+ 
+			<script src="scripts/UIMessage.js"></script>
+			<link rel="STYLESHEET" type="text/css" href="style/Messages.css" />
+			<script src="scripts/messages.js"></script>
+			<!--[if lte IE 8]>
+			<link rel="STYLESHEET" type="text/css" href="style/hanford2023/ie8.css" />
+			<![endif]-->
+		<title>Hanford Meteorological Station - Hanford Site</title>
+
+	</head>
+	<body>
+
+		<div class="wrapper" id="wrapper">
+    	<a class="skip-main" href="#mainContent">Skip to main content</a>
+			
+			<div class="interiorWidth weatherEOCHeader">
+				
+			</div>
+			<div class="topheader">
+				<ul>
+					<li class="hamburger">
+						<input type="checkbox" id="hamburger"/>
+						<label id="hamburgerMenu" for="hamburger">
+							<span></span>
+							<span id="hamburgerText">Click To Expand</span>
+						</label>	
+					</li>
+					<li class="title">The Hanford Site</li>
+					<li class="energy"><a href="https://www.energy.gov/" data-office="DOE" title="Link to DOE website.">ENERGY.GOV</a></li>
+					<li class="filler">&nbsp;</li>
+					<li class="right labs"><a href="https://www.energy.gov/national-laboratories" data-office="NationalLabs" title="Link to National Labs">National Labs</a></li>
+					<li class="right search">
+						<form action="pageaction.cfm/search" method="post">
+							<input title="Enter text to search Hanford Site" type="text" name="srchQry" placeholder="Search Hanford.gov" > <!--aria-label="Enter text to search Hanford Site"-->
+							<input type="submit" class="hide-submit">
+						</form>
+					</li>
+					<li class="right weather">
+						<div class="weatherArea">
+							<span class="weatherAlertIcon">!</span><img  class="currentWeatherIcon" src="appimages/hanford2023/weather/" alt=""   /><span class="currentTemperature">°F</span>
+							<img  svgsrc="appimages/hanford2023/dropDown.svg" class="whiteSVG popOpenIcon" style="height:1em;width:1em;" onclick="Display.WeatherPopup()">&nbsp;
+							<div class="weatherPopup">
+								<table style="padding-bottom:15px; width:100%">
+									<tbody>
+										<tr><td colspan="2" class="weatherHeadline">Current Conditions</td></tr>
+										<tr>
+											<td style="text-align:center;width:50%"><img style="height:95px" class="currentWeatherIcon"  src="appimages/hanford2023/weather/detailed/" alt=""></td>
+											<td style="text-align:center;">
+												<span class="currentTemperature">°F</span>
+												<span class="currentWindText">So)</span>
+												<span class="currentText currentWeatherText" ></span>
+											</td>
+										</tr>
+										<tr style="vertical-align:top" class="forecast">
+											<td style="text-align:center">Today: <span class="todayHigh">°F</span> (<span class="todayLow">°F</span>)<br> <span class="todayForcastText">Breezy</span></td>
+											<td style="text-align:center"> Tomorrow: <span class="tomorrowHigh">°F</span> (<span class="tomorrowLow">°F</span>)<br><span class="tomorrowForcastText">Breezy</span></td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="weatherAlert"></div>
+							</div>
+						</div> 				
+					</li>
+					<li class="right">
+						<div class="fireDanger"> 
+							<img svgsrc="appimages/hanford2023/flame.svg" class="fireIcon" data-level="low"  onclick=";Display.FireDangerPopup(event.target, event)">
+							<img  svgsrc="appimages/hanford2023/dropDown.svg" style="height:1em;width:1em;margin:0;padding:0;" class="popOpenIcon"  onclick=";Display.FireDangerPopup(event.target, event)">
+							<div class="firePopup">
+								<img svgsrc="appimages/hanford2023/flame.svg" class="fireIcon" style="height:4em;width:4em;">
+								<span class="fireDangerDetail">Fire Danger....</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="logo_header">
+				
+				<ul>
+					<li><a href="https://www.hanford.gov/"><img src="appimages/hanford2023/Logos/Hanford/hanford_site_logo.png" title="Hanford Site logo" alt="Hanford Site logo" /></a></li>
+					<li class="right"><img src="appimages/hanford2023/Logos/DOE/doe_logo.png" title="US Department of Energy Logo"alt="US Department of Energy Logo"></li>
+				</ul>
+				
+			</div>
+			<div class="menuBar">
+				<ul class="menuItems TopMenuSection">
+					<li onclick="Display.GoHome()" class="navHome">Hanford Site</li>
+				</ul>
+			</div> 
+			   
+				<div class="bottomHeaderMenu"> 
+					
+						
+								<div class="bottomHeaderMenuItem">
+									<a href="page.cfm/understandPAST" style="background-color:#787878;">understand the PAST</a>
+								</div>
+							
+								<div class="bottomHeaderMenuItem">
+									<a href="page.cfm/discoverPresent" style="background-color:#4A6C2F;">discover the PRESENT</a>
+								</div>
+							
+								<div class="bottomHeaderMenuItem">
+									<a href="page.cfm/envisionFuture" style="background-color:#236477;">envision the FUTURE</a>
+								</div>
+								
+					
+				</div>	
+			
+	
+		
+		
+		<div id="firstBread" class="MousePadding interiorWidth"><a href="./">Hanford.Gov</a></div> 
+		<div id="sectionTitle" class="interiorWidth"></div>
+		<div class="bodyContent" id="mainContent" tabindex="-1">
+ 	
+		<div id="lastBread" style="display:none">
+
+		<span class="breadSeperator"></span> <a href="c.cfm/hms/">Hanford Meteorological Station</a> 
+		</div>
+		
+				<div id="newTitle">
+					Hanford Meteorological Station 
+			</div>
+		
+		
+
+
+
+	
+
+	<link rel="stylesheet" href="c.cfm/hms/css/hms.css" />
+	<script>
+		function updatePageContent()
+		{
+		new Ajax.PeriodicalUpdater($('contentToReplace'), 'c.cfm/hms/realtime.cfm/*', {frequency:900, evalScripts:true} )
+		}
+		Event.observe(document, "dom:loaded", updatePageContent )
+	</script>
+	<div id="contentToReplace">
+	
+
+		<pre> 
+ Station# 1 ( PROS) at 479 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 207
+ Ave Wind Speed     =  11
+ Max Wind Speed     =  19
+
+                         Celsius
+ Ave Temp =103.3          39.60
+ Max Temp =103.7          39.83
+ Min Temp =102.9          39.42
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 2 (  EOC) at 1240 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 214
+ Ave Wind Speed     =   9
+ Max Wind Speed     =  18
+
+                         Celsius
+ Ave Temp = 99.0          37.20
+ Max Temp =100.0          37.79
+ Min Temp = 98.1          36.70
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 3 ( ARMY) at 578 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction =  68
+ Ave Wind Speed     =  10
+ Max Wind Speed     =  15
+
+                         Celsius
+ Ave Temp =100.7          38.15
+ Max Temp =101.1          38.39
+ Min Temp =100.3          37.93
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 4 ( RSPG) at 686 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction =  83
+ Ave Wind Speed     =   9
+ Max Wind Speed     =  12
+
+                         Celsius
+ Ave Temp =101.2          38.44
+ Max Temp =102.2          38.99
+ Min Temp =100.5          38.07
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 5 ( EDNA) at 404 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 118
+ Ave Wind Speed     =  10
+ Max Wind Speed     =  14
+
+                         Celsius
+ Ave Temp = 99.4          37.44
+ Max Temp = 99.7          37.62
+ Min Temp = 99.1          37.26
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 6 ( 200E) at 685 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 101
+ Ave Wind Speed     =   9
+ Max Wind Speed     =  12
+
+                                               Questemp 46
+ Ave BP = 29.078 in/Hg    738.581 mm/Hg        Wet Bulb   = 69.8
+ Max BP = 29.081 in/Hg    738.665 mm/Hg        Globe      = 110.3
+ Min BP = 29.074 in/Hg    738.475 mm/Hg        Dry Bulb   = 99.9
+                                                WBGT Out   = 80.8
+
+ Ave SLP =  29.782 in/Hg    1008.546 mbs
+
+ Ave Temp = 101.1        Dew Point =  41.0
+ Max Temp = 101.6               RH =  13.7
+ Min Temp = 100.6
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 7 ( 200W) at 636 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction =  98
+ Ave Wind Speed     =   8
+ Max Wind Speed     =  13
+
+                         Celsius
+ Ave Temp =100.9          38.30
+ Max Temp =101.4          38.54
+ Min Temp =100.6          38.11
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 8 ( BVLY) at 509 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 310
+ Ave Wind Speed     =  16
+ Max Wind Speed     =  32
+
+ Ave BP = 29.255 in/Hg    743.076 mm/Hg
+ Max BP = 29.262 in/Hg    743.253 mm/Hg
+ Min BP = 29.248 in/Hg    742.907 mm/Hg
+
+ Ave SLP =  29.843 in/Hg    1010.584 mbs
+
+                         Celsius
+ Ave Temp = 94.9          34.95
+ Max Temp = 95.4          35.20
+ Min Temp = 94.2          34.54
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 9 ( FFTF) at 573 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction 60m =  51    Ave Temp 60m = 98.3
+ Ave Wind Speed 60m     =  12
+ Ave Wind Direction 25m = 138
+ Ave Wind Speed 25m     =  11
+ Ave Wind Direction 10m = 138    Ave Temp 10m = 99.5
+ Ave Wind Speed 10m     =  11
+ Max Wind Speed 10m     =  15
+
+ Ave BP = 29.208 in/Hg    741.872 mm/Hg
+ Max BP = 29.212 in/Hg    741.972 mm/Hg
+ Min BP = 29.203 in/Hg    741.764 mm/Hg
+
+ Ave SLP =  29.804 in/Hg    1009.289 mbs
+
+ Ave Temp 2m = 101.1        Dew-Point 2m =  42.9
+ Max Temp 2m = 101.9        Rel-Humidity =  14.4
+ Min Temp 2m = 100.6
+
+ Delta Temp 60m-10m =  -1.20
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 10 ( YAKB) at 796 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 317
+ Ave Wind Speed     =  19
+ Max Wind Speed     =  29
+
+ Ave BP = 28.993 in/Hg    736.419 mm/Hg
+ Max BP = 28.997 in/Hg    736.521 mm/Hg
+ Min BP = 28.985 in/Hg    736.217 mm/Hg
+
+ Ave SLP =  29.817 in/Hg    1009.718 mbs
+
+                         Celsius
+ Ave Temp = 99.1          37.27
+ Max Temp =101.1          38.39
+ Min Temp = 98.0          38.39
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 11 ( 300A) at 405 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction 60m = 114    Ave Temp 60m = 97.9
+ Ave Wind Speed 60m     =   9
+ Ave Wind Direction 25m = 106
+ Ave Wind Speed 25m     =   9
+ Ave Wind Direction 10m = 101    Ave Temp 10m = 99.2
+ Ave Wind Speed 10m     =   9
+ Max Wind Speed 10m     =  17
+
+                                               Questemp 46
+ Ave BP = 29.369 in/Hg    745.974 mm/Hg        Wet Bulb   = 74.1
+ Max BP = 29.371 in/Hg    746.013 mm/Hg        Globe      = 108.3
+ Min BP = 29.368 in/Hg    745.954 mm/Hg        Dry Bulb   = 99.5
+                                                WBGT Out   = 83.5
+
+ Ave SLP =  29.786 in/Hg    1008.681 mbs
+
+ Ave Temp 2m =  99.5        Dew-Point 2m =  50.6
+ Max Temp 2m =  99.9        Rel-Humidity =  20.7
+ Min Temp 2m =  99.0
+
+ Delta Temp 60m-10m =  -1.34
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 12 ( WYEB) at 555 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 107
+ Ave Wind Speed     =  11
+ Max Wind Speed     =  15
+
+                         Celsius
+ Ave Temp =100.5          38.08
+ Max Temp =101.1          38.37
+ Min Temp =100.1          37.83
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 13 ( 100N) at 470 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction 60m = 137    Ave Temp 60m = 99.6
+ Ave Wind Speed 60m     =   8
+ Ave Wind Direction 25m = 141
+ Ave Wind Speed 25m     =   7
+ Ave Wind Direction 10m = 143    Ave Temp 10m = 101.4
+ Ave Wind Speed 10m     =   7
+ Max Wind Speed 10m     =  11
+
+                                               Questemp 46
+ Ave BP = 29.297 in/Hg    744.153 mm/Hg        Wet Bulb   = 72.9
+ Max BP = 29.299 in/Hg    744.183 mm/Hg        Globe      = 117.0
+ Min BP = 29.295 in/Hg    744.096 mm/Hg        Dry Bulb   = 103.8
+                                                WBGT Out   = 84.9
+
+ Ave SLP =  29.785 in/Hg    1008.622 mbs
+
+ Ave Temp 2m = 102.2        Dew-Point 2m =  39.4
+ Max Temp 2m = 102.7        Rel-Humidity =  12.1
+ Min Temp 2m = 101.8
+
+ Delta Temp 60m-10m =  -1.79
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 14 ( WPPS) at 455 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 123
+ Ave Wind Speed     =  11
+ Max Wind Speed     =  16
+
+                         Celsius
+ Ave Temp =100.3          37.97
+ Max Temp =100.9          38.26
+ Min Temp =100.0          37.78
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 15 ( FRNK) at 877 ft above MSL     
+
+
+ Time: 07:15:00 PST      Date: 7/7/2025
+
+ Ave Wind Direction =-100
+ Ave Wind Speed     =-100
+ Max Wind Speed     =-100
+
+                         Celsius
+ Ave Temp =-99.9         -99.90
+ Max Temp =-99.9         -99.90
+ Min Temp =-99.9         -99.90
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 16 ( GABL) at 1084 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 122
+ Ave Wind Speed     =  11
+ Max Wind Speed     =  15
+
+                         Celsius
+ Ave Temp = 98.8          37.09
+ Max Temp = 99.5          37.52
+ Min Temp = 98.1          36.73
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 17 ( RING) at 619 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction =  64
+ Ave Wind Speed     =   4
+ Max Wind Speed     =   7
+
+                         Celsius
+ Ave Temp = 95.5          35.30
+ Max Temp = 97.1          36.19
+ Min Temp = 93.7          34.30
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 18 ( RICH) at 396 ft above MSL     
+
+
+
+Decommissioned or temporarily unavailable.
+
+
+
+
+
+
+
+
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 19 (  PFP) at 677 ft above MSL     
+
+
+ Time: 18:15:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction =  34
+ Ave Wind Speed     =   9
+ Max Wind Speed     =  20
+
+ Ave BP = 29.088 in/Hg    738.844 mm/Hg
+ Max BP = 29.099 in/Hg    739.110 mm/Hg
+ Min BP = 29.075 in/Hg    738.496 mm/Hg
+
+ Ave SLP =  29.791 in/Hg    1008.830 mbs
+
+                         Celsius
+ Ave Temp =100.1          37.81
+ Max Temp =101.3          38.52
+ Min Temp = 98.2          36.77
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 20 ( RMTN) at 3534 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 329.7       >>RM Young = 332.3
+ Ave Wind Speed     =   3.8       >>RM Young =   5.1
+ Max Wind Speed     =  12.8       >>RM Young =  14.2
+
+                         Celsius
+ Ave Temp = 87.0          30.56
+ Max Temp = 88.5          31.40
+ Min Temp = 86.0          30.01
+
+ Relative Humidity = 17.8
+ Dew Point = 39.0
+ Solar Radiation = 136.1 W/m^2
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 21 (  HMS) at 729 ft above MSL     
+
+
+ Time: 18:15:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 328
+ Ave Wind Speed     =   8
+ Max Wind Speed     =  20
+
+ Ave BP = 29.031 in/Hg    737.394 mm/Hg
+ Max BP = 29.060 in/Hg    738.125 mm/Hg
+ Min BP = 29.012 in/Hg    736.907 mm/Hg
+
+ Ave SLP =  29.501 in/Hg     999.027 mbs
+
+                         Celsius
+ Ave Temp = 98.8          37.12
+ Max Temp = 99.0          37.25
+ Min Temp = 98.6          36.99
+
+Building 622R
+ DewPt    =  44.3           RH      =  15.1%
+ Ave Temp = 100.1           RH Temp =  99.2
+
+ Top of the Tower (400ft)            Questemp 44
+ Solar = 195.2 W/m^2                Wet Bulb   =  69.3
+ RH    =  14.5%                     Globe      = 112.1
+ DewPt =  41.6                      Dry Bulb   = 100.4
+ AirT  =  92.8                      WBGT Out   =  81.0
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 22 ( PASC) at 407 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 126
+ Ave Wind Speed     =   9
+ Max Wind Speed     =  15
+
+                         Celsius
+ Ave Temp = 99.8          37.66
+ Max Temp =100.1          37.86
+ Min Temp = 99.5          37.50
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 23 ( GABW) at 490 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 133
+ Ave Wind Speed     =   9
+ Max Wind Speed     =  15
+
+                         Celsius
+ Ave Temp =102.1          38.94
+ Max Temp =102.4          39.11
+ Min Temp =101.6          38.69
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 24 ( 100F) at 412 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 146
+ Ave Wind Speed     =  11
+ Max Wind Speed     =  14
+
+                         Celsius
+ Ave Temp =100.9          38.28
+ Max Temp =101.6          38.66
+ Min Temp =100.4          38.02
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 25 ( VERN) at 434 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 309
+ Ave Wind Speed     =  17
+ Max Wind Speed     =  25
+
+                         Celsius
+ Ave Temp = 97.1          36.18
+ Max Temp = 98.6          36.98
+ Min Temp = 96.1          35.62
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 26 ( BENT) at 1059 ft above MSL     
+
+
+
+Decommissioned or temporarily unavailable.
+
+
+
+
+
+
+
+
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 27 ( VSTA) at 515 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 196
+ Ave Wind Speed     =   6
+ Max Wind Speed     =  15
+
+                         Celsius
+ Ave Temp =103.0          39.45
+ Max Temp =103.6          39.78
+ Min Temp =102.3          39.07
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 28 ( SURF) at 351 ft above MSL     
+
+
+
+Decommissioned or temporarily unavailable.
+
+
+
+
+
+
+
+
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 29 ( 100K) at 467 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 127
+ Ave Wind Speed     =   6
+ Max Wind Speed     =  11
+
+ Ave BP = 29.280 in/Hg    743.723 mm/Hg
+ Max BP = 29.284 in/Hg    743.804 mm/Hg
+ Min BP = 29.276 in/Hg    743.621 mm/Hg
+
+                         Celsius
+ Ave Temp =102.7          39.27
+ Max Temp =103.3          39.59
+ Min Temp =102.4          39.09
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 30 ( HAMR) at 500 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction =  92
+ Ave Wind Speed     =   9
+ Max Wind Speed     =  14
+
+                         Celsius
+ Ave Temp =101.3          38.50
+ Max Temp =101.6          38.66
+ Min Temp =101.0          38.34
+
+ Wet Bulb = 70.9
+ Globe    = 109.4
+ Dry Bulb = 99.7
+ WBGT Out = 81.3
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 31 ( 233S) at 688 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 100
+ Ave Wind Speed     =  10
+ Max Wind Speed     =  15
+
+                         Celsius
+ Ave Temp = 99.7          37.61
+ Max Temp = 99.9          37.73
+ Min Temp = 99.4          37.44
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 32 (  IDF) at 723 ft above MSL     
+
+
+ Time: 18:00:00 PST      Date: 7/8/2025
+
+ Ave Wind Direction = 116
+ Ave Wind Speed     =   9
+ Max Wind Speed     =  13
+
+                         Celsius
+ Ave Temp = 99.3          37.40
+ Max Temp = 99.8          37.67
+ Min Temp = 98.9          37.18
+
+ Rain Gauge =   0.00
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 40 (2702Z) at 675 ft above MSL     
+
+
+ Time: 16:15:00 PST      Date: 11/22/2021
+
+ Ave Wind Direction =-100
+ Ave Wind Speed     =-100
+ Max Wind Speed     =-100
+
+                         Celsius
+ Ave Temp =-99.9         -99.90
+ Max Temp =-99.9         -99.90
+ Min Temp =-99.9         -99.90
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	
+
+		<pre> 
+ Station# 21 Telemetry Data 
+
+ 400 Foot Tower Information         Tue Jul 08      18:15:35 PST 2025
+
+                            Prevailing Wind              Peak Gust
+ yr mo day hr   Solar    Degrees Speed Direction   Degrees  Speed   Time Stab
+   25 7 8   1    0.00     220.0    4.0     SW       219.0   8.920  01:00   A
+   25 7 8   2    0.00     230.0    6.9     SW       235.1   9.990  01:15   A
+   25 7 8   3    0.00     210.0    3.1    SSW       228.2   7.220  02:15   A
+   25 7 8   4    0.00     230.0    3.2     SW       223.7   5.520  04:00   A
+   25 7 8   5    0.00     180.0    3.3      S       163.4   5.699  05:00   A
+   25 7 8   6    0.03     100.0    5.0    ESE       102.0   8.560  05:45   A
+   25 7 8   7    0.19     130.0    3.6     SE        94.8   7.041  06:15   A
+   25 7 8   8    0.42     200.0    3.5    SSW       218.7   7.757  08:00   A
+   25 7 8   9    0.67     230.0    3.2     SW       206.9   7.220  09:00   A
+   25 7 8  10    0.89     210.0    3.4    SSW       219.9   9.370  09:45   A
+   25 7 8  11    1.07     200.0    4.1    SSW       220.3   8.920  11:00   A
+   25 7 8  12    1.20     230.0    6.5     SW        92.7  14.290  12:00   A
+   25 7 8  13    1.27     120.0    5.8    ESE       103.6  14.020  12:30   A
+   25 7 8  14    1.26     160.0    4.8    SSE       166.7  15.900  13:30   A
+   25 7 8  15    1.20     180.0    5.7      S       115.5  16.080  14:15   A
+   25 7 8  16    1.05     220.0   10.4     SW       232.9  22.430  15:45   A
+   25 7 8  17    0.86     280.0   11.6      W       283.3  20.100  16:15   A
+   25 7 8  18    0.64     290.0   10.8    WNW       302.0  19.480  17:15   A
+   25 7 8  19    0.40     170.0    8.2    SSE       207.7  14.290  18:30   A
+
+   Tower       Current  Temperature            Wind    Speed
+   Level        Max     Avg     Min      Dir    Max     Avg    Min
+   --------    ------  ------  ------  ------  -----  ------  ------
+   400 foot     93.0    92.8    92.6    84.8    21.4     8.2     8.2
+   300 foot     95.6    95.4    95.2   -99.9   -99.9   -99.9   -99.9
+   250 foot    -99.0   -99.0   -99.0   -99.9   -99.9   -99.9   -99.9
+   200 foot    -99.0   -99.0   -99.0   164.2    23.0     8.8     8.8
+   100 foot    306.5   305.9   304.2   -99.9   -99.9   -99.9   -99.9
+    50 foot     99.0    98.7    98.5   161.3    18.9     8.6     8.6
+    30 foot     99.0    98.8    98.6   209.4    19.9     8.0     8.0
+     3 foot    100.6   100.4   100.0   -99.9   -99.9   -99.9   -99.9
+  0.5" Soil    104.2   103.6   103.0
+ 15.0" Soil     82.4    82.4    82.4
+ 36.0" Soil     76.2    76.2    76.1
+
+ Delta T1 = T200 - T3  = -199.4                 Pasquill Category = A
+ Delta T2 = T250 - T50 = -197.7                 200 ft Winds      =-99.0
+ Delta T3 = T200 - T30 = -197.8 (NRC)           Least Dilution    =  2.4
+
+        Daily Tower WIND Data            Tue Jul 08 06:15:35 PST 2025
+
+   Tower     * 15-Minute AVE *   * 15-Min PEAK GUST *      * DAY PEAK GUST *
+   Level         DIR    SPD        DIR   SPD   @TIME       DIR   SPD   @TIME
+   --------     -----  -----      ----- -----  -----      ----- -----  -----
+   400 foot       85     8.2        85   21.4  18:15        85   23.7  15:45
+   200 foot      164     8.8        67   23.0  18:15        84   23.3  14:45
+    50 foot      161     8.6        69   18.9  18:15        85   22.1  14:45
+    30 foot      209     8.0       328   19.9  18:15       350   22.4  14:45
+
+    Daily Tower TEMPERATURE Data            Tue Jul 08 06:15:35 PST 2025
+
+   Tower         15-Minute     DAILY                   DAILY
+   Level            Ave       Maximum      @Time      Minimum      @Time
+   --------      ---------    -------      -----      -------      -----
+   400 foot        82.5         93.2       18:30        71.6       07:30
+   300 foot        84.5         95.8       18:30        73.2       07:30
+   250 foot       -99.9        -99.9       00:15       -99.9       00:15
+   200 foot       -99.9        -99.9       00:15       -99.9       00:15
+   100 foot       -99.9        -99.9       14:45       -99.9       06:00
+    50 foot        85.9         99.5       17:15        70.4       06:15
+    30 foot        85.7         99.6       17:15        69.5       06:15
+     3 foot        86.7        106.0       15:00        63.8       05:15
+  Stability A
+ -0.5" Soil        95.5        -99.9       15:00        74.1       05:45
+ 15.0" Soil        82.2         82.6       03:15        81.7       14:15
+ 36.0" Soil        76.0         76.2       19:15        75.9       00:15
+
+
+
+</pre>
+		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
+		<hr/>
+	<br /><br />
+	</div>
+
+		<div class="footer">
+			  
+				<div class="topFooterMenu"> 
+					
+						
+								
+								<div class="topFooterMenuItem">
+									<a href="page.cfm/Newsroom" style="background:#787878;">In the Media</a>
+								</div>
+							
+								
+								<div class="topFooterMenuItem">
+									<a href="page.cfm/HanfordSiteTours" style="background:#4A6C2F;">Take a Virtual Tour</a>
+								</div>
+							
+								
+								<div class="topFooterMenuItem">
+									<a href="pageaction.cfm/calendar" style="background:#236477;">On the Calendar</a>
+								</div>
+							
+					
+				</div>
+			
+			<div class="emailUpdatesArea">
+
+				<form id="emailUpdatesForm" name="emailUpdatesForm" action="https://public.govdelivery.com/accounts/USDOEOEM/subscriber/qualify"  method="get" class="emailForm">
+					<ul>
+						<li class="title">Get Email Updates</li>
+						<li class="form">
+							<input type="text" placeholder="Enter Email Address" title="Enter your email for Hanford updates." id="email" name="email" />
+						</li>
+						<li class="button">
+							<button onclick="return LinkProcessor.followLink('https://public.govdelivery.com/accounts/USDOEOEM/subscriber/qualify?email=' + escape(this.form.email.value));">Go</button>
+						</li>
+					</ul>
+				</form>
+
+			</div>	
+			
+				<div class="footerDisplay">
+					<div class="section"><h1>About the Hanford Site</h1><ul><li><a href="page.cfm/hanfordMission" target="">Mission Statement</a></li><li><a href="page.cfm/HanfordCareers" target="">Careers & Internships</a></li><li><a href="page.cfm/ContactUs" target="">Contact Us</a></li><li><a href="page.cfm/privacy" target="">Privacy & Security</a></li><li><a href="page.cfm/accessibility" target="">Accessibility</a></li></ul></div><div class="section"><h1>Hanford Site Resources</h1><ul><li><a href="https://pdw.hanford.gov" target="">Administrative Record</a></li><li><a href="https://www.hanford.gov/page.cfm/FOIA" target="">Freedom of Information Act</a></li><li><a href="page.cfm/HanfordProcurementDivision" target="">Hanford Procurement</a></li><li><a href="page.cfm/HanfordProcurementDivision/SmallBusinessProgram" target="">Small Business Program</a></li></ul></div><div class="section"><h1>Federal Government</h1><ul><li><a href="https://www.whitehouse.gov" target="_blank">The White House</a></li><li><a href="https://www.usa.gov" target="_blank">USA.gov</a></li><li><a href="https://vote.gov" target="_blank">Vote.gov</a></li></ul></div>
+				</div>
+				<div class="footerSearch">
+					<form action="pageaction.cfm/search" method="post">
+						<input title="Enter text to search Hanford Site" type="text" name="srchQry" placeholder="Search Hanford.gov" > <!--aria-label="Enter text to search Hanford Site"-->
+						<input type="submit" class="hide-submit">
+					</form>
+				</div>
+				
+					
+				<div class="footerAddressBar">
+					<p>For questions or comments please contact <a href="c.cfm/feedback">the Webmaster</a></p>
+					<p class="doe_logo"><img src="appimages/hanford2023/Logos/DOE/doe_logo.png" title="US Department of Energy Logo"alt="US Department of Energy Logo"></p>
+				</div>
+			</div>
+		</div> 
+	</div> 
+	</body>
+</html>
+
+<script src="scripts/hanford2023/display.js"></script>
+	<script>
+	Includes.include([
+		"weather/weather.cfc?method=getDataJSONP&jsonp=Display.getWeatherData",
+		"c.cfm/advisory/alert.cfc?method=getFireRemote&jsonp=Display.getFireBanner"
+	])
+
+</script>
+	
