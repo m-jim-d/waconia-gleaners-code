@@ -1,7 +1,7 @@
-# Ignore everything
-*
+# Ignore all files by default
+/*
 
-# But not these files...
+# Allow specific files in root directory
 !.gitignore
 !license.txt
 !LICENSE.txt
@@ -9,17 +9,11 @@
 !README.md
 !wgl_*
 
-# Explicitly ignore specific config file
+# Explicitly ignore specific config files
 wgl_python_config.py
 
-# Even if they are in subdirectories
+# Allow all directories
 !*/
 
-# But still ignore subdirectories themselves
-*/
-
-# Re-ignore everything in subdirectories
+# Ignore files in subdirectories by default
 /*/*
-
-# Except wgl_* files in the root directory
-!/wgl_*
