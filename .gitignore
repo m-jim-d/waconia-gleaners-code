@@ -1,19 +1,4 @@
-# Ignore all files by default
-/*
-
-# Allow specific files in root directory
-!.gitignore
-!license.txt
-!LICENSE.txt
-!readme.md
-!README.md
-!wgl_*
-
-# Explicitly ignore specific config files
+# Only ignore specific config files with sensitive information
 wgl_python_config.py
-
-# Allow all directories
-!*/
-
-# Ignore files in subdirectories by default
-/*/*
+wgl_push_github.bat
+wgl_copyandpush_github.bat
