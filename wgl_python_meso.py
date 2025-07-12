@@ -71,7 +71,7 @@ def processMultipleStations_json( station_dictionary):
     # Old XML query:
     # http://www.wrh.noaa.gov/mesowest/getobextXml.php?num=1&sid=KRLD
     # Using their JSON feed and a token:
-    # https://api.synopticdata.com/v2/stations/latest?vars=air_temp,dew_point_temperature,wind_speed,wind_direction,wind_gust,sea_level_pressure&obtimezone=local&output=json&units=english&token=44444444444444444444444&stid=KMKT
+    # https://api.synopticdata.com/v2/stations/latest?vars=air_temp,dew_point_temperature,wind_speed,wind_direction,wind_gust,sea_level_pressure&obtimezone=local&output=json&units=english&token=HIDDEN&stid=KMKT
     
     
     # Get API token from config file
@@ -79,12 +79,12 @@ def processMultipleStations_json( station_dictionary):
         from wgl_python_config import SYNOPTIC_API_TOKEN
         api_token = SYNOPTIC_API_TOKEN
     except ImportError:
-        message_str = "Error: wgl_config.py not found. Create this file from wgl_config_template.py"
+        message_str = "Error: wgl_python_config.py not found. Create this file from wgl_python_config_template.py"
         enterInLog(message_str)
         print(message_str)
         return
     except AttributeError:
-        message_str = "Error: SYNOPTIC_API_TOKEN not defined in wgl_config.py"
+        message_str = "Error: SYNOPTIC_API_TOKEN not defined in wgl_python_config.py"
         enterInLog(message_str)
         print(message_str)
         return
