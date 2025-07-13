@@ -168,16 +168,16 @@
  Station# 1 ( PROS) at 479 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 207
- Ave Wind Speed     =  11
- Max Wind Speed     =  19
+ Ave Wind Direction = 262
+ Ave Wind Speed     =   3
+ Max Wind Speed     =   9
 
                          Celsius
- Ave Temp =103.3          39.60
- Max Temp =103.7          39.83
- Min Temp =102.9          39.42
+ Ave Temp = 88.8          31.55
+ Max Temp = 90.2          32.34
+ Min Temp = 87.1          30.59
 
  Rain Gauge =   0.00
 
@@ -190,16 +190,16 @@
  Station# 2 (  EOC) at 1240 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 214
- Ave Wind Speed     =   9
- Max Wind Speed     =  18
+ Ave Wind Direction = 253
+ Ave Wind Speed     =   7
+ Max Wind Speed     =   9
 
                          Celsius
- Ave Temp = 99.0          37.20
- Max Temp =100.0          37.79
- Min Temp = 98.1          36.70
+ Ave Temp = 85.0          29.44
+ Max Temp = 85.5          29.74
+ Min Temp = 84.5          29.18
 
  Rain Gauge =   0.00
 
@@ -212,16 +212,16 @@
  Station# 3 ( ARMY) at 578 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction =  68
- Ave Wind Speed     =  10
- Max Wind Speed     =  15
+ Ave Wind Direction = 319
+ Ave Wind Speed     =   8
+ Max Wind Speed     =  11
 
                          Celsius
- Ave Temp =100.7          38.15
- Max Temp =101.1          38.39
- Min Temp =100.3          37.93
+ Ave Temp = 90.7          32.63
+ Max Temp = 91.3          32.94
+ Min Temp = 89.8          32.10
 
  Rain Gauge =   0.00
 
@@ -234,16 +234,16 @@
  Station# 4 ( RSPG) at 686 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction =  83
+ Ave Wind Direction = 335
  Ave Wind Speed     =   9
- Max Wind Speed     =  12
+ Max Wind Speed     =  17
 
                          Celsius
- Ave Temp =101.2          38.44
- Max Temp =102.2          38.99
- Min Temp =100.5          38.07
+ Ave Temp = 90.2          32.34
+ Max Temp = 90.6          32.58
+ Min Temp = 89.7          32.04
 
  Rain Gauge =   0.00
 
@@ -256,16 +256,16 @@
  Station# 5 ( EDNA) at 404 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 118
- Ave Wind Speed     =  10
- Max Wind Speed     =  14
+ Ave Wind Direction = 155
+ Ave Wind Speed     =   2
+ Max Wind Speed     =   3
 
                          Celsius
- Ave Temp = 99.4          37.44
- Max Temp = 99.7          37.62
- Min Temp = 99.1          37.26
+ Ave Temp = 89.0          31.67
+ Max Temp = 90.0          32.20
+ Min Temp = 88.5          31.39
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -276,23 +276,23 @@
  Station# 6 ( 200E) at 685 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 101
- Ave Wind Speed     =   9
- Max Wind Speed     =  12
+ Ave Wind Direction = 345
+ Ave Wind Speed     =   6
+ Max Wind Speed     =   9
 
                                                Questemp 46
- Ave BP = 29.078 in/Hg    738.581 mm/Hg        Wet Bulb   = 69.8
- Max BP = 29.081 in/Hg    738.665 mm/Hg        Globe      = 110.3
- Min BP = 29.074 in/Hg    738.475 mm/Hg        Dry Bulb   = 99.9
-                                                WBGT Out   = 80.8
+ Ave BP = 29.190 in/Hg    741.419 mm/Hg        Wet Bulb   = 69.4
+ Max BP = 29.195 in/Hg    741.545 mm/Hg        Globe      = 92.7
+ Min BP = 29.187 in/Hg    741.351 mm/Hg        Dry Bulb   = 93.2
+                                                WBGT Out   = 76.3
 
- Ave SLP =  29.782 in/Hg    1008.546 mbs
+ Ave SLP =  29.900 in/Hg    1012.527 mbs
 
- Ave Temp = 101.1        Dew Point =  41.0
- Max Temp = 101.6               RH =  13.7
- Min Temp = 100.6
+ Ave Temp =  92.0        Dew Point =  48.9
+ Max Temp =  93.0               RH =  23.3
+ Min Temp =  90.5
 
  Rain Gauge =   0.00
 
@@ -305,16 +305,16 @@
  Station# 7 ( 200W) at 636 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction =  98
- Ave Wind Speed     =   8
- Max Wind Speed     =  13
+ Ave Wind Direction = 318
+ Ave Wind Speed     =  10
+ Max Wind Speed     =  16
 
                          Celsius
- Ave Temp =100.9          38.30
- Max Temp =101.4          38.54
- Min Temp =100.6          38.11
+ Ave Temp = 90.2          32.31
+ Max Temp = 90.4          32.47
+ Min Temp = 90.0          32.22
 
  Rain Gauge =   0.00
 
@@ -327,22 +327,22 @@
  Station# 8 ( BVLY) at 509 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 310
- Ave Wind Speed     =  16
- Max Wind Speed     =  32
+ Ave Wind Direction = 299
+ Ave Wind Speed     =  11
+ Max Wind Speed     =  21
 
- Ave BP = 29.255 in/Hg    743.076 mm/Hg
- Max BP = 29.262 in/Hg    743.253 mm/Hg
- Min BP = 29.248 in/Hg    742.907 mm/Hg
+ Ave BP = 29.353 in/Hg    745.554 mm/Hg
+ Max BP = 29.363 in/Hg    745.822 mm/Hg
+ Min BP = 29.344 in/Hg    745.326 mm/Hg
 
- Ave SLP =  29.843 in/Hg    1010.584 mbs
+ Ave SLP =  29.940 in/Hg    1013.875 mbs
 
                          Celsius
- Ave Temp = 94.9          34.95
- Max Temp = 95.4          35.20
- Min Temp = 94.2          34.54
+ Ave Temp = 88.5          31.41
+ Max Temp = 88.9          31.62
+ Min Temp = 88.0          31.10
 
  Rain Gauge =   0.00
 
@@ -355,27 +355,27 @@
  Station# 9 ( FFTF) at 573 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction 60m =  51    Ave Temp 60m = 98.3
- Ave Wind Speed 60m     =  12
- Ave Wind Direction 25m = 138
- Ave Wind Speed 25m     =  11
- Ave Wind Direction 10m = 138    Ave Temp 10m = 99.5
- Ave Wind Speed 10m     =  11
- Max Wind Speed 10m     =  15
+ Ave Wind Direction 60m =  42    Ave Temp 60m = 92.7
+ Ave Wind Speed 60m     =   8
+ Ave Wind Direction 25m = 126
+ Ave Wind Speed 25m     =   6
+ Ave Wind Direction 10m = 131    Ave Temp 10m = 91.0
+ Ave Wind Speed 10m     =   5
+ Max Wind Speed 10m     =   6
 
- Ave BP = 29.208 in/Hg    741.872 mm/Hg
- Max BP = 29.212 in/Hg    741.972 mm/Hg
- Min BP = 29.203 in/Hg    741.764 mm/Hg
+ Ave BP = 29.320 in/Hg    744.724 mm/Hg
+ Max BP = 29.324 in/Hg    744.841 mm/Hg
+ Min BP = 29.316 in/Hg    744.628 mm/Hg
 
- Ave SLP =  29.804 in/Hg    1009.289 mbs
+ Ave SLP =  29.920 in/Hg    1013.192 mbs
 
- Ave Temp 2m = 101.1        Dew-Point 2m =  42.9
- Max Temp 2m = 101.9        Rel-Humidity =  14.4
- Min Temp 2m = 100.6
+ Ave Temp 2m =  88.9        Dew-Point 2m =  52.9
+ Max Temp 2m =  89.7        Rel-Humidity =  29.7
+ Min Temp 2m =  88.1
 
- Delta Temp 60m-10m =  -1.20
+ Delta Temp 60m-10m =   1.62
 
  Rain Gauge =   0.00
 
@@ -388,22 +388,22 @@
  Station# 10 ( YAKB) at 796 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 317
- Ave Wind Speed     =  19
- Max Wind Speed     =  29
+ Ave Wind Direction = 318
+ Ave Wind Speed     =  14
+ Max Wind Speed     =  22
 
- Ave BP = 28.993 in/Hg    736.419 mm/Hg
- Max BP = 28.997 in/Hg    736.521 mm/Hg
- Min BP = 28.985 in/Hg    736.217 mm/Hg
+ Ave BP = 29.094 in/Hg    738.976 mm/Hg
+ Max BP = 29.100 in/Hg    739.130 mm/Hg
+ Min BP = 29.083 in/Hg    738.713 mm/Hg
 
- Ave SLP =  29.817 in/Hg    1009.718 mbs
+ Ave SLP =  29.920 in/Hg    1013.216 mbs
 
                          Celsius
- Ave Temp = 99.1          37.27
- Max Temp =101.1          38.39
- Min Temp = 98.0          38.39
+ Ave Temp = 89.7          32.03
+ Max Temp = 89.9          32.17
+ Min Temp = 89.3          32.17
 
  Rain Gauge =   0.00
 
@@ -416,29 +416,29 @@
  Station# 11 ( 300A) at 405 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction 60m = 114    Ave Temp 60m = 97.9
+ Ave Wind Direction 60m = 129    Ave Temp 60m = 92.8
  Ave Wind Speed 60m     =   9
- Ave Wind Direction 25m = 106
- Ave Wind Speed 25m     =   9
- Ave Wind Direction 10m = 101    Ave Temp 10m = 99.2
- Ave Wind Speed 10m     =   9
- Max Wind Speed 10m     =  17
+ Ave Wind Direction 25m = 118
+ Ave Wind Speed 25m     =   6
+ Ave Wind Direction 10m = 110    Ave Temp 10m = 87.7
+ Ave Wind Speed 10m     =   5
+ Max Wind Speed 10m     =   7
 
                                                Questemp 46
- Ave BP = 29.369 in/Hg    745.974 mm/Hg        Wet Bulb   = 74.1
- Max BP = 29.371 in/Hg    746.013 mm/Hg        Globe      = 108.3
- Min BP = 29.368 in/Hg    745.954 mm/Hg        Dry Bulb   = 99.5
-                                                WBGT Out   = 83.5
+ Ave BP = 29.481 in/Hg    748.827 mm/Hg        Wet Bulb   = 72.7
+ Max BP = 29.482 in/Hg    748.847 mm/Hg        Globe      = 90.3
+ Min BP = 29.480 in/Hg    748.787 mm/Hg        Dry Bulb   = 87.6
+                                                WBGT Out   = 76.8
 
- Ave SLP =  29.786 in/Hg    1008.681 mbs
+ Ave SLP =  29.905 in/Hg    1012.683 mbs
 
- Ave Temp 2m =  99.5        Dew-Point 2m =  50.6
- Max Temp 2m =  99.9        Rel-Humidity =  20.7
- Min Temp 2m =  99.0
+ Ave Temp 2m =  85.9        Dew-Point 2m =  62.1
+ Max Temp 2m =  86.4        Rel-Humidity =  44.0
+ Min Temp 2m =  85.4
 
- Delta Temp 60m-10m =  -1.34
+ Delta Temp 60m-10m =   5.17
 
  Rain Gauge =   0.00
 
@@ -451,16 +451,16 @@
  Station# 12 ( WYEB) at 555 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 107
- Ave Wind Speed     =  11
- Max Wind Speed     =  15
+ Ave Wind Direction = 225
+ Ave Wind Speed     =   6
+ Max Wind Speed     =  11
 
                          Celsius
- Ave Temp =100.5          38.08
- Max Temp =101.1          38.37
- Min Temp =100.1          37.83
+ Ave Temp = 90.3          32.39
+ Max Temp = 91.2          32.86
+ Min Temp = 89.5          31.94
 
  Rain Gauge =   0.00
 
@@ -473,29 +473,29 @@
  Station# 13 ( 100N) at 470 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction 60m = 137    Ave Temp 60m = 99.6
- Ave Wind Speed 60m     =   8
- Ave Wind Direction 25m = 141
- Ave Wind Speed 25m     =   7
- Ave Wind Direction 10m = 143    Ave Temp 10m = 101.4
- Ave Wind Speed 10m     =   7
+ Ave Wind Direction 60m = 284    Ave Temp 60m = 91.9
+ Ave Wind Speed 60m     =   7
+ Ave Wind Direction 25m = 283
+ Ave Wind Speed 25m     =   6
+ Ave Wind Direction 10m = 276    Ave Temp 10m = 90.7
+ Ave Wind Speed 10m     =   5
  Max Wind Speed 10m     =  11
 
                                                Questemp 46
- Ave BP = 29.297 in/Hg    744.153 mm/Hg        Wet Bulb   = 72.9
- Max BP = 29.299 in/Hg    744.183 mm/Hg        Globe      = 117.0
- Min BP = 29.295 in/Hg    744.096 mm/Hg        Dry Bulb   = 103.8
-                                                WBGT Out   = 84.9
+ Ave BP = 29.415 in/Hg    747.129 mm/Hg        Wet Bulb   = 68.9
+ Max BP = 29.417 in/Hg    747.183 mm/Hg        Globe      = 89.8
+ Min BP = 29.413 in/Hg    747.083 mm/Hg        Dry Bulb   = 90.7
+                                                WBGT Out   = 75.2
 
- Ave SLP =  29.785 in/Hg    1008.622 mbs
+ Ave SLP =  29.908 in/Hg    1012.792 mbs
 
- Ave Temp 2m = 102.2        Dew-Point 2m =  39.4
- Max Temp 2m = 102.7        Rel-Humidity =  12.1
- Min Temp 2m = 101.8
+ Ave Temp 2m =  89.2        Dew-Point 2m =  50.8
+ Max Temp 2m =  90.7        Rel-Humidity =  27.1
+ Min Temp 2m =  87.4
 
- Delta Temp 60m-10m =  -1.79
+ Delta Temp 60m-10m =   1.17
 
  Rain Gauge =   0.00
 
@@ -508,16 +508,16 @@
  Station# 14 ( WPPS) at 455 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 123
- Ave Wind Speed     =  11
- Max Wind Speed     =  16
+ Ave Wind Direction = 180
+ Ave Wind Speed     =   2
+ Max Wind Speed     =   4
 
                          Celsius
- Ave Temp =100.3          37.97
- Max Temp =100.9          38.26
- Min Temp =100.0          37.78
+ Ave Temp = 89.2          31.80
+ Max Temp = 90.2          32.33
+ Min Temp = 88.0          31.10
 
  Rain Gauge =   0.00
 
@@ -530,16 +530,16 @@
  Station# 15 ( FRNK) at 877 ft above MSL     
 
 
- Time: 07:15:00 PST      Date: 7/7/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction =-100
- Ave Wind Speed     =-100
- Max Wind Speed     =-100
+ Ave Wind Direction = 117
+ Ave Wind Speed     =   5
+ Max Wind Speed     =   6
 
                          Celsius
- Ave Temp =-99.9         -99.90
- Max Temp =-99.9         -99.90
- Min Temp =-99.9         -99.90
+ Ave Temp = 78.6          25.87
+ Max Temp = 79.7          26.49
+ Min Temp = 77.4          25.20
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -550,16 +550,16 @@
  Station# 16 ( GABL) at 1084 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 122
- Ave Wind Speed     =  11
- Max Wind Speed     =  15
+ Ave Wind Direction = 135
+ Ave Wind Speed     =   4
+ Max Wind Speed     =   6
 
                          Celsius
- Ave Temp = 98.8          37.09
- Max Temp = 99.5          37.52
- Min Temp = 98.1          36.73
+ Ave Temp = 89.8          32.10
+ Max Temp = 90.2          32.32
+ Min Temp = 89.1          31.74
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -570,16 +570,16 @@
  Station# 17 ( RING) at 619 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction =  64
+ Ave Wind Direction =  26
  Ave Wind Speed     =   4
- Max Wind Speed     =   7
+ Max Wind Speed     =   5
 
                          Celsius
- Ave Temp = 95.5          35.30
- Max Temp = 97.1          36.19
- Min Temp = 93.7          34.30
+ Ave Temp = 83.4          28.58
+ Max Temp = 84.7          29.26
+ Min Temp = 82.1          27.85
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -610,22 +610,22 @@ Decommissioned or temporarily unavailable.
  Station# 19 (  PFP) at 677 ft above MSL     
 
 
- Time: 18:15:00 PST      Date: 7/8/2025
+ Time: 20:15:00 PST      Date: 7/12/2025
 
- Ave Wind Direction =  34
- Ave Wind Speed     =   9
- Max Wind Speed     =  20
+ Ave Wind Direction =  62
+ Ave Wind Speed     =   5
+ Max Wind Speed     =  10
 
- Ave BP = 29.088 in/Hg    738.844 mm/Hg
- Max BP = 29.099 in/Hg    739.110 mm/Hg
- Min BP = 29.075 in/Hg    738.496 mm/Hg
+ Ave BP = 29.205 in/Hg    741.804 mm/Hg
+ Max BP = 29.208 in/Hg    741.878 mm/Hg
+ Min BP = 29.200 in/Hg    741.689 mm/Hg
 
- Ave SLP =  29.791 in/Hg    1008.830 mbs
+ Ave SLP =  29.910 in/Hg    1012.880 mbs
 
                          Celsius
- Ave Temp =100.1          37.81
- Max Temp =101.3          38.52
- Min Temp = 98.2          36.77
+ Ave Temp = 89.3          31.82
+ Max Temp = 89.8          32.09
+ Min Temp = 89.0          31.68
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -636,20 +636,20 @@ Decommissioned or temporarily unavailable.
  Station# 20 ( RMTN) at 3534 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 329.7       >>RM Young = 332.3
- Ave Wind Speed     =   3.8       >>RM Young =   5.1
- Max Wind Speed     =  12.8       >>RM Young =  14.2
+ Ave Wind Direction =  11.3       >>RM Young =   9.6
+ Ave Wind Speed     =   7.8       >>RM Young =   6.0
+ Max Wind Speed     =  12.8       >>RM Young =   9.7
 
                          Celsius
- Ave Temp = 87.0          30.56
- Max Temp = 88.5          31.40
- Min Temp = 86.0          30.01
+ Ave Temp = 77.5          25.28
+ Max Temp = 78.3          25.70
+ Min Temp = 77.0          25.02
 
- Relative Humidity = 17.8
- Dew Point = 39.0
- Solar Radiation = 136.1 W/m^2
+ Relative Humidity = 36.0
+ Dew Point = 48.3
+ Solar Radiation = 2.9 W/m^2
 
  Rain Gauge =   0.00
 
@@ -662,32 +662,32 @@ Decommissioned or temporarily unavailable.
  Station# 21 (  HMS) at 729 ft above MSL     
 
 
- Time: 18:15:00 PST      Date: 7/8/2025
+ Time: 20:15:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 328
- Ave Wind Speed     =   8
- Max Wind Speed     =  20
+ Ave Wind Direction = 274
+ Ave Wind Speed     =   7
+ Max Wind Speed     =  11
 
- Ave BP = 29.031 in/Hg    737.394 mm/Hg
- Max BP = 29.060 in/Hg    738.125 mm/Hg
- Min BP = 29.012 in/Hg    736.907 mm/Hg
+ Ave BP = 29.143 in/Hg    740.236 mm/Hg
+ Max BP = 29.156 in/Hg    740.561 mm/Hg
+ Min BP = 29.132 in/Hg    739.951 mm/Hg
 
- Ave SLP =  29.501 in/Hg     999.027 mbs
+ Ave SLP =  29.616 in/Hg    1002.915 mbs
 
                          Celsius
- Ave Temp = 98.8          37.12
- Max Temp = 99.0          37.25
- Min Temp = 98.6          36.99
+ Ave Temp = 89.0          31.68
+ Max Temp = 89.8          32.11
+ Min Temp = 88.2          31.25
 
 Building 622R
- DewPt    =  44.3           RH      =  15.1%
- Ave Temp = 100.1           RH Temp =  99.2
+ DewPt    =  52.2           RH      =  29.8%
+ Ave Temp =  87.5           RH Temp =  87.4
 
  Top of the Tower (400ft)            Questemp 44
- Solar = 195.2 W/m^2                Wet Bulb   =  69.3
- RH    =  14.5%                     Globe      = 112.1
- DewPt =  41.6                      Dry Bulb   = 100.4
- AirT  =  92.8                      WBGT Out   =  81.0
+ Solar =   0.8 W/m^2                Wet Bulb   =  67.1
+ RH    =  27.7%                     Globe      =  86.5
+ DewPt =  50.5                      Dry Bulb   =  88.5
+ AirT  =  84.5                      WBGT Out   =  73.0
 
  Rain Gauge =   0.00
 
@@ -700,16 +700,16 @@ Building 622R
  Station# 22 ( PASC) at 407 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 126
- Ave Wind Speed     =   9
- Max Wind Speed     =  15
+ Ave Wind Direction = 164
+ Ave Wind Speed     =   4
+ Max Wind Speed     =   5
 
                          Celsius
- Ave Temp = 99.8          37.66
- Max Temp =100.1          37.86
- Min Temp = 99.5          37.50
+ Ave Temp = 91.3          32.96
+ Max Temp = 91.5          33.03
+ Min Temp = 91.2          32.86
 
  Rain Gauge =   0.00
 
@@ -722,16 +722,16 @@ Building 622R
  Station# 23 ( GABW) at 490 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 133
- Ave Wind Speed     =   9
- Max Wind Speed     =  15
+ Ave Wind Direction = 305
+ Ave Wind Speed     =   7
+ Max Wind Speed     =  13
 
                          Celsius
- Ave Temp =102.1          38.94
- Max Temp =102.4          39.11
- Min Temp =101.6          38.69
+ Ave Temp = 91.8          33.25
+ Max Temp = 92.7          33.74
+ Min Temp = 90.4          32.42
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -742,16 +742,16 @@ Building 622R
  Station# 24 ( 100F) at 412 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 146
- Ave Wind Speed     =  11
- Max Wind Speed     =  14
+ Ave Wind Direction = 166
+ Ave Wind Speed     =   7
+ Max Wind Speed     =   9
 
                          Celsius
- Ave Temp =100.9          38.28
- Max Temp =101.6          38.66
- Min Temp =100.4          38.02
+ Ave Temp = 90.2          32.32
+ Max Temp = 90.7          32.61
+ Min Temp = 89.6          32.01
 
  Rain Gauge =   0.00
 
@@ -764,16 +764,16 @@ Building 622R
  Station# 25 ( VERN) at 434 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 309
- Ave Wind Speed     =  17
- Max Wind Speed     =  25
+ Ave Wind Direction = 289
+ Ave Wind Speed     =  10
+ Max Wind Speed     =  18
 
                          Celsius
- Ave Temp = 97.1          36.18
- Max Temp = 98.6          36.98
- Min Temp = 96.1          35.62
+ Ave Temp = 86.8          30.43
+ Max Temp = 87.6          30.86
+ Min Temp = 86.2          30.10
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -804,16 +804,16 @@ Decommissioned or temporarily unavailable.
  Station# 27 ( VSTA) at 515 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 196
- Ave Wind Speed     =   6
- Max Wind Speed     =  15
+ Ave Wind Direction = 156
+ Ave Wind Speed     =   4
+ Max Wind Speed     =   6
 
                          Celsius
- Ave Temp =103.0          39.45
- Max Temp =103.6          39.78
- Min Temp =102.3          39.07
+ Ave Temp = 91.3          32.93
+ Max Temp = 91.9          33.25
+ Min Temp = 90.8          32.65
 
  Rain Gauge =   0.00
 
@@ -846,20 +846,20 @@ Decommissioned or temporarily unavailable.
  Station# 29 ( 100K) at 467 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 127
+ Ave Wind Direction = 293
  Ave Wind Speed     =   6
- Max Wind Speed     =  11
+ Max Wind Speed     =   9
 
- Ave BP = 29.280 in/Hg    743.723 mm/Hg
- Max BP = 29.284 in/Hg    743.804 mm/Hg
- Min BP = 29.276 in/Hg    743.621 mm/Hg
+ Ave BP = 29.404 in/Hg    746.861 mm/Hg
+ Max BP = 29.411 in/Hg    747.045 mm/Hg
+ Min BP = 29.392 in/Hg    746.556 mm/Hg
 
                          Celsius
- Ave Temp =102.7          39.27
- Max Temp =103.3          39.59
- Min Temp =102.4          39.09
+ Ave Temp = 89.7          32.07
+ Max Temp = 90.8          32.67
+ Min Temp = 88.8          31.56
 
  Rain Gauge =   0.00
 
@@ -872,21 +872,21 @@ Decommissioned or temporarily unavailable.
  Station# 30 ( HAMR) at 500 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction =  92
- Ave Wind Speed     =   9
- Max Wind Speed     =  14
+ Ave Wind Direction = 130
+ Ave Wind Speed     =   4
+ Max Wind Speed     =   6
 
                          Celsius
- Ave Temp =101.3          38.50
- Max Temp =101.6          38.66
- Min Temp =101.0          38.34
+ Ave Temp = 91.2          32.88
+ Max Temp = 91.8          33.24
+ Min Temp = 90.7          32.62
 
- Wet Bulb = 70.9
- Globe    = 109.4
- Dry Bulb = 99.7
- WBGT Out = 81.3
+ Wet Bulb = 69.4
+ Globe    = 91.0
+ Dry Bulb = 91.9
+ WBGT Out = 75.9
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -897,16 +897,16 @@ Decommissioned or temporarily unavailable.
  Station# 31 ( 233S) at 688 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 100
- Ave Wind Speed     =  10
- Max Wind Speed     =  15
+ Ave Wind Direction =  39
+ Ave Wind Speed     =   5
+ Max Wind Speed     =   9
 
                          Celsius
- Ave Temp = 99.7          37.61
- Max Temp = 99.9          37.73
- Min Temp = 99.4          37.44
+ Ave Temp = 90.1          32.26
+ Max Temp = 90.5          32.48
+ Min Temp = 89.7          32.05
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -917,16 +917,16 @@ Decommissioned or temporarily unavailable.
  Station# 32 (  IDF) at 723 ft above MSL     
 
 
- Time: 18:00:00 PST      Date: 7/8/2025
+ Time: 20:00:00 PST      Date: 7/12/2025
 
- Ave Wind Direction = 116
- Ave Wind Speed     =   9
- Max Wind Speed     =  13
+ Ave Wind Direction = 336
+ Ave Wind Speed     =   7
+ Max Wind Speed     =  12
 
                          Celsius
- Ave Temp = 99.3          37.40
- Max Temp = 99.8          37.67
- Min Temp = 98.9          37.18
+ Ave Temp = 91.3          32.92
+ Max Temp = 92.1          33.38
+ Min Temp = 90.4          32.45
 
  Rain Gauge =   0.00
 
@@ -958,76 +958,78 @@ Decommissioned or temporarily unavailable.
 		<pre> 
  Station# 21 Telemetry Data 
 
- 400 Foot Tower Information         Tue Jul 08      18:15:35 PST 2025
+ 400 Foot Tower Information         Sat Jul 12      20:15:29 PST 2025
 
                             Prevailing Wind              Peak Gust
  yr mo day hr   Solar    Degrees Speed Direction   Degrees  Speed   Time Stab
-   25 7 8   1    0.00     220.0    4.0     SW       219.0   8.920  01:00   A
-   25 7 8   2    0.00     230.0    6.9     SW       235.1   9.990  01:15   A
-   25 7 8   3    0.00     210.0    3.1    SSW       228.2   7.220  02:15   A
-   25 7 8   4    0.00     230.0    3.2     SW       223.7   5.520  04:00   A
-   25 7 8   5    0.00     180.0    3.3      S       163.4   5.699  05:00   A
-   25 7 8   6    0.03     100.0    5.0    ESE       102.0   8.560  05:45   A
-   25 7 8   7    0.19     130.0    3.6     SE        94.8   7.041  06:15   A
-   25 7 8   8    0.42     200.0    3.5    SSW       218.7   7.757  08:00   A
-   25 7 8   9    0.67     230.0    3.2     SW       206.9   7.220  09:00   A
-   25 7 8  10    0.89     210.0    3.4    SSW       219.9   9.370  09:45   A
-   25 7 8  11    1.07     200.0    4.1    SSW       220.3   8.920  11:00   A
-   25 7 8  12    1.20     230.0    6.5     SW        92.7  14.290  12:00   A
-   25 7 8  13    1.27     120.0    5.8    ESE       103.6  14.020  12:30   A
-   25 7 8  14    1.26     160.0    4.8    SSE       166.7  15.900  13:30   A
-   25 7 8  15    1.20     180.0    5.7      S       115.5  16.080  14:15   A
-   25 7 8  16    1.05     220.0   10.4     SW       232.9  22.430  15:45   A
-   25 7 8  17    0.86     280.0   11.6      W       283.3  20.100  16:15   A
-   25 7 8  18    0.64     290.0   10.8    WNW       302.0  19.480  17:15   A
-   25 7 8  19    0.40     170.0    8.2    SSE       207.7  14.290  18:30   A
+  25 7 12   1    0.00     210.0    9.6    SSW       234.7  16.970  00:30   A
+  25 7 12   2    0.00     210.0    9.3    SSW       222.8  16.340  01:45   A
+  25 7 12   3    0.00     210.0    7.3    SSW       204.6  11.070  02:30   A
+  25 7 12   4    0.00     210.0    7.7    SSW       202.1  11.070  03:30   A
+  25 7 12   5    0.00     220.0    5.6     SW       212.0   8.290  04:30   A
+  25 7 12   6    0.01     190.0    4.8      S       206.1   8.740  05:30   A
+  25 7 12   7    0.13     210.0    2.4    SSW       211.2   6.236  06:15   A
+  25 7 12   8    0.36     260.0    5.0      W       260.3   8.650  07:45   A
+  25 7 12   9    0.63     260.0    7.0      W       261.3  13.120  09:00   A
+  25 7 12  10    0.83     270.0   10.1      W       264.7  18.940  09:15   A
+  25 7 12  11    1.05     270.0    7.9      W       269.3  17.330  11:00   A
+  25 7 12  12    1.18     260.0    6.4      W       276.5  14.020  11:30   A
+  25 7 12  13    1.23     180.0    5.3      S       176.7  16.610  12:45   A
+  25 7 12  14    1.23     150.0    5.9    SSE       168.5  15.720  13:45   A
+  25 7 12  15    1.16     150.0    6.2    SSE       117.1  14.650  14:15   A
+  25 7 12  16    1.03     250.0    6.4    WSW       303.4  14.200  16:00   A
+  25 7 12  17    0.85     170.0    5.3    SSE        72.8  20.370  16:45   A
+  25 7 12  18    0.63     250.0    7.7    WSW       320.0  20.730  17:45   A
+  25 7 12  19    0.40     100.0    5.7      E       147.7  15.180  18:15   A
+  25 7 12  20    0.18     260.0    7.9      W       265.7  17.150  20:00   A
+  25 7 12  21    0.04     280.0    8.1      W       258.4  17.330  20:15   A
 
    Tower       Current  Temperature            Wind    Speed
    Level        Max     Avg     Min      Dir    Max     Avg    Min
    --------    ------  ------  ------  ------  -----  ------  ------
-   400 foot     93.0    92.8    92.6    84.8    21.4     8.2     8.2
-   300 foot     95.6    95.4    95.2   -99.9   -99.9   -99.9   -99.9
+   400 foot     84.7    84.5    84.2   345.2    16.3    10.3    10.3
+   300 foot     87.3    86.9    86.5   -99.9   -99.9   -99.9   -99.9
    250 foot    -99.0   -99.0   -99.0   -99.9   -99.9   -99.9   -99.9
-   200 foot    -99.0   -99.0   -99.0   164.2    23.0     8.8     8.8
-   100 foot    306.5   305.9   304.2   -99.9   -99.9   -99.9   -99.9
-    50 foot     99.0    98.7    98.5   161.3    18.9     8.6     8.6
-    30 foot     99.0    98.8    98.6   209.4    19.9     8.0     8.0
-     3 foot    100.6   100.4   100.0   -99.9   -99.9   -99.9   -99.9
-  0.5" Soil    104.2   103.6   103.0
- 15.0" Soil     82.4    82.4    82.4
- 36.0" Soil     76.2    76.2    76.1
+   200 foot    -99.0   -99.0   -99.0   157.8    13.5     9.0     9.0
+   100 foot    296.5   296.0   295.5   -99.9   -99.9   -99.9   -99.9
+    50 foot     90.0    89.3    88.6    59.7    11.3     7.4     7.4
+    30 foot     89.8    89.0    88.2   273.6    11.3     6.9     6.9
+     3 foot     88.6    87.4    86.3   -99.9   -99.9   -99.9   -99.9
+  0.5" Soil     93.8    93.3    92.9
+ 15.0" Soil     83.9    83.8    83.8
+ 36.0" Soil     77.4    77.4    77.3
 
- Delta T1 = T200 - T3  = -199.4                 Pasquill Category = A
- Delta T2 = T250 - T50 = -197.7                 200 ft Winds      =-99.0
- Delta T3 = T200 - T30 = -197.8 (NRC)           Least Dilution    =  2.4
+ Delta T1 = T200 - T3  = -186.4                 Pasquill Category = A
+ Delta T2 = T250 - T50 = -188.3                 200 ft Winds      =-99.0
+ Delta T3 = T200 - T30 = -188.0 (NRC)           Least Dilution    =  2.4
 
-        Daily Tower WIND Data            Tue Jul 08 06:15:35 PST 2025
+        Daily Tower WIND Data            Sat Jul 12 08:15:29 PST 2025
 
    Tower     * 15-Minute AVE *   * 15-Min PEAK GUST *      * DAY PEAK GUST *
    Level         DIR    SPD        DIR   SPD   @TIME       DIR   SPD   @TIME
    --------     -----  -----      ----- -----  -----      ----- -----  -----
-   400 foot       85     8.2        85   21.4  18:15        85   23.7  15:45
-   200 foot      164     8.8        67   23.0  18:15        84   23.3  14:45
-    50 foot      161     8.6        69   18.9  18:15        85   22.1  14:45
-    30 foot      209     8.0       328   19.9  18:15       350   22.4  14:45
+   400 foot      345    10.3       345   16.3  20:15       293   23.6  23:15
+   200 foot      158     9.0       358   13.5  20:15       321   23.8  09:00
+    50 foot       60     7.4        11   11.3  20:15       324   22.2  09:00
+    30 foot      274     6.9       274   11.3  20:15       321   20.7  16:45
 
-    Daily Tower TEMPERATURE Data            Tue Jul 08 06:15:35 PST 2025
+    Daily Tower TEMPERATURE Data            Sat Jul 12 08:15:29 PST 2025
 
    Tower         15-Minute     DAILY                   DAILY
    Level            Ave       Maximum      @Time      Minimum      @Time
    --------      ---------    -------      -----      -------      -----
-   400 foot        82.5         93.2       18:30        71.6       07:30
-   300 foot        84.5         95.8       18:30        73.2       07:30
+   400 foot        80.7         91.4       17:30        70.9       05:30
+   300 foot        82.8         93.8       17:30        72.5       05:30
    250 foot       -99.9        -99.9       00:15       -99.9       00:15
    200 foot       -99.9        -99.9       00:15       -99.9       00:15
-   100 foot       -99.9        -99.9       14:45       -99.9       06:00
-    50 foot        85.9         99.5       17:15        70.4       06:15
-    30 foot        85.7         99.6       17:15        69.5       06:15
-     3 foot        86.7        106.0       15:00        63.8       05:15
+   100 foot       -99.9        -99.9       19:15       -99.9       05:15
+    50 foot        85.2         98.1       17:30        71.8       06:45
+    30 foot        85.1         98.1       17:30        70.5       06:45
+     3 foot        86.5        103.5       15:30        68.7       06:00
   Stability A
- -0.5" Soil        95.5        -99.9       15:00        74.1       05:45
- 15.0" Soil        82.2         82.6       03:15        81.7       14:15
- 36.0" Soil        76.0         76.2       19:15        75.9       00:15
+ -0.5" Soil        96.4        -99.9       15:00         0.0       14:15
+ 15.0" Soil        83.2         83.9       21:15         0.0       14:15
+ 36.0" Soil        77.3         77.4       21:15         0.0       14:15
 
 
 

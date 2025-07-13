@@ -277,7 +277,7 @@ sub open_log_file {
     }
     
     # Write initial timestamp
-    print $log_fh localtime(time) . " Log file opened\n";
+    print localtime(time) . " Log file opened\n";
     
     return (1, $log_fh, "");
 }

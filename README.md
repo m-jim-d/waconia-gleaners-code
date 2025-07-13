@@ -37,6 +37,19 @@ The scripts store data in a database with tables including:
 - `fifteenmindata` - Main weather data with timestamps, station information, and measurements
 - `daysgleaned` - Record of data collection activity
 
+## Batch Files
+
+- `wgl_runAll.bat` - Runs all scripts in sequence
+- `wgl_runAll_log.txt` - Log file for all scripts
+
+The batch files are scheduled to run every 5-15 minutes to collect current weather data.
+
+In Windows scheduled tasks, the "actions" tab has:
+Script:
+C:\Users\Jim\Documents\webcontent\waconia\wgl_runAll.bat
+Arguments:
+> C:\Users\Jim\Documents\webcontent\waconia\wgl_runAll_log.txt 2>&1
+
 ## Usage
 
 The scripts are typically run via scheduled tasks every 5-15 minutes to collect current weather data. Each script:
@@ -55,7 +68,7 @@ The scripts are typically run via scheduled tasks every 5-15 minutes to collect 
 
 ## License
 
-[Include your license information here]
+MIT License
 
 ## Author
 

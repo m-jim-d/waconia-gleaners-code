@@ -89,6 +89,7 @@ def openConnections(database_type, logFileName):
                 f'DBQ={db_path};'
             )
             database_conn = pyodbc.connect(conn_str)
+            print("Successfully connected to Access database\n")
 
         except Exception as e:
             exc_type = type(e).__name__
@@ -110,7 +111,7 @@ def openConnections(database_type, logFileName):
         
         try:
             database_conn = mysql.connector.connect(**MYSQL_CONFIG)
-            enterInLog("Successfully connected to MySQL database")
+            print("Successfully connected to MySQL database\n")
 
         except Exception as e:
             exc_type = type(e).__name__
@@ -138,30 +139,29 @@ def runSQL( sql_string, row_ascii):
         database_conn.commit()
         cursor.close()
         successful_execution = True 
-        
-        # For testing
-        #print("SQL = ", sql_string)
-        #print("row_ascii = ", row_ascii)
 
-    except pyodbc.Error as e:
+    except (pyodbc.Error, mysql.connector.Error) as e:
         # Check for duplicate entry errors based on database type
         error_message = str(e).lower()
         is_duplicate_error = (
             ("duplicate data" in error_message) or  # MS Access error message
-            ("duplicate entry" in error_message)    # MySQL error message
+            ("duplicate entry" in error_message) or # MySQL error message
+            ("integrity error" in error_message) or # Another MySQL error variant
+            ("1062" in error_message)              # MySQL error code for duplicates
         )
         
         # If only a duplicate data error, don't write to the log file
         if is_duplicate_error:
             print("Data already in database (sql warning).")
         else:
-            message_str = f"SQL error ::: {type(e).__name__} ==> {str(e)}, \nData value = {row_ascii}" 
+            message_str = f"SQL error in runSQL::: {type(e).__name__} ==> {str(e)}, \nData value = {row_ascii}" 
             enterInLog(message_str)
             print(message_str)
+        
         return successful_execution
 
     except Exception as e:
-        message_str = f"general error ::: {type(e).__name__} ==> {str(e)}, \nData value = {row_ascii}" 
+        message_str = f"General error in runSQL ::: {type(e).__name__} ==> {str(e)}, \nData value = {row_ascii}" 
         enterInLog(message_str)
         print(message_str)
         return successful_execution

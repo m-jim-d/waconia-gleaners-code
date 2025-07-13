@@ -144,7 +144,7 @@ def processMultipleStations_xml(station_dictionary):
 
     if (message_error != '') or (message_warning != ''):
         # Send warnings to log file (and should also email a message).
-        message_str = "Warning = %s \nError = %s" % (message_warning, message_error) 
+        message_str = "Warning in XML = %s \nError = %s" % (message_warning, message_error) 
         enterInLog( message_str) 
         print(message_str)
 
@@ -175,7 +175,7 @@ def processMultipleStations_xml(station_dictionary):
             station_name = getXMLvalueInStationGroup(dom_object, data_index, "station_id")
             
             # Use f-string for cleaner formatting
-            message_str = f"general error in Station loop ::: {type(e).__name__} ==> {str(e)}, \nStation name = {station_name}"
+            message_str = f"General error in station loop ::: {type(e).__name__} ==> {str(e)}, \nStation name = {station_name}"
             enterInLog(message_str)
             print(message_str)        
 
