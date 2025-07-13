@@ -46,8 +46,8 @@ The batch files are scheduled to run every 5-15 minutes to collect current weath
 
 In Windows scheduled tasks, the "actions" tab fields have the following values:
 
-- Script:   C:\Users\[your name]\Documents\webcontent\waconia\wgl_runAll.bat
-- Arguments:   \> C:\Users\[your name]\Documents\webcontent\waconia\wgl_runAll_log.txt 2>&1
+- **Script:** `C:\Users\[your name]\Documents\webcontent\waconia\wgl_runAll.bat`
+- **Arguments:** `\> C:\Users\[your name]\Documents\webcontent\waconia\wgl_runAll_log.txt 2>&1`
 
 ## Usage
 
