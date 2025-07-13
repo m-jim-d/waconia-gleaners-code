@@ -40,15 +40,17 @@ The scripts store data in a database with tables including:
 ## Batch Files
 
 - `wgl_runAll.bat` - Runs all scripts in sequence
-- `wgl_runAll_log.txt` - Log file for all scripts
+- `wgl_runAll_log.txt` - Log file (console output) from one run of all scripts
 
 The batch files are scheduled to run every 5-15 minutes to collect current weather data.
 
 In Windows scheduled tasks, the "actions" tab has:
+
 Script:
-C:\Users\Jim\Documents\webcontent\waconia\wgl_runAll.bat
+- C:\Users\Jim\Documents\webcontent\waconia\wgl_runAll.bat
+
 Arguments:
-> C:\Users\Jim\Documents\webcontent\waconia\wgl_runAll_log.txt 2>&1
+- > C:\Users\Jim\Documents\webcontent\waconia\wgl_runAll_log.txt 2>&1
 
 ## Usage
 
