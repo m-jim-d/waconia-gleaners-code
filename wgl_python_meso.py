@@ -245,7 +245,7 @@ def processMultipleStations_json( station_dictionary):
         enterInLog( message_str) 
         attemptWriteToDaysGleaned(database_type)
         
-        write_to_spreadsheet("meso-test", rowsForSpreadsheet)
+        write_to_spreadsheet("meso", rowsForSpreadsheet)
         
 
 def build_SQL_string( wd):
@@ -299,7 +299,7 @@ station_dic = {
 
     # Alaska
     #'PAWI':{'ID':'389','longName':'PAWI','dst':True},    # Wainwright AP, AK
-    #'PABR':{'ID':'390','longName':'PABR.2','dst':True},  # Barrow, AK
+    'PABR':{'ID':'390','longName':'PABR.2','dst':True},  # Utqiaġvik (formerly Barrow), AK
     'PAQT':{'ID':'391','longName':'PAQT','dst':True},    # Nuiqsut, AK
     'PASI':{'ID':'392','longName':'PASI','dst':True},    # Sitka, AK
     'PAFA':{'ID':'393','longName':'PAFA','dst':True},    # Fairbanks Int AP, AK

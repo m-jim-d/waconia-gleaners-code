@@ -4,130 +4,128 @@ C:\Windows\System32>REM This is the Waconia Batch file, scheduled on the BeeLink
 C:\Windows\System32>SET PERL5LIB=C:\Users\Jim\Documents\webcontent\waconia 
 
 C:\Windows\System32>C:\Strawberry\perl\bin\perl.exe "C:\Users\Jim\Documents\webcontent\waconia\wgl_perl_hanford.pl" 
-Created new log file with header at C:\Users\Jim\Documents\webcontent\waconia\wgl_perl_hanford_log.txt
-Sat Jul 12 23:25:02 2025 Log file opened
+Sun Jul 20 12:00:01 2025 Log file opened
 Request to Hanford page has succeeded.
 Connected to mysql database
 
-07/12/2025, 20, 00, 1, PROS, WIND: 262, 3, 9, PRESSURE: NULL, TEMP: 88.8, 90.2, 87.1, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-1-PROS' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 1, PROS, WIND: 189, 9, 15, PRESSURE: NULL, TEMP: 76.4, 77.6, 75.4, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-1-PROS' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 2, EOC, WIND: 253, 7, 9, PRESSURE: NULL, TEMP: 85.0, 85.5, 84.5, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-2-EOC' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 2, EOC, WIND: 181, 7, 10, PRESSURE: NULL, TEMP: 74.7, 75.8, 74.2, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-2-EOC' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 3, ARMY, WIND: 319, 8, 11, PRESSURE: NULL, TEMP: 90.7, 91.3, 89.8, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-3-ARMY' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 3, ARMY, WIND: 131, 4, 7, PRESSURE: NULL, TEMP: 76.0, 76.4, 75.8, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-3-ARMY' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 4, RSPG, WIND: 335, 9, 17, PRESSURE: NULL, TEMP: 90.2, 90.6, 89.7, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-4-RSPG' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 4, RSPG, WIND: 125, 3, 8, PRESSURE: NULL, TEMP: 77.0, 77.5, 76.3, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-4-RSPG' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 5, EDNA, WIND: 155, 2, 3, PRESSURE: NULL, TEMP: 89.0, 90.0, 88.5, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-5-EDNA' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 5, EDNA, WIND: 113, 3, 7, PRESSURE: NULL, TEMP: 75.0, 76.4, 74.0, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-5-EDNA' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 6, 200E, WIND: 345, 6, 9, PRESSURE: 29.8759, TEMP: 92.0, 93.0, 90.5, 48.9
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-6-200E' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 6, 200E, WIND: 205, 5, 8, PRESSURE: 29.8913, TEMP: 78.5, 78.9, 78.3, 36.6
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-6-200E' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 7, 200W, WIND: 318, 10, 16, PRESSURE: NULL, TEMP: 90.2, 90.4, 90.0, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-7-200W' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 7, 200W, WIND: 157, 4, 8, PRESSURE: NULL, TEMP: 75.8, 76.3, 75.4, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-7-200W' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 8, BVLY, WIND: 299, 11, 21, PRESSURE: 29.8676, TEMP: 88.5, 88.9, 88.0, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-8-BVLY' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 8, BVLY, WIND: 255, 5, 11, PRESSURE: 29.9070, TEMP: 74.1, 75.0, 73.0, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-8-BVLY' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 9, FFTF, WIND: 131, 5, 6, PRESSURE: 29.8987, TEMP: 88.9, 89.7, 88.1, 52.9
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-9-FFTF' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 9, FFTF, WIND: 197, 10, 15, PRESSURE: 29.9283, TEMP: 77.6, 78.4, 76.9, 37.3
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-9-FFTF' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 10, YAKB, WIND: 318, 14, 22, PRESSURE: 29.8930, TEMP: 89.7, 89.9, 89.3, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-10-YAKB' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 10, YAKB, WIND: 353, 6, 9, PRESSURE: 29.9193, TEMP: 75.7, 76.5, 74.9, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-10-YAKB' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 11, 300A, WIND: 110, 5, 7, PRESSURE: 29.8936, TEMP: 85.9, 86.4, 85.4, 62.1
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-11-300A' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 11, 300A, WIND: 213, 8, 13, PRESSURE: 29.9340, TEMP: 76.9, 78.1, 75.9, 39.0
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-11-300A' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 12, WYEB, WIND: 225, 6, 11, PRESSURE: NULL, TEMP: 90.3, 91.2, 89.5, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-12-WYEB' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 12, WYEB, WIND: 198, 5, 13, PRESSURE: NULL, TEMP: 78.1, 79.2, 76.7, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-12-WYEB' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 13, 100N, WIND: 276, 5, 11, PRESSURE: 29.8903, TEMP: 89.2, 90.7, 87.4, 50.8
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-13-100N' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 13, 100N, WIND: 313, 2, 5, PRESSURE: 29.9207, TEMP: 73.4, 74.6, 72.6, 40.8
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-13-100N' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 14, WPPS, WIND: 180, 2, 4, PRESSURE: NULL, TEMP: 89.2, 90.2, 88.0, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-14-WPPS' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 14, WPPS, WIND: 208, 4, 8, PRESSURE: NULL, TEMP: 76.4, 78.2, 74.9, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-14-WPPS' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 15, FRNK, WIND: 117, 5, 6, PRESSURE: NULL, TEMP: 78.6, 79.7, 77.4, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-15-FRNK' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 15, FRNK, WIND: 212, 5, 11, PRESSURE: NULL, TEMP: 72.3, 72.9, 71.2, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-15-FRNK' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 16, GABL, WIND: 135, 4, 6, PRESSURE: NULL, TEMP: 89.8, 90.2, 89.1, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-16-GABL' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 16, GABL, WIND: 160, 5, 12, PRESSURE: NULL, TEMP: 73.0, 74.5, 71.5, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-16-GABL' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 17, RING, WIND: 26, 4, 5, PRESSURE: NULL, TEMP: 83.4, 84.7, 82.1, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-17-RING' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 17, RING, WIND: 181, 6, 9, PRESSURE: NULL, TEMP: 73.6, 74.4, 73.0, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-17-RING' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 15, 19, PFP, WIND: 62, 5, 10, PRESSURE: 29.8866, TEMP: 89.3, 89.8, 89.0, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:15:00-19-PFP' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 45, 19, PFP, WIND: 148, 4, 7, PRESSURE: 29.8894, TEMP: 75.9, 76.5, 75.4, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:45:00-19-PFP' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 20, RMTN, WIND: 11.3, 7.8, 12.8, PRESSURE: NULL, TEMP: 77.5, 78.3, 77.0, 48.3
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-20-RMTN' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 20, RMTN, WIND: 64.7, 4.0, 10.2, PRESSURE: NULL, TEMP: 64.6, 65.3, 63.8, 33.4
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-20-RMTN' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 15, 21, HMS, WIND: 274, 7, 11, PRESSURE: 29.8763, TEMP: 89.0, 89.8, 88.2, 52.2
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:15:00-21-HMS' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 45, 21, HMS, WIND: 224, 4, 9, PRESSURE: 29.8949, TEMP: 74.8, 75.5, 74.2, 38.5
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:45:00-21-HMS' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 22, PASC, WIND: 164, 4, 5, PRESSURE: NULL, TEMP: 91.3, 91.5, 91.2, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-22-PASC' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 22, PASC, WIND: 267, 5, 9, PRESSURE: NULL, TEMP: 75.6, 76.6, 74.9, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-22-PASC' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 23, GABW, WIND: 305, 7, 13, PRESSURE: NULL, TEMP: 91.8, 92.7, 90.4, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-23-GABW' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 23, GABW, WIND: 114, 2, 6, PRESSURE: NULL, TEMP: 78.3, 78.5, 78.1, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-23-GABW' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 24, 100F, WIND: 166, 7, 9, PRESSURE: NULL, TEMP: 90.2, 90.7, 89.6, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-24-100F' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 24, 100F, WIND: 119, 4, 7, PRESSURE: NULL, TEMP: 75.2, 75.8, 74.8, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-24-100F' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 25, VERN, WIND: 289, 10, 18, PRESSURE: NULL, TEMP: 86.8, 87.6, 86.2, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-25-VERN' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 25, VERN, WIND: 265, 3, 5, PRESSURE: NULL, TEMP: 76.2, 76.6, 75.9, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-25-VERN' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 27, VSTA, WIND: 156, 4, 6, PRESSURE: NULL, TEMP: 91.3, 91.9, 90.8, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-27-VSTA' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 27, VSTA, WIND: 298, 4, 10, PRESSURE: NULL, TEMP: 76.2, 78.0, 75.1, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-27-VSTA' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 29, 100K, WIND: 293, 6, 9, PRESSURE: 29.8756, TEMP: 89.7, 90.8, 88.8, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-29-100K' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 29, 100K, WIND: 344, 3, 5, PRESSURE: 29.9011, TEMP: 79.3, 79.8, 78.9, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-29-100K' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 30, HAMR, WIND: 130, 4, 6, PRESSURE: NULL, TEMP: 91.2, 91.8, 90.7, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-30-HAMR' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 30, HAMR, WIND: 209, 7, 11, PRESSURE: NULL, TEMP: 77.4, 78.5, 76.5, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-30-HAMR' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 31, 233S, WIND: 39, 5, 9, PRESSURE: NULL, TEMP: 90.1, 90.5, 89.7, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-31-233S' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 31, 233S, WIND: 214, 4, 8, PRESSURE: NULL, TEMP: 75.6, 76.0, 75.2, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-31-233S' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 00, 32, IDF, WIND: 336, 7, 12, PRESSURE: NULL, TEMP: 91.3, 92.1, 90.4, NULL
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-32-IDF' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 08, 30, 32, IDF, WIND: 224, 3, 6, PRESSURE: NULL, TEMP: 75.6, 76.5, 74.7, NULL
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:30:00-32-IDF' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
 Record failed reasonable test
   11/22/2021, 16, 15, 40, 2702Z, WIND: NULL, , , PRESSURE: NULL, TEMP: -99.9, -99.9, -99.9, NULL
 Database connection closed.
 
 C:\Windows\System32>C:\Strawberry\perl\bin\perl.exe "C:\Users\Jim\Documents\webcontent\waconia\wgl_perl_noaa.pl" 
-Created new log file with header at C:\Users\Jim\Documents\webcontent\waconia\wgl_perl_noaa_log.txt
-Sat Jul 12 23:25:03 2025 Log file opened
+Sun Jul 20 12:00:03 2025 Log file opened
 Connected to mysql database
 
-07/12/2025, 20, 0, 51, PORTLAND, 80, 60, NW9, 315, 9, 9, 30.01
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-51-PORTLAND' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 8, 0, 51, PORTLAND, 59, 49, VRB5, NULL, 5, 5, 30.06
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:00:00-51-PORTLAND' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 0, 52, THE DALLES, 85, 60, NW14, 315, 14, 14, 29.91
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-52-THE DALLES' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 8, 0, 52, THE DALLES, 69, 46, NW18G30, 315, 18, 30, 29.94
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:00:00-52-THE DALLES' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 0, 53, PASCO, 93, 55, S6, 180, 6, 6, 29.89
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-53-PASCO' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 8, 0, 53, PASCO, 71, 47, CALM, NULL, 0, 0, 29.92
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:00:00-53-PASCO' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 0, 54, HERMISTON, 84, 55, CALM, NULL, 0, 0, 29.90
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-54-HERMISTON' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 8, 0, 54, HERMISTON, 73, 41, W13, 270, 13, 13, 29.94
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:00:00-54-HERMISTON' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 0, 55, WALLA WALLA, 86, 48, NE3, 45, 3, 3, 29.94
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-55-WALLA WALLA' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 8, 0, 55, WALLA WALLA, 71, 43, SW8, 225, 8, 8, 29.95
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:00:00-55-WALLA WALLA' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 0, 56, ELLENSBURG, 81, 52, NW25G38, 315, 25, 38, 30.00
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-56-ELLENSBURG' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 8, 0, 56, ELLENSBURG, 65, 42, NW16, 315, 16, 16, 29.95
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:00:00-56-ELLENSBURG' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 0, 57, MOSES LAKE, 90, 55, S5, 180, 5, 5, 29.93
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-57-MOSES LAKE' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 8, 0, 57, MOSES LAKE, 67, 44, CALM, NULL, 0, 0, 29.92
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:00:00-57-MOSES LAKE' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
-07/12/2025, 20, 0, 65, NORTH BEND, 55, 54, N17, 360, 17, 17, 30.04
-SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-12 20:00:00-65-NORTH BEND' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
+07/20/2025, 8, 0, 65, NORTH BEND, 59, 53, N8, 360, 8, 8, 30.09
+SQL write to MySQL failed (probably the record already exists): DBD::ODBC::db do failed: [MySQL][ODBC 9.3(w) Driver][mysqld-8.0.42]Duplicate entry '2025-07-20 08:00:00-65-NORTH BEND' for key 'fifteenmindata.PRIMARY' (SQL-23000) at C:\Users\Jim\Documents\webcontent\waconia/wgl_perl_module.pm line 103.
 
 Database connection closed.
 row_count = 0
@@ -137,263 +135,273 @@ Version Number =  1.0
 Successfully connected to MySQL database
 
 
-Station =  KFGN
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=16, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  250
-('1752376560.0', '2025-07-12 22:16:00', '2025-07-13T04:16:00Z', '2025-07-12', '22', '16', '140', 'KFGN', '250', '10.0', '10.0', '29.80')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, Pressure) VALUES ('1752376560.0','2025-07-12 22:16:00','2025-07-13T04:16:00Z','2025-07-12','22','16','140','KFGN','250','10.0','10.0','29.80')
-Data already in database (sql warning).
+Station =  KAIT
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=56, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  140
+('1753026960.0', '2025-07-20 10:56:00', '2025-07-20T16:56:00Z', '2025-07-20', '10', '56', '130', 'KAIT', '140', '7.0', '7.0', '73.4', '55.4', '30.07')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026960.0','2025-07-20 10:56:00','2025-07-20T16:56:00Z','2025-07-20','10','56','130','KAIT','140','7.0','7.0','73.4','55.4','30.07')
+Successful SQL execution!
+
+Station =  KFRM
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=56, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  60
+('1753026960.0', '2025-07-20 10:56:00', '2025-07-20T16:56:00Z', '2025-07-20', '10', '56', '103', 'KFRM', '60', '7.0', '7.0', '77.0', '70.0', '29.98')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026960.0','2025-07-20 10:56:00','2025-07-20T16:56:00Z','2025-07-20','10','56','103','KFRM','60','7.0','7.0','77.0','70.0','29.98')
+Successful SQL execution!
+
+Station =  KMKT
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=56, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  80
+('1753026960.0', '2025-07-20 10:56:00', '2025-07-20T16:56:00Z', '2025-07-20', '10', '56', '101', 'KMKT', '80', '10.0', '10.0', '75.0', '66.0', '30.00')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026960.0','2025-07-20 10:56:00','2025-07-20T16:56:00Z','2025-07-20','10','56','101','KMKT','80','10.0','10.0','75.0','66.0','30.00')
+Successful SQL execution!
+
+Station =  KOTG
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=56, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  70
+('1753026960.0', '2025-07-20 10:56:00', '2025-07-20T16:56:00Z', '2025-07-20', '10', '56', '120', 'KOTG', '70', '10.0', '10.0', '73.9', '70.0', '30.00')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026960.0','2025-07-20 10:56:00','2025-07-20T16:56:00Z','2025-07-20','10','56','120','KOTG','70','10.0','10.0','73.9','70.0','30.00')
+Successful SQL execution!
+
+Station =  KMML
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=56, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  110
+('1753026960.0', '2025-07-20 10:56:00', '2025-07-20T16:56:00Z', '2025-07-20', '10', '56', '102', 'KMML', '110', '6.0', '6.0', '73.9', '66.0', '30.00')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026960.0','2025-07-20 10:56:00','2025-07-20T16:56:00Z','2025-07-20','10','56','102','KMML','110','6.0','6.0','73.9','66.0','30.00')
+Successful SQL execution!
 
 Station =  KADC
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  210
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '148', 'KADC', '210', '3.0', '3.0', '60.8', '57.2', '29.93')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','148','KADC','210','3.0','3.0','60.8','57.2','29.93')
-Data already in database (sql warning).
-
-Station =  KHCD
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '104', 'KHCD', '0.0', '0.0', '60.8', '57.9', '29.99')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','104','KHCD','0.0','0.0','60.8','57.9','29.99')
-Data already in database (sql warning).
-
-Station =  KJMR
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  230
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '131', 'KJMR', '230', '3.0', '3.0', '62.6', '55.4', '29.99')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','131','KJMR','230','3.0','3.0','62.6','55.4','29.99')
-Data already in database (sql warning).
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  140
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '148', 'KADC', '140', '13.0', '13.0', '73.4', '55.4', '30.04')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','148','KADC','140','13.0','13.0','73.4','55.4','30.04')
+Successful SQL execution!
 
 Station =  KLJF
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '112', 'KLJF', '0.0', '0.0', '62.6', '57.2', '29.97')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','112','KLJF','0.0','0.0','62.6','57.2','29.97')
-Data already in database (sql warning).
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  80
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '112', 'KLJF', '80', '9.0', '9.0', '73.4', '55.4', '30.02')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','112','KLJF','80','9.0','9.0','73.4','55.4','30.02')
+Successful SQL execution!
 
 Station =  KLVN
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  230
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '110', 'KLVN', '230', '3.0', '3.0', '62.6', '57.2', '29.99')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','110','KLVN','230','3.0','3.0','62.6','57.2','29.99')
-Data already in database (sql warning).
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  90
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '110', 'KLVN', '90', '10.0', '10.0', '75.2', '62.6', '30.02')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','110','KLVN','90','10.0','10.0','75.2','62.6','30.02')
+Successful SQL execution!
 
 Station =  KLXL
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '151', 'KLXL', '0.0', '0.0', '60.8', '57.2', '29.94')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','151','KLXL','0.0','0.0','60.8','57.2','29.94')
-Data already in database (sql warning).
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  120
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '151', 'KLXL', '120', '8.0', '8.0', '73.4', '55.4', '30.05')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','151','KLXL','120','8.0','8.0','73.4','55.4','30.05')
+Successful SQL execution!
 
 Station =  KONA
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  290
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '143', 'KONA', '290', '6.0', '6.0', '68.0', '55.4', '29.96')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','143','KONA','290','6.0','6.0','68.0','55.4','29.96')
-Data already in database (sql warning).
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  110
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '143', 'KONA', '110', '8.0', '8.0', '73.4', '64.4', '30.00')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','143','KONA','110','8.0','8.0','73.4','64.4','30.00')
+Successful SQL execution!
 
 Station =  KOWA
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '108', 'KOWA', '0.0', '0.0', '60.1', '60.1', '29.98')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','108','KOWA','0.0','0.0','60.1','60.1','29.98')
-Data already in database (sql warning).
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  70
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '108', 'KOWA', '70', '12.0', '12.0', '75.4', '68.0', '29.99')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','108','KOWA','70','12.0','12.0','75.4','68.0','29.99')
+Successful SQL execution!
 
 Station =  KPEX
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '114', 'KPEX', '0.0', '0.0', '62.6', '59.0', '29.98')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','114','KPEX','0.0','0.0','62.6','59.0','29.98')
-Data already in database (sql warning).
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  100
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '114', 'KPEX', '100', '10.0', '10.0', '73.4', '51.8', '30.04')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','114','KPEX','100','10.0','10.0','73.4','51.8','30.04')
+Successful SQL execution!
 
 Station =  KRGK
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '144', 'KRGK', '0.0', '0.0', '64.4', '55.4', '29.96')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','144','KRGK','0.0','0.0','64.4','55.4','29.96')
-Data already in database (sql warning).
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  80
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '144', 'KRGK', '80', '12.0', '12.0', '77.0', '60.8', '29.99')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','144','KRGK','80','12.0','12.0','77.0','60.8','29.99')
+Successful SQL execution!
 
 Station =  KSSI
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  220
-('1752376500.0', '2025-07-12 23:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '23', '15', '386', 'KSSI', '220', '6.0', '6.0', '82.4', '78.8', '30.04')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 23:15:00','2025-07-13T04:15:00Z','2025-07-12','23','15','386','KSSI','220','6.0','6.0','82.4','78.8','30.04')
-Data already in database (sql warning).
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  270
+('1753026900.0', '2025-07-20 11:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '11', '55', '386', 'KSSI', '270', '12.0', '12.0', '95.0', '77.0', '30.08')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 11:55:00','2025-07-20T16:55:00Z','2025-07-20','11','55','386','KSSI','270','12.0','12.0','95.0','77.0','30.08')
+Successful SQL execution!
 
 Station =  KULM
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '105', 'KULM', '0.0', '0.0', '62.6', '57.2', '29.99')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','105','KULM','0.0','0.0','62.6','57.2','29.99')
-Data already in database (sql warning).
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  90
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '105', 'KULM', '90', '13.0', '16.0', '73.4', '62.6', '30.00')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','105','KULM','90','13.0','16.0','73.4','62.6','30.00')
+Successful SQL execution!
 
-Station =  KGYL
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '111', 'KGYL', '0.0', '0.0', '61.7', '58.5', '29.98')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','111','KGYL','0.0','0.0','61.7','58.5','29.98')
-Data already in database (sql warning).
+Station =  KJMR
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '131', 'KJMR', '0.0', '0.0', '73.4', '59.0', '30.09')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','131','KJMR','0.0','0.0','73.4','59.0','30.09')
+Successful SQL execution!
 
-Station =  KGHW
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  210
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '149', 'KGHW', '210', '5.0', '5.0', '62.6', '59.0', '29.97')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','149','KGHW','210','5.0','5.0','62.6','59.0','29.97')
-Data already in database (sql warning).
+Station =  KHCD
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  70
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '104', 'KHCD', '70', '12.0', '16.0', '75.2', '55.9', '30.02')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','104','KHCD','70','12.0','16.0','75.2','55.9','30.02')
+Successful SQL execution!
 
 Station =  KBDH
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '113', 'KBDH', '0.0', '0.0', '64.4', '62.6', '29.97')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','113','KBDH','0.0','0.0','64.4','62.6','29.97')
-Data already in database (sql warning).
-
-Station =  KANE
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  230
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '161', 'KANE', '230', '3.0', '3.0', '68.0', '57.2', '29.96')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','161','KANE','230','3.0','3.0','68.0','57.2','29.96')
-Data already in database (sql warning).
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  90
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '113', 'KBDH', '90', '14.0', '14.0', '75.2', '59.0', '30.01')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','113','KBDH','90','14.0','14.0','75.2','59.0','30.01')
+Successful SQL execution!
 
 Station =  KCFE
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  210
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '145', 'KCFE', '210', '3.0', '3.0', '62.6', '62.6', '29.97')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','145','KCFE','210','3.0','3.0','62.6','62.6','29.97')
-Data already in database (sql warning).
-
-Station =  KAIT
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  200
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '130', 'KAIT', '200', '3.0', '3.0', '59.0', '55.4', '29.92')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','130','KAIT','200','3.0','3.0','59.0','55.4','29.92')
-Data already in database (sql warning).
-
-Station =  KDYT
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  210
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '141', 'KDYT', '210', '12.0', '12.0', '66.2', '59.0', '29.87')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','141','KDYT','210','12.0','12.0','66.2','59.0','29.87')
-Data already in database (sql warning).
-
-Station =  KFBL
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '106', 'KFBL', '0.0', '0.0', '64.4', '60.8', '29.99')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','106','KFBL','0.0','0.0','64.4','60.8','29.99')
-Data already in database (sql warning).
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  70
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '145', 'KCFE', '70', '9.0', '16.0', '75.2', '55.4', '30.02')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','145','KCFE','70','9.0','16.0','75.2','55.4','30.02')
+Successful SQL execution!
 
 Station =  KAEL
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '107', 'KAEL', '0.0', '0.0', '62.6', '60.8', '30.00')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','107','KAEL','0.0','0.0','62.6','60.8','30.00')
-Data already in database (sql warning).
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  70
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '107', 'KAEL', '70', '15.0', '15.0', '77.0', '69.8', '29.98')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','107','KAEL','70','15.0','15.0','77.0','69.8','29.98')
+Successful SQL execution!
+
+Station =  KDYT
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  50
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '141', 'KDYT', '50', '12.0', '12.0', '66.2', '59.0', '30.07')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','141','KDYT','50','12.0','12.0','66.2','59.0','30.07')
+Successful SQL execution!
+
+Station =  KFBL
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  70
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '106', 'KFBL', '70', '9.0', '9.0', '75.2', '64.4', '30.01')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','106','KFBL','70','9.0','9.0','75.2','64.4','30.01')
+Successful SQL execution!
 
 Station =  KFFM
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=15, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  170
-('1752376500.0', '2025-07-12 22:15:00', '2025-07-13T04:15:00Z', '2025-07-12', '22', '15', '147', 'KFFM', '170', '6.0', '6.0', '62.6', '62.6', '29.93')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376500.0','2025-07-12 22:15:00','2025-07-13T04:15:00Z','2025-07-12','22','15','147','KFFM','170','6.0','6.0','62.6','62.6','29.93')
-Data already in database (sql warning).
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  120
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '147', 'KFFM', '120', '13.0', '18.0', '69.8', '64.4', '30.03')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','147','KFFM','120','13.0','18.0','69.8','64.4','30.03')
+Successful SQL execution!
 
-Station =  KRNH
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=10, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  240
-('1752376200.0', '2025-07-12 22:10:00', '2025-07-13T04:10:00Z', '2025-07-12', '22', '10', '160', 'KRNH', '240', '5.0', '5.0', '62.1', '57.2', '29.97')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752376200.0','2025-07-12 22:10:00','2025-07-13T04:10:00Z','2025-07-12','22','10','160','KRNH','240','5.0','5.0','62.1','57.2','29.97')
+Station =  KFGN
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '140', 'KFGN', '0.0', '0.0', '30.10')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','140','KFGN','0.0','0.0','30.10')
+Successful SQL execution!
+
+Station =  KGHW
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  90
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '149', 'KGHW', '90', '12.0', '16.0', '73.4', '57.2', '30.05')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','149','KGHW','90','12.0','16.0','73.4','57.2','30.05')
+Successful SQL execution!
+
+Station =  KGYL
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=55, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  70
+('1753026900.0', '2025-07-20 10:55:00', '2025-07-20T16:55:00Z', '2025-07-20', '10', '55', '111', 'KGYL', '70', '7.0', '7.0', '75.0', '59.4', '30.01')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026900.0','2025-07-20 10:55:00','2025-07-20T16:55:00Z','2025-07-20','10','55','111','KGYL','70','7.0','7.0','75.0','59.4','30.01')
+Successful SQL execution!
+
+Station =  KSPW
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  80
+('1753026780.0', '2025-07-20 10:53:00', '2025-07-20T16:53:00Z', '2025-07-20', '10', '53', '121', 'KSPW', '80', '6.0', '6.0', '75.0', '69.1', '29.97')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026780.0','2025-07-20 10:53:00','2025-07-20T16:53:00Z','2025-07-20','10','53','121','KSPW','80','6.0','6.0','75.0','69.1','29.97')
+Successful SQL execution!
+
+Station =  KAXN
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  100
+('1753026780.0', '2025-07-20 10:53:00', '2025-07-20T16:53:00Z', '2025-07-20', '10', '53', '146', 'KAXN', '100', '12.0', '26.0', '72.0', '57.0', '30.05')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026780.0','2025-07-20 10:53:00','2025-07-20T16:53:00Z','2025-07-20','10','53','146','KAXN','100','12.0','26.0','72.0','57.0','30.05')
+Successful SQL execution!
+
+Station =  KBRD
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  VRB
+('1753026780.0', '2025-07-20 10:53:00', '2025-07-20T16:53:00Z', '2025-07-20', '10', '53', '150', 'KBRD', '7.0', '7.0', '75.0', '55.0', '30.07')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026780.0','2025-07-20 10:53:00','2025-07-20T16:53:00Z','2025-07-20','10','53','150','KBRD','7.0','7.0','75.0','55.0','30.07')
+Successful SQL execution!
+
+Station =  KPSC
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  290
+('1753026780.0', '2025-07-20 08:53:00', '2025-07-20T16:53:00Z', '2025-07-20', '8', '53', '165', 'KPSC', '290', '3.0', '3.0', '75.9', '41.0', '29.91')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026780.0','2025-07-20 08:53:00','2025-07-20T16:53:00Z','2025-07-20','8','53','165','KPSC','290','3.0','3.0','75.9','41.0','29.91')
+Successful SQL execution!
+
+Station =  PABR
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  90
+('1753026780.0', '2025-07-20 07:53:00', '2025-07-20T16:53:00Z', '2025-07-20', '7', '53', '200', 'PABR', '90', '21.0', '30.0', '36.0', '30.08')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, Pressure) VALUES ('1753026780.0','2025-07-20 07:53:00','2025-07-20T16:53:00Z','2025-07-20','7','53','200','PABR','90','21.0','30.0','36.0','30.08')
+Successful SQL execution!
+
+Station =  KSTP
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  120
+('1753026780.0', '2025-07-20 10:53:00', '2025-07-20T16:53:00Z', '2025-07-20', '10', '53', '162', 'KSTP', '120', '9.0', '9.0', '75.9', '57.0', '30.02')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026780.0','2025-07-20 10:53:00','2025-07-20T16:53:00Z','2025-07-20','10','53','162','KSTP','120','9.0','9.0','75.9','57.0','30.02')
+Successful SQL execution!
+
+Station =  KLSE
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  VRB
+('1753026780.0', '2025-07-20 10:53:00', '2025-07-20T16:53:00Z', '2025-07-20', '10', '53', '142', 'KLSE', '3.0', '3.0', '75.2', '64.4', '30.00')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026780.0','2025-07-20 10:53:00','2025-07-20T16:53:00Z','2025-07-20','10','53','142','KLSE','3.0','3.0','75.2','64.4','30.00')
 Successful SQL execution!
 
 Station =  KCQX
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=1, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  120
-('1752375660.0', '2025-07-12 23:01:00', '2025-07-13T04:01:00Z', '2025-07-12', '23', '1', '163', 'KCQX', '120', '7.0', '7.0', '62.1', '62.1', '30.16')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752375660.0','2025-07-12 23:01:00','2025-07-13T04:01:00Z','2025-07-12','23','1','163','KCQX','120','7.0','7.0','62.1','62.1','30.16')
-Data already in database (sql warning).
-
-Station =  RJTT
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=4, tm_min=0, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  190
-('1752375600.0', '2025-07-13 13:00:00', '2025-07-13T04:00:00Z', '2025-07-13', '13', '0', '385', 'RJTT', '190', '8.0', '8.0', '87.8', '73.4', '29.70')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752375600.0','2025-07-13 13:00:00','2025-07-13T04:00:00Z','2025-07-13','13','0','385','RJTT','190','8.0','8.0','87.8','73.4','29.70')
-Data already in database (sql warning).
-
-Station =  KOTG
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=3, tm_min=56, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  250
-('1752375360.0', '2025-07-12 21:56:00', '2025-07-13T03:56:00Z', '2025-07-12', '21', '56', '120', 'KOTG', '250', '5.0', '5.0', '63.0', '60.1', '30.02')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752375360.0','2025-07-12 21:56:00','2025-07-13T03:56:00Z','2025-07-12','21','56','120','KOTG','250','5.0','5.0','63.0','60.1','30.02')
-Data already in database (sql warning).
-
-Station =  KFRM
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=3, tm_min=56, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-('1752375360.0', '2025-07-12 21:56:00', '2025-07-13T03:56:00Z', '2025-07-12', '21', '56', '103', 'KFRM', '0.0', '0.0', '64.9', '61.0', '30.01')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752375360.0','2025-07-12 21:56:00','2025-07-13T03:56:00Z','2025-07-12','21','56','103','KFRM','0.0','0.0','64.9','61.0','30.01')
-Data already in database (sql warning).
-
-Station =  KMML
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=3, tm_min=56, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  220
-('1752375360.0', '2025-07-12 21:56:00', '2025-07-13T03:56:00Z', '2025-07-12', '21', '56', '102', 'KMML', '220', '6.0', '6.0', '64.0', '61.0')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint) VALUES ('1752375360.0','2025-07-12 21:56:00','2025-07-13T03:56:00Z','2025-07-12','21','56','102','KMML','220','6.0','6.0','64.0','61.0')
-Data already in database (sql warning).
-
-Station =  KMKT
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=3, tm_min=56, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-('1752375360.0', '2025-07-12 21:56:00', '2025-07-13T03:56:00Z', '2025-07-12', '21', '56', '101', 'KMKT', '0.0', '0.0', '66.9', '57.9', '30.00')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752375360.0','2025-07-12 21:56:00','2025-07-13T03:56:00Z','2025-07-12','21','56','101','KMKT','0.0','0.0','66.9','57.9','30.00')
-Data already in database (sql warning).
-
-Station =  PABR
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=3, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  90
-('1752375180.0', '2025-07-12 18:53:00', '2025-07-13T03:53:00Z', '2025-07-12', '18', '53', '200', 'PABR', '90', '10.0', '10.0', '41.0', '29.98')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, Pressure) VALUES ('1752375180.0','2025-07-12 18:53:00','2025-07-13T03:53:00Z','2025-07-12','18','53','200','PABR','90','10.0','10.0','41.0','29.98')
-Data already in database (sql warning).
-
-Station =  KSTP
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=3, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  240
-('1752375180.0', '2025-07-12 21:53:00', '2025-07-13T03:53:00Z', '2025-07-12', '21', '53', '162', 'KSTP', '240', '5.0', '5.0', '70.0', '55.9', '29.97')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752375180.0','2025-07-12 21:53:00','2025-07-13T03:53:00Z','2025-07-12','21','53','162','KSTP','240','5.0','5.0','70.0','55.9','29.97')
-Data already in database (sql warning).
-
-Station =  KLSE
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=3, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  300
-('1752375180.0', '2025-07-12 21:53:00', '2025-07-13T03:53:00Z', '2025-07-12', '21', '53', '142', 'KLSE', '300', '7.0', '7.0', '70.0', '57.9', '29.94')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752375180.0','2025-07-12 21:53:00','2025-07-13T03:53:00Z','2025-07-12','21','53','142','KLSE','300','7.0','7.0','70.0','57.9','29.94')
-Data already in database (sql warning).
-
-Station =  KSPW
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=3, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  260
-('1752375180.0', '2025-07-12 21:53:00', '2025-07-13T03:53:00Z', '2025-07-12', '21', '53', '121', 'KSPW', '260', '6.0', '6.0', '62.1', '60.1', '30.01')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752375180.0','2025-07-12 21:53:00','2025-07-13T03:53:00Z','2025-07-12','21','53','121','KSPW','260','6.0','6.0','62.1','60.1','30.01')
-Data already in database (sql warning).
-
-Station =  KPSC
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=3, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  160
-('1752375180.0', '2025-07-12 19:53:00', '2025-07-13T03:53:00Z', '2025-07-12', '19', '53', '165', 'KPSC', '160', '6.0', '6.0', '93.0', '55.0', '29.89')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752375180.0','2025-07-12 19:53:00','2025-07-13T03:53:00Z','2025-07-12','19','53','165','KPSC','160','6.0','6.0','93.0','55.0','29.89')
-Data already in database (sql warning).
-
-Station =  KAXN
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=3, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  200
-('1752375180.0', '2025-07-12 21:53:00', '2025-07-13T03:53:00Z', '2025-07-12', '21', '53', '146', 'KAXN', '200', '5.0', '5.0', '62.1', '55.9', '29.97')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752375180.0','2025-07-12 21:53:00','2025-07-13T03:53:00Z','2025-07-12','21','53','146','KAXN','200','5.0','5.0','62.1','55.9','29.97')
-Data already in database (sql warning).
-
-Station =  KBRD
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=3, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  200
-('1752375180.0', '2025-07-12 21:53:00', '2025-07-13T03:53:00Z', '2025-07-12', '21', '53', '150', 'KBRD', '200', '7.0', '7.0', '63.0', '57.0', '29.93')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752375180.0','2025-07-12 21:53:00','2025-07-13T03:53:00Z','2025-07-12','21','53','150','KBRD','200','7.0','7.0','63.0','57.0','29.93')
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=52, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+('1753026720.0', '2025-07-20 11:52:00', '2025-07-20T16:52:00Z', '2025-07-20', '11', '52', '163', 'KCQX', '70.0', '64.0', '29.83')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, TempAvg, DewPoint, Pressure) VALUES ('1753026720.0','2025-07-20 11:52:00','2025-07-20T16:52:00Z','2025-07-20','11','52','163','KCQX','70.0','64.0','29.83')
 Data already in database (sql warning).
 
 Station =  KHSE
-time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=13, tm_hour=3, tm_min=51, tm_sec=0, tm_wday=6, tm_yday=194, tm_isdst=-1)
-wind_dir_degrees =  220
-('1752375060.0', '2025-07-12 22:51:00', '2025-07-13T03:51:00Z', '2025-07-12', '22', '51', '205', 'KHSE', '220', '6.0', '6.0', '80.1', '77.0', '30.05')
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752375060.0','2025-07-12 22:51:00','2025-07-13T03:51:00Z','2025-07-12','22','51','205','KHSE','220','6.0','6.0','80.1','77.0','30.05')
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=51, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  230
+('1753026660.0', '2025-07-20 11:51:00', '2025-07-20T16:51:00Z', '2025-07-20', '11', '51', '205', 'KHSE', '230', '10.0', '21.0', '86.0', '78.1', '29.93')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026660.0','2025-07-20 11:51:00','2025-07-20T16:51:00Z','2025-07-20','11','51','205','KHSE','230','10.0','21.0','86.0','78.1','29.93')
+Data already in database (sql warning).
+
+Station =  KANE
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=50, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  80
+('1753026600.0', '2025-07-20 10:50:00', '2025-07-20T16:50:00Z', '2025-07-20', '10', '50', '161', 'KANE', '80', '14.0', '14.0', '77.0', '55.4', '30.02')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753026600.0','2025-07-20 10:50:00','2025-07-20T16:50:00Z','2025-07-20','10','50','161','KANE','80','14.0','14.0','77.0','55.4','30.02')
+Data already in database (sql warning).
+
+Station =  KRNH
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=30, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  110
+('1753025400.0', '2025-07-20 10:30:00', '2025-07-20T16:30:00Z', '2025-07-20', '10', '30', '160', 'KRNH', '110', '8.0', '8.0', '73.6', '55.9', '30.05')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753025400.0','2025-07-20 10:30:00','2025-07-20T16:30:00Z','2025-07-20','10','30','160','KRNH','110','8.0','8.0','73.6','55.9','30.05')
+Data already in database (sql warning).
+
+Station =  RJTT
+time_tuple_UTC = time.struct_time(tm_year=2025, tm_mon=7, tm_mday=20, tm_hour=16, tm_min=30, tm_sec=0, tm_wday=6, tm_yday=201, tm_isdst=-1)
+wind_dir_degrees =  200
+('1753025400.0', '2025-07-21 01:30:00', '2025-07-20T16:30:00Z', '2025-07-21', '1', '30', '385', 'RJTT', '200', '15.0', '15.0', '80.6', '75.2', '30.00')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753025400.0','2025-07-21 01:30:00','2025-07-20T16:30:00Z','2025-07-21','1','30','385','RJTT','200','15.0','15.0','80.6','75.2','30.00')
 Data already in database (sql warning).
 Day already in DaysGleaned table (sql warning).
 {
   "result": "ok"
 }
-1 successful writes from 38 of 39 stations returning data.
+33 successful writes from 38 of 39 stations returning data.
 
 SQL initiated to remove old records from two tables.
 Successful SQL execution!
@@ -403,820 +411,849 @@ C:\Windows\System32>py "C:\Users\Jim\Documents\webcontent\waconia\wgl_python_mes
 Version Number =  1.0
 Successfully connected to MySQL database
 
-url = https://api.synopticdata.com/v2/stations/latest?vars=air_temp,dew_point_temperature,wind_speed,wind_direction,wind_gust,sea_level_pressure&obtimezone=local&output=json&units=english&token=45d3bd33f12c4d87aed5925e0f4da854&stid=KRLD,KMWH,KEAT,KNOW,K0S9,PAQT,PASI,PAFA,PATQ,PANC,CYAZ,HOXO,KOTH,KHSE,KCQX,PHOG,PHJR,PHBK,KOJC,KSTL,KJLN,KMKT,KSOM5,MN073,KDLS,KTTD,KHRI,KAPF,KSRQ
+url = https://api.synopticdata.com/v2/stations/latest?vars=air_temp,dew_point_temperature,wind_speed,wind_direction,wind_gust,sea_level_pressure&obtimezone=local&output=json&units=english&token=3bbffcdf2fa349bf8c65353fb673bd39&stid=KRLD,KMWH,KEAT,KNOW,K0S9,PABR,PAQT,PASI,PAFA,PATQ,PANC,CYAZ,HOXO,KOTH,KHSE,KCQX,PHOG,PHJR,PHBK,KOJC,KSTL,KJLN,KMKT,KSOM5,MN073,KDLS,KTTD,KHRI,KAPF,KSRQ
 
 KDLS
 The Dalles Municipal Airport
-air_temp, 84.2, 2025-07-12T21:15:00-0700
-wind_speed, 8.0, 2025-07-12T21:15:00-0700
-wind_direction, 320.0, 2025-07-12T21:15:00-0700
-wind_gust, 17.0, 2025-07-12T20:55:00-0700
-sea_level_pressure, 1012.7, 2025-07-12T20:53:00-0700
-dew_point_temperature, 60.85, 2025-07-12T21:15:00-0700
+air_temp, 71.06, 2025-07-20T09:53:00-0700
+wind_speed, 14.0, 2025-07-20T09:53:00-0700
+wind_direction, 320.0, 2025-07-20T09:53:00-0700
+wind_gust, 24.0, 2025-07-20T09:53:00-0700
+sea_level_pressure, 1013.3, 2025-07-20T09:53:00-0700
+dew_point_temperature, 43.99, 2025-07-20T09:53:00-0700
 {
   "station_number": "'166'",
   "station_name": "'KDLS'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T21:15:00-0700'",
-  "time_native_std": "'2025-07-12 20:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'20'",
-  "Min": "'15'",
-  "T_drybulb": "'84.2'",
-  "T_dewpoint": "'60.85'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T09:53:00-0700'",
+  "time_native_std": "'2025-07-20 08:53:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'08'",
+  "Min": "'53'",
+  "T_drybulb": "'71.06'",
+  "T_dewpoint": "'43.99'",
   "wind_direction": "'320.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'9.2'",
-  "wind_gust": "'9.2'",
-  "ALTSE": "'29.91'",
+  "wind_speed": "'16.1'",
+  "wind_gust": "'27.6'",
+  "ALTSE": "'29.92'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 20:15:00', '2025-07-12T21:15:00-0700', '2025-07-12', '20', '15', '166', 'KDLS', '320.0', '9.2', '9.2', '84.2', '60.85', '29.91')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 08:53:00', '2025-07-20T09:53:00-0700', '2025-07-20', '08', '53', '166', 'KDLS', '320.0', '16.1', '27.6', '71.06', '43.99', '29.92')
 Successful SQL execution!
 
 KEAT
 Wenatchee - Pangborn Memorial Airport
-air_temp, 86.0, 2025-07-12T21:15:00-0700
-wind_speed, 11.0, 2025-07-12T21:15:00-0700
-wind_direction, 270.0, 2025-07-12T21:15:00-0700
-wind_gust, 21.0, 2025-07-12T20:00:00-0700
-sea_level_pressure, 1012.3, 2025-07-12T20:55:00-0700
-dew_point_temperature, 53.71, 2025-07-12T21:15:00-0700
+air_temp, 69.98, 2025-07-20T09:55:00-0700
+wind_speed, 9.0, 2025-07-20T09:55:00-0700
+wind_direction, 310.0, 2025-07-20T09:55:00-0700
+wind_gust, 14.0, 2025-07-20T09:25:00-0700
+sea_level_pressure, 1012.2, 2025-07-20T09:55:00-0700
+dew_point_temperature, 43.99, 2025-07-20T09:55:00-0700
 {
   "station_number": "'365'",
   "station_name": "'KEAT'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T21:15:00-0700'",
-  "time_native_std": "'2025-07-12 20:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'20'",
-  "Min": "'15'",
-  "T_drybulb": "'86.0'",
-  "T_dewpoint": "'53.71'",
-  "wind_direction": "'270.0'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T09:55:00-0700'",
+  "time_native_std": "'2025-07-20 08:55:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'08'",
+  "Min": "'55'",
+  "T_drybulb": "'69.98'",
+  "T_dewpoint": "'43.99'",
+  "wind_direction": "'310.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'12.7'",
-  "wind_gust": "'12.7'",
+  "wind_speed": "'10.4'",
+  "wind_gust": "'10.4'",
   "ALTSE": "'29.89'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 20:15:00', '2025-07-12T21:15:00-0700', '2025-07-12', '20', '15', '365', 'KEAT', '270.0', '12.7', '12.7', '86.0', '53.71', '29.89')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 08:55:00', '2025-07-20T09:55:00-0700', '2025-07-20', '08', '55', '365', 'KEAT', '310.0', '10.4', '10.4', '69.98', '43.99', '29.89')
 Successful SQL execution!
 
 KHRI
 Hermiston, Hermiston Municipal Airport
-air_temp, 82.4, 2025-07-12T21:15:00-0700
-wind_speed, 0.0, 2025-07-12T21:15:00-0700
-wind_direction, 0.0, 2025-07-12T21:15:00-0700
-wind_gust, 14.0, 2025-07-11T00:35:00-0700
-sea_level_pressure, 1011.8, 2025-07-12T20:53:00-0700
-dew_point_temperature, 51.85, 2025-07-12T21:15:00-0700
+air_temp, 73.94, 2025-07-20T09:53:00-0700
+wind_speed, 11.0, 2025-07-20T09:53:00-0700
+wind_direction, 250.0, 2025-07-20T09:53:00-0700
+wind_gust, 17.0, 2025-07-20T09:45:00-0700
+sea_level_pressure, 1013.0, 2025-07-20T09:53:00-0700
+dew_point_temperature, 37.9, 2025-07-20T09:53:00-0700
 {
   "station_number": "'168'",
   "station_name": "'KHRI'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T21:15:00-0700'",
-  "time_native_std": "'2025-07-12 20:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'20'",
-  "Min": "'15'",
-  "T_drybulb": "'82.4'",
-  "T_dewpoint": "'51.85'",
-  "wind_direction": "'0.0'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T09:53:00-0700'",
+  "time_native_std": "'2025-07-20 08:53:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'08'",
+  "Min": "'53'",
+  "T_drybulb": "'73.94'",
+  "T_dewpoint": "'37.9'",
+  "wind_direction": "'250.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'0.0'",
-  "wind_gust": "'0.0'",
-  "ALTSE": "'29.88'",
+  "wind_speed": "'12.7'",
+  "wind_gust": "'12.7'",
+  "ALTSE": "'29.91'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 20:15:00', '2025-07-12T21:15:00-0700', '2025-07-12', '20', '15', '168', 'KHRI', '0.0', '0.0', '0.0', '82.4', '51.85', '29.88')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 08:53:00', '2025-07-20T09:53:00-0700', '2025-07-20', '08', '53', '168', 'KHRI', '250.0', '12.7', '12.7', '73.94', '37.9', '29.91')
 Successful SQL execution!
 
 KMWH
 Grant County Airport
-air_temp, 89.6, 2025-07-12T21:15:00-0700
-wind_speed, 6.0, 2025-07-12T21:15:00-0700
-wind_direction, 200.0, 2025-07-12T21:15:00-0700
-wind_gust, 15.0, 2025-07-12T15:52:00-0700
-sea_level_pressure, 1012.4, 2025-07-12T20:52:00-0700
-dew_point_temperature, 55.56, 2025-07-12T21:15:00-0700
+air_temp, 71.06, 2025-07-20T09:52:00-0700
+wind_speed, 4.0, 2025-07-20T09:52:00-0700
+wind_direction, 200.0, 2025-07-20T09:52:00-0700
+wind_gust, 17.0, 2025-07-20T03:45:00-0700
+sea_level_pressure, 1012.3, 2025-07-20T09:52:00-0700
+dew_point_temperature, 44.89, 2025-07-20T09:52:00-0700
 {
   "station_number": "'357'",
   "station_name": "'KMWH'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T21:15:00-0700'",
-  "time_native_std": "'2025-07-12 20:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'20'",
-  "Min": "'15'",
-  "T_drybulb": "'89.6'",
-  "T_dewpoint": "'55.56'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T09:52:00-0700'",
+  "time_native_std": "'2025-07-20 08:52:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'08'",
+  "Min": "'52'",
+  "T_drybulb": "'71.06'",
+  "T_dewpoint": "'44.89'",
   "wind_direction": "'200.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'6.9'",
-  "wind_gust": "'6.9'",
-  "ALTSE": "'29.9'",
+  "wind_speed": "'4.6'",
+  "wind_gust": "'4.6'",
+  "ALTSE": "'29.89'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 20:15:00', '2025-07-12T21:15:00-0700', '2025-07-12', '20', '15', '357', 'KMWH', '200.0', '6.9', '6.9', '89.6', '55.56', '29.9')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 08:52:00', '2025-07-20T09:52:00-0700', '2025-07-20', '08', '52', '357', 'KMWH', '200.0', '4.6', '4.6', '71.06', '44.89', '29.89')
 Successful SQL execution!
 
 KOTH
 Southwest Oregon Regional Airport
-air_temp, 55.4, 2025-07-12T21:15:00-0700
-wind_speed, 17.0, 2025-07-12T21:15:00-0700
-wind_direction, 350.0, 2025-07-12T21:15:00-0700
-wind_gust, 21.0, 2025-07-12T20:45:00-0700
-sea_level_pressure, 1017.3, 2025-07-12T20:56:00-0700
-dew_point_temperature, 53.58, 2025-07-12T21:15:00-0700
+air_temp, 60.08, 2025-07-20T09:56:00-0700
+wind_speed, 9.0, 2025-07-20T09:56:00-0700
+wind_direction, 350.0, 2025-07-20T09:56:00-0700
+wind_gust, 21.0, 2025-07-19T18:56:00-0700
+sea_level_pressure, 1018.5, 2025-07-20T09:56:00-0700
+dew_point_temperature, 53.01, 2025-07-20T09:56:00-0700
 {
   "station_number": "'356'",
   "station_name": "'KOTH'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T21:15:00-0700'",
-  "time_native_std": "'2025-07-12 20:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'20'",
-  "Min": "'15'",
-  "T_drybulb": "'55.4'",
-  "T_dewpoint": "'53.58'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T09:56:00-0700'",
+  "time_native_std": "'2025-07-20 08:56:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'08'",
+  "Min": "'56'",
+  "T_drybulb": "'60.08'",
+  "T_dewpoint": "'53.01'",
   "wind_direction": "'350.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'19.6'",
-  "wind_gust": "'19.6'",
-  "ALTSE": "'30.04'",
+  "wind_speed": "'10.4'",
+  "wind_gust": "'10.4'",
+  "ALTSE": "'30.08'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 20:15:00', '2025-07-12T21:15:00-0700', '2025-07-12', '20', '15', '356', 'KOTH', '350.0', '19.6', '19.6', '55.4', '53.58', '30.04')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 08:56:00', '2025-07-20T09:56:00-0700', '2025-07-20', '08', '56', '356', 'KOTH', '350.0', '10.4', '10.4', '60.08', '53.01', '30.08')
 Successful SQL execution!
 
 KTTD
 Portland, Portland-Troutdale Airport
-air_temp, 80.6, 2025-07-12T21:15:00-0700
-wind_speed, 0.0, 2025-07-12T21:15:00-0700
-wind_direction, 0.0, 2025-07-12T21:15:00-0700
-wind_gust, 15.0, 2025-07-11T17:40:00-0700
-sea_level_pressure, 1015.9, 2025-07-12T20:53:00-0700
-dew_point_temperature, 60.82, 2025-07-12T21:15:00-0700
+air_temp, 60.98, 2025-07-20T09:53:00-0700
+wind_speed, 3.0, 2025-07-20T09:53:00-0700
+wind_direction, 310.0, 2025-07-20T09:53:00-0700
+wind_gust, 18.0, 2025-07-18T20:25:00-0700
+sea_level_pressure, 1017.4, 2025-07-20T09:53:00-0700
+dew_point_temperature, 49.93, 2025-07-20T09:53:00-0700
 {
   "station_number": "'167'",
   "station_name": "'KTTD'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T21:15:00-0700'",
-  "time_native_std": "'2025-07-12 20:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'20'",
-  "Min": "'15'",
-  "T_drybulb": "'80.6'",
-  "T_dewpoint": "'60.82'",
-  "wind_direction": "'0.0'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T09:53:00-0700'",
+  "time_native_std": "'2025-07-20 08:53:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'08'",
+  "Min": "'53'",
+  "T_drybulb": "'60.98'",
+  "T_dewpoint": "'49.93'",
+  "wind_direction": "'310.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'0.0'",
-  "wind_gust": "'0.0'",
-  "ALTSE": "'30.0'",
+  "wind_speed": "'3.5'",
+  "wind_gust": "'3.5'",
+  "ALTSE": "'30.04'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 20:15:00', '2025-07-12T21:15:00-0700', '2025-07-12', '20', '15', '167', 'KTTD', '0.0', '0.0', '0.0', '80.6', '60.82', '30.0')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 08:53:00', '2025-07-20T09:53:00-0700', '2025-07-20', '08', '53', '167', 'KTTD', '310.0', '3.5', '3.5', '60.98', '49.93', '30.04')
 Successful SQL execution!
 
 HOXO
 HOOD RIVER
-air_temp, 82.8, 2025-07-12T21:00:00-0700
-wind_speed, 3.22, 2025-07-12T21:00:00-0700
-wind_direction, 261.9, 2025-07-12T21:00:00-0700
-wind_gust, 9.72, 2025-07-12T21:00:00-0700
-sea_level_pressure, 1031.18, 2025-07-12T21:00:00-0700
-dew_point_temperature, 60.98, 2025-07-12T21:00:00-0700
+air_temp, 65.57, 2025-07-20T09:00:00-0700
+wind_speed, 6.06, 2025-07-20T09:00:00-0700
+wind_direction, 320.0, 2025-07-20T09:00:00-0700
+wind_gust, 14.48, 2025-07-20T09:00:00-0700
+sea_level_pressure, 1032.12, 2025-07-20T09:00:00-0700
+dew_point_temperature, 44.91, 2025-07-20T09:00:00-0700
 {
   "station_number": "'354'",
   "station_name": "'HOXO'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T21:00:00-0700'",
-  "time_native_std": "'2025-07-12 20:00:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'20'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T09:00:00-0700'",
+  "time_native_std": "'2025-07-20 08:00:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'08'",
   "Min": "'00'",
-  "T_drybulb": "'82.8'",
-  "T_dewpoint": "'60.98'",
-  "wind_direction": "'261.9'",
+  "T_drybulb": "'65.57'",
+  "T_dewpoint": "'44.91'",
+  "wind_direction": "'320.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'3.7'",
-  "wind_gust": "'11.2'",
-  "ALTSE": "'30.45'",
+  "wind_speed": "'7.0'",
+  "wind_gust": "'16.7'",
+  "ALTSE": "'30.48'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 20:00:00', '2025-07-12T21:00:00-0700', '2025-07-12', '20', '00', '354', 'HOXO', '261.9', '3.7', '11.2', '82.8', '60.98', '30.45')
-Successful SQL execution!
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 08:00:00', '2025-07-20T09:00:00-0700', '2025-07-20', '08', '00', '354', 'HOXO', '320.0', '7.0', '16.7', '65.57', '44.91', '30.48')
+Data already in database (sql warning).
 
 KOJC
 Olathe, Johnson County Executive Airport
-air_temp, 73.4, 2025-07-12T23:15:00-0500
-wind_speed, 4.0, 2025-07-12T23:15:00-0500
-wind_direction, 90.0, 2025-07-12T23:15:00-0500
-wind_gust, 15.0, 2025-07-12T15:45:00-0500
-sea_level_pressure, 1015.4, 2025-07-12T22:53:00-0500
-dew_point_temperature, 60.78, 2025-07-12T23:15:00-0500
+air_temp, 87.98, 2025-07-20T11:53:00-0500
+wind_speed, 7.0, 2025-07-20T11:53:00-0500
+wind_direction, 200.0, 2025-07-20T11:53:00-0500
+wind_gust, 16.0, 2025-07-20T08:25:00-0500
+sea_level_pressure, 1012.6, 2025-07-20T11:53:00-0500
+dew_point_temperature, 73.11, 2025-07-20T11:53:00-0500
 {
   "station_number": "'388'",
   "station_name": "'KOJC'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T23:15:00-0500'",
-  "time_native_std": "'2025-07-12 22:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'22'",
-  "Min": "'15'",
-  "T_drybulb": "'73.4'",
-  "T_dewpoint": "'60.78'",
-  "wind_direction": "'90.0'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T11:53:00-0500'",
+  "time_native_std": "'2025-07-20 10:53:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'10'",
+  "Min": "'53'",
+  "T_drybulb": "'87.98'",
+  "T_dewpoint": "'73.11'",
+  "wind_direction": "'200.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'4.6'",
-  "wind_gust": "'4.6'",
-  "ALTSE": "'29.98'",
+  "wind_speed": "'8.1'",
+  "wind_gust": "'8.1'",
+  "ALTSE": "'29.9'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 22:15:00', '2025-07-12T23:15:00-0500', '2025-07-12', '22', '15', '388', 'KOJC', '90.0', '4.6', '4.6', '73.4', '60.78', '29.98')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 10:53:00', '2025-07-20T11:53:00-0500', '2025-07-20', '10', '53', '388', 'KOJC', '200.0', '8.1', '8.1', '87.98', '73.11', '29.9')
 Successful SQL execution!
 
 PANC
 Anchorage, Ted Stevens Anchorage International Airport
-air_temp, 60.8, 2025-07-12T20:15:00-0800
-wind_speed, 7.0, 2025-07-12T20:15:00-0800
-wind_direction, 280.0, 2025-07-12T20:15:00-0800
-wind_gust, 17.0, 2025-07-12T04:15:00-0800
-sea_level_pressure, 1016.5, 2025-07-12T19:53:00-0800
-dew_point_temperature, 46.29, 2025-07-12T20:15:00-0800
+air_temp, 60.08, 2025-07-20T08:53:00-0800
+wind_speed, 0.0, 2025-07-20T08:53:00-0800
+wind_direction, 0.0, 2025-07-20T08:53:00-0800
+wind_gust, 15.0, 2025-07-19T02:20:00-0800
+sea_level_pressure, 1021.3, 2025-07-20T08:53:00-0800
+dew_point_temperature, 53.91, 2025-07-20T08:53:00-0800
 {
   "station_number": "'395'",
   "station_name": "'PANC'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T20:15:00-0800'",
-  "time_native_std": "'2025-07-12 19:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'19'",
-  "Min": "'15'",
-  "T_drybulb": "'60.8'",
-  "T_dewpoint": "'46.29'",
-  "wind_direction": "'280.0'",
-  "DDCARD": "NULL",
-  "wind_speed": "'8.1'",
-  "wind_gust": "'8.1'",
-  "ALTSE": "'30.02'",
-  "P": "NULL"
-}
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 19:15:00', '2025-07-12T20:15:00-0800', '2025-07-12', '19', '15', '395', 'PANC', '280.0', '8.1', '8.1', '60.8', '46.29', '30.02')
-Successful SQL execution!
-
-KAPF
-Naples, Naples Municipal Airport
-air_temp, 78.8, 2025-07-13T00:10:00-0400
-wind_speed, 3.0, 2025-07-13T00:10:00-0400
-wind_direction, 80.0, 2025-07-13T00:10:00-0400
-wind_gust, 24.0, 2025-07-12T15:53:00-0400
-sea_level_pressure, 1019.6, 2025-07-12T23:53:00-0400
-dew_point_temperature, 71.6, 2025-07-13T00:10:00-0400
-{
-  "station_number": "'396'",
-  "station_name": "'KAPF'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-13T00:10:00-0400'",
-  "time_native_std": "'2025-07-12 23:10:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'23'",
-  "Min": "'10'",
-  "T_drybulb": "'78.8'",
-  "T_dewpoint": "'71.6'",
-  "wind_direction": "'80.0'",
-  "DDCARD": "NULL",
-  "wind_speed": "'3.5'",
-  "wind_gust": "'3.5'",
-  "ALTSE": "'30.11'",
-  "P": "NULL"
-}
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 23:10:00', '2025-07-13T00:10:00-0400', '2025-07-12', '23', '10', '396', 'KAPF', '80.0', '3.5', '3.5', '78.8', '71.6', '30.11')
-Data already in database (sql warning).
-
-PHBK
-Kekaha, Pacific Missile Test Facility Barking Sands
-air_temp, 78.98, 2025-07-12T17:58:00-1000
-dew_point_temperature, 73.04, 2025-07-12T17:58:00-1000
-wind_speed, 6.0, 2025-07-12T17:58:00-1000
-wind_direction, 300.0, 2025-07-12T17:58:00-1000
-wind_gust, 20.0, 2025-07-12T13:12:00-1000
-sea_level_pressure, 1015.7, 2025-07-12T17:51:00-1000
-{
-  "station_number": "'353'",
-  "station_name": "'PHBK'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T17:58:00-1000'",
-  "time_native_std": "'2025-07-12 17:58:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'17'",
-  "Min": "'58'",
-  "T_drybulb": "'78.98'",
-  "T_dewpoint": "'73.04'",
-  "wind_direction": "'300.0'",
-  "DDCARD": "NULL",
-  "wind_speed": "'6.9'",
-  "wind_gust": "'6.9'",
-  "ALTSE": "'29.99'",
-  "P": "NULL"
-}
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 17:58:00', '2025-07-12T17:58:00-1000', '2025-07-12', '17', '58', '353', 'PHBK', '300.0', '6.9', '6.9', '78.98', '73.04', '29.99')
-Data already in database (sql warning).
-
-KCQX
-Chatham, Chatham Municipal Airport
-air_temp, 62.6, 2025-07-13T00:15:00-0400
-wind_speed, 5.0, 2025-07-13T00:15:00-0400
-wind_direction, 140.0, 2025-07-13T00:15:00-0400
-wind_gust, 14.0, 2025-07-12T14:15:00-0400
-sea_level_pressure, 1021.2, 2025-07-12T23:52:00-0400
-dew_point_temperature, 62.6, 2025-07-13T00:15:00-0400
-{
-  "station_number": "'359'",
-  "station_name": "'KCQX.2'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-13T00:15:00-0400'",
-  "time_native_std": "'2025-07-12 23:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'23'",
-  "Min": "'15'",
-  "T_drybulb": "'62.6'",
-  "T_dewpoint": "'62.6'",
-  "wind_direction": "'140.0'",
-  "DDCARD": "NULL",
-  "wind_speed": "'5.8'",
-  "wind_gust": "'5.8'",
-  "ALTSE": "'30.16'",
-  "P": "NULL"
-}
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 23:15:00', '2025-07-13T00:15:00-0400', '2025-07-12', '23', '15', '359', 'KCQX.2', '140.0', '5.8', '5.8', '62.6', '62.6', '30.16')
-Successful SQL execution!
-
-PAFA
-Fairbanks, Fairbanks International Airport
-air_temp, 75.2, 2025-07-12T20:15:00-0800
-wind_speed, 8.0, 2025-07-12T20:15:00-0800
-wind_direction, 270.0, 2025-07-12T20:15:00-0800
-wind_gust, 14.0, 2025-07-12T20:05:00-0800
-sea_level_pressure, 1011.6, 2025-07-12T19:53:00-0800
-dew_point_temperature, 42.78, 2025-07-12T20:15:00-0800
-{
-  "station_number": "'393'",
-  "station_name": "'PAFA'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T20:15:00-0800'",
-  "time_native_std": "'2025-07-12 19:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'19'",
-  "Min": "'15'",
-  "T_drybulb": "'75.2'",
-  "T_dewpoint": "'42.78'",
-  "wind_direction": "'270.0'",
-  "DDCARD": "NULL",
-  "wind_speed": "'9.2'",
-  "wind_gust": "'9.2'",
-  "ALTSE": "'29.87'",
-  "P": "NULL"
-}
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 19:15:00', '2025-07-12T20:15:00-0800', '2025-07-12', '19', '15', '393', 'PAFA', '270.0', '9.2', '9.2', '75.2', '42.78', '29.87')
-Successful SQL execution!
-
-KHSE
-Hatteras, Mitchell Field
-air_temp, 80.6, 2025-07-13T00:15:00-0400
-wind_speed, 5.0, 2025-07-13T00:15:00-0400
-wind_direction, 220.0, 2025-07-13T00:15:00-0400
-wind_gust, 16.0, 2025-07-11T22:51:00-0400
-sea_level_pressure, 1017.6, 2025-07-12T23:51:00-0400
-dew_point_temperature, 77.0, 2025-07-13T00:15:00-0400
-{
-  "station_number": "'358'",
-  "station_name": "'KHSE.2'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-13T00:15:00-0400'",
-  "time_native_std": "'2025-07-12 23:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'23'",
-  "Min": "'15'",
-  "T_drybulb": "'80.6'",
-  "T_dewpoint": "'77.0'",
-  "wind_direction": "'220.0'",
-  "DDCARD": "NULL",
-  "wind_speed": "'5.8'",
-  "wind_gust": "'5.8'",
-  "ALTSE": "'30.05'",
-  "P": "NULL"
-}
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 23:15:00', '2025-07-13T00:15:00-0400', '2025-07-12', '23', '15', '358', 'KHSE.2', '220.0', '5.8', '5.8', '80.6', '77.0', '30.05')
-Successful SQL execution!
-
-KJLN
-Joplin, Joplin Regional Airport
-air_temp, 75.2, 2025-07-12T23:15:00-0500
-wind_speed, 5.0, 2025-07-12T23:15:00-0500
-wind_direction, 160.0, 2025-07-12T23:15:00-0500
-wind_gust, 16.0, 2025-07-12T13:25:00-0500
-sea_level_pressure, 1015.2, 2025-07-12T22:53:00-0500
-dew_point_temperature, 68.0, 2025-07-12T23:15:00-0500
-{
-  "station_number": "'387'",
-  "station_name": "'KJLN'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T23:15:00-0500'",
-  "time_native_std": "'2025-07-12 22:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'22'",
-  "Min": "'15'",
-  "T_drybulb": "'75.2'",
-  "T_dewpoint": "'68.0'",
-  "wind_direction": "'160.0'",
-  "DDCARD": "NULL",
-  "wind_speed": "'5.8'",
-  "wind_gust": "'5.8'",
-  "ALTSE": "'29.98'",
-  "P": "NULL"
-}
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 22:15:00', '2025-07-12T23:15:00-0500', '2025-07-12', '22', '15', '387', 'KJLN', '160.0', '5.8', '5.8', '75.2', '68.0', '29.98')
-Successful SQL execution!
-
-KMKT
-Mankato, Mankato Regional Airport
-air_temp, 66.2, 2025-07-12T23:15:00-0500
-wind_speed, 0.0, 2025-07-12T23:15:00-0500
-wind_direction, 0.0, 2025-07-12T23:15:00-0500
-wind_gust, 19.0, 2025-07-12T13:45:00-0500
-sea_level_pressure, 1015.6, 2025-07-12T22:56:00-0500
-dew_point_temperature, 57.15, 2025-07-12T23:15:00-0500
-{
-  "station_number": "'355'",
-  "station_name": "'KMKT.2'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T23:15:00-0500'",
-  "time_native_std": "'2025-07-12 22:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'22'",
-  "Min": "'15'",
-  "T_drybulb": "'66.2'",
-  "T_dewpoint": "'57.15'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T08:53:00-0800'",
+  "time_native_std": "'2025-07-20 07:53:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'07'",
+  "Min": "'53'",
+  "T_drybulb": "'60.08'",
+  "T_dewpoint": "'53.91'",
   "wind_direction": "'0.0'",
   "DDCARD": "NULL",
   "wind_speed": "'0.0'",
   "wind_gust": "'0.0'",
+  "ALTSE": "'30.16'",
+  "P": "NULL"
+}
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 07:53:00', '2025-07-20T08:53:00-0800', '2025-07-20', '07', '53', '395', 'PANC', '0.0', '0.0', '0.0', '60.08', '53.91', '30.16')
+Successful SQL execution!
+
+KAPF
+Naples, Naples Municipal Airport
+air_temp, 89.06, 2025-07-20T12:53:00-0400
+wind_speed, 7.0, 2025-07-20T12:53:00-0400
+wind_direction, 250.0, 2025-07-20T12:53:00-0400
+wind_gust, 14.0, 2025-07-19T15:55:00-0400
+sea_level_pressure, 1019.8, 2025-07-20T12:53:00-0400
+dew_point_temperature, 73.13, 2025-07-20T12:53:00-0400
+{
+  "station_number": "'396'",
+  "station_name": "'KAPF'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T12:53:00-0400'",
+  "time_native_std": "'2025-07-20 11:53:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'11'",
+  "Min": "'53'",
+  "T_drybulb": "'89.06'",
+  "T_dewpoint": "'73.13'",
+  "wind_direction": "'250.0'",
+  "DDCARD": "NULL",
+  "wind_speed": "'8.1'",
+  "wind_gust": "'8.1'",
+  "ALTSE": "'30.11'",
+  "P": "NULL"
+}
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 11:53:00', '2025-07-20T12:53:00-0400', '2025-07-20', '11', '53', '396', 'KAPF', '250.0', '8.1', '8.1', '89.06', '73.13', '30.11')
+Successful SQL execution!
+
+PHBK
+Kekaha, Pacific Missile Test Facility Barking Sands
+air_temp, 73.04, 2025-07-20T06:51:00-1000
+dew_point_temperature, 68.0, 2025-07-20T06:51:00-1000
+wind_speed, 4.0, 2025-07-20T06:51:00-1000
+wind_direction, 80.0, 2025-07-20T06:51:00-1000
+wind_gust, 17.0, 2025-07-13T14:46:00-1000
+sea_level_pressure, 1016.9, 2025-07-20T06:51:00-1000
+{
+  "station_number": "'353'",
+  "station_name": "'PHBK'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T06:51:00-1000'",
+  "time_native_std": "'2025-07-20 06:51:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'06'",
+  "Min": "'51'",
+  "T_drybulb": "'73.04'",
+  "T_dewpoint": "'68.0'",
+  "wind_direction": "'80.0'",
+  "DDCARD": "NULL",
+  "wind_speed": "'4.6'",
+  "wind_gust": "'4.6'",
+  "ALTSE": "'30.03'",
+  "P": "NULL"
+}
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 06:51:00', '2025-07-20T06:51:00-1000', '2025-07-20', '06', '51', '353', 'PHBK', '80.0', '4.6', '4.6', '73.04', '68.0', '30.03')
+Successful SQL execution!
+
+PABR
+Wiley Post-Will Rogers Memorial Airport
+air_temp, 35.96, 2025-07-20T08:53:00-0800
+wind_speed, 18.0, 2025-07-20T08:53:00-0800
+wind_direction, 90.0, 2025-07-20T08:53:00-0800
+wind_gust, 26.0, 2025-07-20T08:53:00-0800
+sea_level_pressure, 1018.7, 2025-07-20T08:53:00-0800
+dew_point_temperature, 35.96, 2025-07-20T08:53:00-0800
+{
+  "station_number": "'390'",
+  "station_name": "'PABR.2'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T08:53:00-0800'",
+  "time_native_std": "'2025-07-20 07:53:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'07'",
+  "Min": "'53'",
+  "T_drybulb": "'35.96'",
+  "T_dewpoint": "'35.96'",
+  "wind_direction": "'90.0'",
+  "DDCARD": "NULL",
+  "wind_speed": "'20.7'",
+  "wind_gust": "'29.9'",
+  "ALTSE": "'30.08'",
+  "P": "NULL"
+}
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 07:53:00', '2025-07-20T08:53:00-0800', '2025-07-20', '07', '53', '390', 'PABR.2', '90.0', '20.7', '29.9', '35.96', '35.96', '30.08')
+Successful SQL execution!
+
+KCQX
+Chatham, Chatham Municipal Airport
+air_temp, 69.98, 2025-07-20T12:52:00-0400
+wind_speed, 4.0, 2025-07-20T12:50:00-0400
+wind_direction, 160.0, 2025-07-20T12:50:00-0400
+wind_gust, 15.0, 2025-07-20T12:20:00-0400
+sea_level_pressure, 1010.2, 2025-07-20T12:52:00-0400
+dew_point_temperature, 64.02, 2025-07-20T12:52:00-0400
+{
+  "station_number": "'359'",
+  "station_name": "'KCQX.2'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T12:52:00-0400'",
+  "time_native_std": "'2025-07-20 11:52:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'11'",
+  "Min": "'52'",
+  "T_drybulb": "'69.98'",
+  "T_dewpoint": "'64.02'",
+  "wind_direction": "'160.0'",
+  "DDCARD": "NULL",
+  "wind_speed": "'4.6'",
+  "wind_gust": "'4.6'",
+  "ALTSE": "'29.83'",
+  "P": "NULL"
+}
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 11:52:00', '2025-07-20T12:52:00-0400', '2025-07-20', '11', '52', '359', 'KCQX.2', '160.0', '4.6', '4.6', '69.98', '64.02', '29.83')
+Successful SQL execution!
+
+PAFA
+Fairbanks, Fairbanks International Airport
+air_temp, 64.04, 2025-07-20T08:53:00-0800
+wind_speed, 0.0, 2025-07-20T08:53:00-0800
+wind_direction, 0.0, 2025-07-20T08:53:00-0800
+wind_gust, 14.0, 2025-07-20T00:20:00-0800
+sea_level_pressure, 1018.3, 2025-07-20T08:53:00-0800
+dew_point_temperature, 57.88, 2025-07-20T08:53:00-0800
+{
+  "station_number": "'393'",
+  "station_name": "'PAFA'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T08:53:00-0800'",
+  "time_native_std": "'2025-07-20 07:53:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'07'",
+  "Min": "'53'",
+  "T_drybulb": "'64.04'",
+  "T_dewpoint": "'57.88'",
+  "wind_direction": "'0.0'",
+  "DDCARD": "NULL",
+  "wind_speed": "'0.0'",
+  "wind_gust": "'0.0'",
+  "ALTSE": "'30.07'",
+  "P": "NULL"
+}
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 07:53:00', '2025-07-20T08:53:00-0800', '2025-07-20', '07', '53', '393', 'PAFA', '0.0', '0.0', '0.0', '64.04', '57.88', '30.07')
+Successful SQL execution!
+
+KHSE
+Hatteras, Mitchell Field
+air_temp, 86.0, 2025-07-20T12:51:00-0400
+wind_speed, 9.0, 2025-07-20T12:51:00-0400
+wind_direction, 230.0, 2025-07-20T12:51:00-0400
+wind_gust, 18.0, 2025-07-20T12:51:00-0400
+sea_level_pressure, 1013.4, 2025-07-20T12:51:00-0400
+dew_point_temperature, 78.12, 2025-07-20T12:51:00-0400
+{
+  "station_number": "'358'",
+  "station_name": "'KHSE.2'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T12:51:00-0400'",
+  "time_native_std": "'2025-07-20 11:51:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'11'",
+  "Min": "'51'",
+  "T_drybulb": "'86.0'",
+  "T_dewpoint": "'78.12'",
+  "wind_direction": "'230.0'",
+  "DDCARD": "NULL",
+  "wind_speed": "'10.4'",
+  "wind_gust": "'20.7'",
+  "ALTSE": "'29.93'",
+  "P": "NULL"
+}
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 11:51:00', '2025-07-20T12:51:00-0400', '2025-07-20', '11', '51', '358', 'KHSE.2', '230.0', '10.4', '20.7', '86.0', '78.12', '29.93')
+Successful SQL execution!
+
+KJLN
+Joplin, Joplin Regional Airport
+air_temp, 89.96, 2025-07-20T11:53:00-0500
+wind_speed, 14.0, 2025-07-20T11:53:00-0500
+wind_direction, 190.0, 2025-07-20T11:53:00-0500
+wind_gust, 21.0, 2025-07-20T11:15:00-0500
+sea_level_pressure, 1013.6, 2025-07-20T11:53:00-0500
+dew_point_temperature, 73.13, 2025-07-20T11:53:00-0500
+{
+  "station_number": "'387'",
+  "station_name": "'KJLN'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T11:53:00-0500'",
+  "time_native_std": "'2025-07-20 10:53:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'10'",
+  "Min": "'53'",
+  "T_drybulb": "'89.96'",
+  "T_dewpoint": "'73.13'",
+  "wind_direction": "'190.0'",
+  "DDCARD": "NULL",
+  "wind_speed": "'16.1'",
+  "wind_gust": "'16.1'",
+  "ALTSE": "'29.93'",
+  "P": "NULL"
+}
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 10:53:00', '2025-07-20T11:53:00-0500', '2025-07-20', '10', '53', '387', 'KJLN', '190.0', '16.1', '16.1', '89.96', '73.13', '29.93')
+Successful SQL execution!
+
+KMKT
+Mankato, Mankato Regional Airport
+air_temp, 75.02, 2025-07-20T11:56:00-0500
+wind_speed, 9.0, 2025-07-20T11:56:00-0500
+wind_direction, 80.0, 2025-07-20T11:56:00-0500
+wind_gust, 14.0, 2025-07-19T01:56:00-0500
+sea_level_pressure, 1015.5, 2025-07-20T11:56:00-0500
+dew_point_temperature, 66.0, 2025-07-20T11:56:00-0500
+{
+  "station_number": "'355'",
+  "station_name": "'KMKT.2'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T11:56:00-0500'",
+  "time_native_std": "'2025-07-20 10:56:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'10'",
+  "Min": "'56'",
+  "T_drybulb": "'75.02'",
+  "T_dewpoint": "'66.0'",
+  "wind_direction": "'80.0'",
+  "DDCARD": "NULL",
+  "wind_speed": "'10.4'",
+  "wind_gust": "'10.4'",
   "ALTSE": "'29.99'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 22:15:00', '2025-07-12T23:15:00-0500', '2025-07-12', '22', '15', '355', 'KMKT.2', '0.0', '0.0', '0.0', '66.2', '57.15', '29.99')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 10:56:00', '2025-07-20T11:56:00-0500', '2025-07-20', '10', '56', '355', 'KMKT.2', '80.0', '10.4', '10.4', '75.02', '66.0', '29.99')
 Successful SQL execution!
 
 PHOG
 Kahului, Kahului Airport
-air_temp, 80.6, 2025-07-12T18:15:00-1000
-wind_speed, 17.0, 2025-07-12T18:15:00-1000
-wind_direction, 60.0, 2025-07-12T18:15:00-1000
-wind_gust, 24.0, 2025-07-12T18:15:00-1000
-sea_level_pressure, 1015.1, 2025-07-12T17:54:00-1000
-dew_point_temperature, 64.42, 2025-07-12T18:15:00-1000
+air_temp, 73.94, 2025-07-20T06:54:00-1000
+wind_speed, 4.0, 2025-07-20T06:54:00-1000
+wind_direction, 130.0, 2025-07-20T06:54:00-1000
+wind_gust, 16.0, 2025-07-20T06:54:00-1000
+sea_level_pressure, 1017.2, 2025-07-20T06:54:00-1000
+dew_point_temperature, 66.0, 2025-07-20T06:54:00-1000
 {
   "station_number": "'351'",
   "station_name": "'PHOG'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T18:15:00-1000'",
-  "time_native_std": "'2025-07-12 18:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'18'",
-  "Min": "'15'",
-  "T_drybulb": "'80.6'",
-  "T_dewpoint": "'64.42'",
-  "wind_direction": "'60.0'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T06:54:00-1000'",
+  "time_native_std": "'2025-07-20 06:54:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'06'",
+  "Min": "'54'",
+  "T_drybulb": "'73.94'",
+  "T_dewpoint": "'66.0'",
+  "wind_direction": "'130.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'19.6'",
-  "wind_gust": "'27.6'",
-  "ALTSE": "'29.98'",
+  "wind_speed": "'4.6'",
+  "wind_gust": "'18.4'",
+  "ALTSE": "'30.04'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 18:15:00', '2025-07-12T18:15:00-1000', '2025-07-12', '18', '15', '351', 'PHOG', '60.0', '19.6', '27.6', '80.6', '64.42', '29.98')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 06:54:00', '2025-07-20T06:54:00-1000', '2025-07-20', '06', '54', '351', 'PHOG', '130.0', '4.6', '18.4', '73.94', '66.0', '30.04')
 Successful SQL execution!
 
 PASI
 Sitka - Sitka Airport
-air_temp, 53.6, 2025-07-12T20:15:00-0800
-wind_speed, 4.0, 2025-07-12T20:15:00-0800
-wind_direction, 80.0, 2025-07-12T20:15:00-0800
-wind_gust, 17.0, 2025-07-11T21:06:00-0800
-sea_level_pressure, 1013.6, 2025-07-12T19:53:00-0800
-dew_point_temperature, 49.96, 2025-07-12T20:15:00-0800
+air_temp, 60.08, 2025-07-20T08:53:00-0800
+wind_speed, 10.0, 2025-07-20T08:53:00-0800
+wind_direction, 320.0, 2025-07-20T08:53:00-0800
+wind_gust, 16.0, 2025-07-16T08:40:00-0800
+sea_level_pressure, 1021.2, 2025-07-20T08:53:00-0800
+dew_point_temperature, 51.01, 2025-07-20T08:53:00-0800
 {
   "station_number": "'392'",
   "station_name": "'PASI'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T20:15:00-0800'",
-  "time_native_std": "'2025-07-12 19:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'19'",
-  "Min": "'15'",
-  "T_drybulb": "'53.6'",
-  "T_dewpoint": "'49.96'",
-  "wind_direction": "'80.0'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T08:53:00-0800'",
+  "time_native_std": "'2025-07-20 07:53:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'07'",
+  "Min": "'53'",
+  "T_drybulb": "'60.08'",
+  "T_dewpoint": "'51.01'",
+  "wind_direction": "'320.0'",
+  "DDCARD": "NULL",
+  "wind_speed": "'11.5'",
+  "wind_gust": "'11.5'",
+  "ALTSE": "'30.16'",
+  "P": "NULL"
+}
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 07:53:00', '2025-07-20T08:53:00-0800', '2025-07-20', '07', '53', '392', 'PASI', '320.0', '11.5', '11.5', '60.08', '51.01', '30.16')
+Successful SQL execution!
+
+KSRQ
+Sarasota / Bradenton, Sarasota-Bradenton International Airport
+air_temp, 89.96, 2025-07-20T12:53:00-0400
+wind_speed, 8.0, 2025-07-20T12:53:00-0400
+wind_direction, 260.0, 2025-07-20T12:53:00-0400
+wind_gust, 15.0, 2025-07-19T15:45:00-0400
+sea_level_pressure, 1020.1, 2025-07-20T12:53:00-0400
+dew_point_temperature, 77.07, 2025-07-20T12:53:00-0400
+{
+  "station_number": "'397'",
+  "station_name": "'KSRQ'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T12:53:00-0400'",
+  "time_native_std": "'2025-07-20 11:53:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'11'",
+  "Min": "'53'",
+  "T_drybulb": "'89.96'",
+  "T_dewpoint": "'77.07'",
+  "wind_direction": "'260.0'",
+  "DDCARD": "NULL",
+  "wind_speed": "'9.2'",
+  "wind_gust": "'9.2'",
+  "ALTSE": "'30.12'",
+  "P": "NULL"
+}
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 11:53:00', '2025-07-20T12:53:00-0400', '2025-07-20', '11', '53', '397', 'KSRQ', '260.0', '9.2', '9.2', '89.96', '77.07', '30.12')
+Successful SQL execution!
+
+KSTL
+St. Louis Lambert International Airport
+air_temp, 87.98, 2025-07-20T11:51:00-0500
+wind_speed, 4.0, 2025-07-20T11:51:00-0500
+wind_direction, 230.0, 2025-07-20T11:50:00-0500
+wind_gust, 15.0, 2025-07-20T08:50:00-0500
+sea_level_pressure, 1013.7, 2025-07-20T11:51:00-0500
+dew_point_temperature, 74.01, 2025-07-20T11:51:00-0500
+{
+  "station_number": "'360'",
+  "station_name": "'KSTL'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T11:51:00-0500'",
+  "time_native_std": "'2025-07-20 10:51:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'10'",
+  "Min": "'51'",
+  "T_drybulb": "'87.98'",
+  "T_dewpoint": "'74.01'",
+  "wind_direction": "'230.0'",
   "DDCARD": "NULL",
   "wind_speed": "'4.6'",
   "wind_gust": "'4.6'",
   "ALTSE": "'29.93'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 19:15:00', '2025-07-12T20:15:00-0800', '2025-07-12', '19', '15', '392', 'PASI', '80.0', '4.6', '4.6', '53.6', '49.96', '29.93')
-Successful SQL execution!
-
-KSRQ
-Sarasota / Bradenton, Sarasota-Bradenton International Airport
-air_temp, 82.4, 2025-07-13T00:10:00-0400
-wind_speed, 0.0, 2025-07-13T00:10:00-0400
-wind_direction, 0.0, 2025-07-13T00:10:00-0400
-wind_gust, 14.0, 2025-07-11T14:15:00-0400
-sea_level_pressure, 1019.2, 2025-07-12T23:53:00-0400
-dew_point_temperature, 75.22, 2025-07-13T00:10:00-0400
-{
-  "station_number": "'397'",
-  "station_name": "'KSRQ'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-13T00:10:00-0400'",
-  "time_native_std": "'2025-07-12 23:10:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'23'",
-  "Min": "'10'",
-  "T_drybulb": "'82.4'",
-  "T_dewpoint": "'75.22'",
-  "wind_direction": "'0.0'",
-  "DDCARD": "NULL",
-  "wind_speed": "'0.0'",
-  "wind_gust": "'0.0'",
-  "ALTSE": "'30.1'",
-  "P": "NULL"
-}
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 23:10:00', '2025-07-13T00:10:00-0400', '2025-07-12', '23', '10', '397', 'KSRQ', '0.0', '0.0', '0.0', '82.4', '75.22', '30.1')
-Data already in database (sql warning).
-
-KSTL
-St. Louis Lambert International Airport
-air_temp, 78.8, 2025-07-12T23:15:00-0500
-wind_speed, 0.0, 2025-07-12T23:15:00-0500
-wind_direction, 0.0, 2025-07-12T23:15:00-0500
-wind_gust, 14.0, 2025-07-12T16:35:00-0500
-sea_level_pressure, 1015.0, 2025-07-12T22:51:00-0500
-dew_point_temperature, 69.8, 2025-07-12T23:15:00-0500
-{
-  "station_number": "'360'",
-  "station_name": "'KSTL'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T23:15:00-0500'",
-  "time_native_std": "'2025-07-12 22:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'22'",
-  "Min": "'15'",
-  "T_drybulb": "'78.8'",
-  "T_dewpoint": "'69.8'",
-  "wind_direction": "'0.0'",
-  "DDCARD": "NULL",
-  "wind_speed": "'0.0'",
-  "wind_gust": "'0.0'",
-  "ALTSE": "'29.97'",
-  "P": "NULL"
-}
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 22:15:00', '2025-07-12T23:15:00-0500', '2025-07-12', '22', '15', '360', 'KSTL', '0.0', '0.0', '0.0', '78.8', '69.8', '29.97')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 10:51:00', '2025-07-20T11:51:00-0500', '2025-07-20', '10', '51', '360', 'KSTL', '230.0', '4.6', '4.6', '87.98', '74.01', '29.93')
 Successful SQL execution!
 
 KNOW
 Port Angeles Coast Guard Air Station
-air_temp, 57.2, 2025-07-11T11:50:00-0700
-dew_point_temperature, 53.96, 2025-07-11T11:50:00-0700
-wind_speed, 14.0, 2025-07-12T21:10:00-0700
-wind_direction, 290.0, 2025-07-12T21:10:00-0700
-wind_gust, 19.0, 2025-07-12T20:10:00-0700
-sea_level_pressure, 1020.32, 2025-07-12T21:10:00-0700
+air_temp, 61.88, 2025-07-15T08:50:00-0700
+dew_point_temperature, 55.22, 2025-07-15T08:50:00-0700
+wind_speed, 7.0, 2025-07-20T09:30:00-0700
+wind_direction, 290.0, 2025-07-20T09:30:00-0700
+wind_gust, 16.0, 2025-07-19T22:30:00-0700
+sea_level_pressure, 1017.61, 2025-07-20T09:30:00-0700
 {
   "station_number": "'366'",
   "station_name": "'KNOW'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-11T11:50:00-0700'",
-  "time_native_std": "'2025-07-11 10:50:00'",
-  "MDY": "'2025-07-11'",
-  "Hr": "'10'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-15T08:50:00-0700'",
+  "time_native_std": "'2025-07-15 07:50:00'",
+  "MDY": "'2025-07-15'",
+  "Hr": "'07'",
   "Min": "'50'",
-  "T_drybulb": "'57.2'",
-  "T_dewpoint": "'53.96'",
+  "T_drybulb": "'61.88'",
+  "T_dewpoint": "'55.22'",
   "wind_direction": "'290.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'16.1'",
-  "wind_gust": "'16.1'",
-  "ALTSE": "'30.13'",
+  "wind_speed": "'8.1'",
+  "wind_gust": "'8.1'",
+  "ALTSE": "'30.05'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-11 10:50:00', '2025-07-11T11:50:00-0700', '2025-07-11', '10', '50', '366', 'KNOW', '290.0', '16.1', '16.1', '57.2', '53.96', '30.13')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-15 07:50:00', '2025-07-15T08:50:00-0700', '2025-07-15', '07', '50', '366', 'KNOW', '290.0', '8.1', '8.1', '61.88', '55.22', '30.05')
 Data already in database (sql warning).
 
 PAQT
 Nuiqsut, Nuiqsut Airport
-air_temp, 53.6, 2025-07-12T20:15:00-0800
-wind_speed, 10.0, 2025-07-12T20:15:00-0800
-wind_direction, 40.0, 2025-07-12T20:15:00-0800
-wind_gust, 14.0, 2025-07-11T16:10:00-0800
-sea_level_pressure, 1015.8, 2025-07-12T19:53:00-0800
-dew_point_temperature, 37.26, 2025-07-12T20:15:00-0800
+air_temp, 46.94, 2025-07-20T08:53:00-0800
+wind_speed, 10.0, 2025-07-20T08:53:00-0800
+wind_direction, 80.0, 2025-07-20T08:53:00-0800
+wind_gust, 14.0, 2025-07-20T05:00:00-0800
+sea_level_pressure, 1019.0, 2025-07-20T08:53:00-0800
+dew_point_temperature, 43.92, 2025-07-20T08:53:00-0800
 {
   "station_number": "'391'",
   "station_name": "'PAQT'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T20:15:00-0800'",
-  "time_native_std": "'2025-07-12 19:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'19'",
-  "Min": "'15'",
-  "T_drybulb": "'53.6'",
-  "T_dewpoint": "'37.26'",
-  "wind_direction": "'40.0'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T08:53:00-0800'",
+  "time_native_std": "'2025-07-20 07:53:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'07'",
+  "Min": "'53'",
+  "T_drybulb": "'46.94'",
+  "T_dewpoint": "'43.92'",
+  "wind_direction": "'80.0'",
   "DDCARD": "NULL",
   "wind_speed": "'11.5'",
   "wind_gust": "'11.5'",
-  "ALTSE": "'30.0'",
+  "ALTSE": "'30.09'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 19:15:00', '2025-07-12T20:15:00-0800', '2025-07-12', '19', '15', '391', 'PAQT', '40.0', '11.5', '11.5', '53.6', '37.26', '30.0')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 07:53:00', '2025-07-20T08:53:00-0800', '2025-07-20', '07', '53', '391', 'PAQT', '80.0', '11.5', '11.5', '46.94', '43.92', '30.09')
 Successful SQL execution!
 
 PHJR
 Oahu, Kalaeloa Airport
-air_temp, 80.6, 2025-07-12T18:15:00-1000
-wind_speed, 7.0, 2025-07-12T18:15:00-1000
-wind_direction, 100.0, 2025-07-12T18:15:00-1000
-wind_gust, 15.0, 2025-07-12T17:40:00-1000
-sea_level_pressure, 1016.6, 2025-07-12T17:53:00-1000
-dew_point_temperature, 68.02, 2025-07-12T18:15:00-1000
+air_temp, 75.02, 2025-07-20T06:53:00-1000
+wind_speed, 3.0, 2025-07-20T06:53:00-1000
+wind_direction, 80.0, 2025-07-20T06:53:00-1000
+wind_gust, 15.0, 2025-07-19T17:53:00-1000
+sea_level_pressure, 1018.1, 2025-07-20T06:53:00-1000
+dew_point_temperature, 69.98, 2025-07-20T06:53:00-1000
 {
   "station_number": "'352'",
   "station_name": "'PHJR'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T18:15:00-1000'",
-  "time_native_std": "'2025-07-12 18:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'18'",
-  "Min": "'15'",
-  "T_drybulb": "'80.6'",
-  "T_dewpoint": "'68.02'",
-  "wind_direction": "'100.0'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T06:53:00-1000'",
+  "time_native_std": "'2025-07-20 06:53:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'06'",
+  "Min": "'53'",
+  "T_drybulb": "'75.02'",
+  "T_dewpoint": "'69.98'",
+  "wind_direction": "'80.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'8.1'",
-  "wind_gust": "'8.1'",
-  "ALTSE": "'30.02'",
+  "wind_speed": "'3.5'",
+  "wind_gust": "'3.5'",
+  "ALTSE": "'30.06'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 18:15:00', '2025-07-12T18:15:00-1000', '2025-07-12', '18', '15', '352', 'PHJR', '100.0', '8.1', '8.1', '80.6', '68.02', '30.02')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 06:53:00', '2025-07-20T06:53:00-1000', '2025-07-20', '06', '53', '352', 'PHJR', '80.0', '3.5', '3.5', '75.02', '69.98', '30.06')
 Successful SQL execution!
 
 MN073
 U.S.169 - Mankato - MP 52
-air_temp, 64.04, 2025-07-12T23:20:00-0500
-wind_speed, 0.78, 2025-07-12T23:20:00-0500
-wind_direction, 202.0, 2025-07-12T23:20:00-0500
-wind_gust, 1.94, 2025-07-12T23:20:00-0500
-dew_point_temperature, 61.65, 2025-07-12T23:20:00-0500
+air_temp, 77.36, 2025-07-20T11:55:00-0500
+wind_speed, 1.94, 2025-07-20T11:55:00-0500
+wind_direction, 41.0, 2025-07-20T11:55:00-0500
+wind_gust, 13.22, 2025-07-20T11:55:00-0500
+dew_point_temperature, 66.79, 2025-07-20T11:55:00-0500
 {
   "station_number": "'362'",
   "station_name": "'MN073'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T23:20:00-0500'",
-  "time_native_std": "'2025-07-12 22:20:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'22'",
-  "Min": "'20'",
-  "T_drybulb": "'64.04'",
-  "T_dewpoint": "'61.65'",
-  "wind_direction": "'202.0'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T11:55:00-0500'",
+  "time_native_std": "'2025-07-20 10:55:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'10'",
+  "Min": "'55'",
+  "T_drybulb": "'77.36'",
+  "T_dewpoint": "'66.79'",
+  "wind_direction": "'41.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'0.9'",
-  "wind_gust": "'2.2'",
+  "wind_speed": "'2.2'",
+  "wind_gust": "'15.2'",
   "ALTSE": "NULL",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 22:20:00', '2025-07-12T23:20:00-0500', '2025-07-12', '22', '20', '362', 'MN073', '202.0', '0.9', '2.2', '64.04', '61.65', NULL)
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 10:55:00', '2025-07-20T11:55:00-0500', '2025-07-20', '10', '55', '362', 'MN073', '41.0', '2.2', '15.2', '77.36', '66.79', NULL)
 Successful SQL execution!
 
 PATQ
 Atqasuk
-air_temp, 60.8, 2025-07-12T20:15:00-0800
-wind_speed, 7.0, 2025-07-12T20:15:00-0800
-wind_direction, 40.0, 2025-07-12T20:15:00-0800
-wind_gust, 14.0, 2025-07-08T20:35:00-0800
-sea_level_pressure, 1014.5, 2025-07-12T19:56:00-0800
-dew_point_temperature, 39.06, 2025-07-12T20:15:00-0800
+air_temp, 42.08, 2025-07-20T08:56:00-0800
+wind_speed, 14.0, 2025-07-20T08:56:00-0800
+wind_direction, 90.0, 2025-07-20T08:56:00-0800
+wind_gust, 22.0, 2025-07-19T16:15:00-0800
+sea_level_pressure, 1017.4, 2025-07-20T08:56:00-0800
+dew_point_temperature, 42.08, 2025-07-20T08:56:00-0800
 {
   "station_number": "'394'",
   "station_name": "'PATQ'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T20:15:00-0800'",
-  "time_native_std": "'2025-07-12 19:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'19'",
-  "Min": "'15'",
-  "T_drybulb": "'60.8'",
-  "T_dewpoint": "'39.06'",
-  "wind_direction": "'40.0'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T08:56:00-0800'",
+  "time_native_std": "'2025-07-20 07:56:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'07'",
+  "Min": "'56'",
+  "T_drybulb": "'42.08'",
+  "T_dewpoint": "'42.08'",
+  "wind_direction": "'90.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'8.1'",
-  "wind_gust": "'8.1'",
-  "ALTSE": "'29.96'",
+  "wind_speed": "'16.1'",
+  "wind_gust": "'16.1'",
+  "ALTSE": "'30.04'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 19:15:00', '2025-07-12T20:15:00-0800', '2025-07-12', '19', '15', '394', 'PATQ', '40.0', '8.1', '8.1', '60.8', '39.06', '29.96')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 07:56:00', '2025-07-20T08:56:00-0800', '2025-07-20', '07', '56', '394', 'PATQ', '90.0', '16.1', '16.1', '42.08', '42.08', '30.04')
 Successful SQL execution!
 
 KRLD
 Richland Airport
-air_temp, 85.82, 2025-07-12T21:15:00-0700
-dew_point_temperature, 53.24, 2025-07-12T21:15:00-0700
-wind_speed, 0.0, 2025-07-12T21:15:00-0700
-wind_direction, 0.0, 2025-07-12T21:15:00-0700
-wind_gust, 15.0, 2025-07-12T12:55:00-0700
-sea_level_pressure, 1011.79, 2025-07-12T21:15:00-0700
+air_temp, 78.8, 2025-07-20T09:55:00-0700
+dew_point_temperature, 42.44, 2025-07-20T09:55:00-0700
+wind_speed, 0.0, 2025-07-20T09:55:00-0700
+wind_direction, 0.0, 2025-07-20T09:55:00-0700
+wind_gust, 15.0, 2025-07-19T21:15:00-0700
+sea_level_pressure, 1012.3, 2025-07-20T09:55:00-0700
 {
   "station_number": "'318'",
   "station_name": "'KRLD'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T21:15:00-0700'",
-  "time_native_std": "'2025-07-12 20:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'20'",
-  "Min": "'15'",
-  "T_drybulb": "'85.82'",
-  "T_dewpoint": "'53.24'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T09:55:00-0700'",
+  "time_native_std": "'2025-07-20 08:55:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'08'",
+  "Min": "'55'",
+  "T_drybulb": "'78.8'",
+  "T_dewpoint": "'42.44'",
   "wind_direction": "'0.0'",
   "DDCARD": "NULL",
   "wind_speed": "'0.0'",
   "wind_gust": "'0.0'",
-  "ALTSE": "'29.88'",
+  "ALTSE": "'29.89'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 20:15:00', '2025-07-12T21:15:00-0700', '2025-07-12', '20', '15', '318', 'KRLD', '0.0', '0.0', '0.0', '85.82', '53.24', '29.88')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 08:55:00', '2025-07-20T09:55:00-0700', '2025-07-20', '08', '55', '318', 'KRLD', '0.0', '0.0', '0.0', '78.8', '42.44', '29.89')
 Successful SQL execution!
 
 K0S9
 Port Townsend Jefferson County International Airport
-air_temp, 68.0, 2025-07-12T21:15:00-0700
-dew_point_temperature, 57.2, 2025-07-12T21:15:00-0700
-wind_speed, 6.0, 2025-07-12T21:15:00-0700
-wind_direction, 310.0, 2025-07-12T21:15:00-0700
-wind_gust, 12.0, 2025-07-12T21:15:00-0700
-sea_level_pressure, 1019.23, 2025-07-12T21:15:00-0700
+air_temp, 57.2, 2025-07-20T09:55:00-0700
+dew_point_temperature, 51.8, 2025-07-20T09:55:00-0700
+wind_speed, 4.0, 2025-07-20T09:55:00-0700
+wind_direction, 130.0, 2025-07-20T09:55:00-0700
+wind_gust, 12.0, 2025-07-19T18:55:00-0700
+sea_level_pressure, 1016.94, 2025-07-20T09:55:00-0700
 {
   "station_number": "'367'",
   "station_name": "'K0S9'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T21:15:00-0700'",
-  "time_native_std": "'2025-07-12 20:15:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'20'",
-  "Min": "'15'",
-  "T_drybulb": "'68.0'",
-  "T_dewpoint": "'57.2'",
-  "wind_direction": "'310.0'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T09:55:00-0700'",
+  "time_native_std": "'2025-07-20 08:55:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'08'",
+  "Min": "'55'",
+  "T_drybulb": "'57.2'",
+  "T_dewpoint": "'51.8'",
+  "wind_direction": "'130.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'6.9'",
-  "wind_gust": "'13.8'",
-  "ALTSE": "'30.1'",
+  "wind_speed": "'4.6'",
+  "wind_gust": "'4.6'",
+  "ALTSE": "'30.03'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 20:15:00', '2025-07-12T21:15:00-0700', '2025-07-12', '20', '15', '367', 'K0S9', '310.0', '6.9', '13.8', '68.0', '57.2', '30.1')
-Data already in database (sql warning).
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 08:55:00', '2025-07-20T09:55:00-0700', '2025-07-20', '08', '55', '367', 'K0S9', '130.0', '4.6', '4.6', '57.2', '51.8', '30.03')
+Successful SQL execution!
 
 KSOM5
 KASOTA PRAIRIE SNA NEAR KASOTA 2SW
-air_temp, 59.9, 2025-07-12T23:00:00-0500
-wind_speed, 0.0, 2025-07-12T23:00:00-0500
-wind_direction, 54.0, 2025-07-12T23:00:00-0500
-wind_gust, 0.0, 2025-07-12T23:00:00-0500
-sea_level_pressure, 1014.66, 2025-07-12T23:00:00-0500
-dew_point_temperature, 57.54, 2025-07-12T23:00:00-0500
+air_temp, 75.38, 2025-07-20T11:00:00-0500
+wind_speed, 2.43, 2025-07-20T11:00:00-0500
+wind_direction, 58.0, 2025-07-20T11:00:00-0500
+wind_gust, 5.13, 2025-07-20T11:00:00-0500
+sea_level_pressure, 1014.48, 2025-07-20T11:00:00-0500
+dew_point_temperature, 66.49, 2025-07-20T11:00:00-0500
 {
   "station_number": "'361'",
   "station_name": "'KSOM5'",
-  "epoch_at_write": "'1752380716'",
-  "timeStamp_on_drybulb": "'2025-07-12T23:00:00-0500'",
-  "time_native_std": "'2025-07-12 22:00:00'",
-  "MDY": "'2025-07-12'",
-  "Hr": "'22'",
+  "epoch_at_write": "'1753030817'",
+  "timeStamp_on_drybulb": "'2025-07-20T11:00:00-0500'",
+  "time_native_std": "'2025-07-20 10:00:00'",
+  "MDY": "'2025-07-20'",
+  "Hr": "'10'",
   "Min": "'00'",
-  "T_drybulb": "'59.9'",
-  "T_dewpoint": "'57.54'",
-  "wind_direction": "'54.0'",
+  "T_drybulb": "'75.38'",
+  "T_dewpoint": "'66.49'",
+  "wind_direction": "'58.0'",
   "DDCARD": "NULL",
-  "wind_speed": "'0.0'",
-  "wind_gust": "'0.0'",
+  "wind_speed": "'2.8'",
+  "wind_gust": "'5.9'",
   "ALTSE": "'29.96'",
   "P": "NULL"
 }
-SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1752380716', '2025-07-12 22:00:00', '2025-07-12T23:00:00-0500', '2025-07-12', '22', '00', '361', 'KSOM5', '54.0', '0.0', '0.0', '59.9', '57.54', '29.96')
+SQL string =  INSERT INTO FifteenMinData (PerlTime, DateTimeStamp, LiteralDateTimeStamp, TimeMDY, TimeHr, TimeMin, StationNumber, StationName, WindDirection, WindSpeed, WindGust, TempAvg, DewPoint, Pressure) VALUES ('1753030817', '2025-07-20 10:00:00', '2025-07-20T11:00:00-0500', '2025-07-20', '10', '00', '361', 'KSOM5', '58.0', '2.8', '5.9', '75.38', '66.49', '29.96')
 Data already in database (sql warning).
 
-Data write record: 29 P, 22 W
+Data write record: 30 P, 26 W
 Day already in DaysGleaned table (sql warning).
 {
   "result": "ok"

@@ -658,7 +658,7 @@ close_database();
 my $row_count = get_google_sheet_row_count();
 if ($row_count > 0) {
     # Let the module handle error reporting
-    send_to_google_sheet('hanford-test', 
+    send_to_google_sheet('hanford', 
                         "C:\\Users\\Jim\\Documents\\webcontent\\waconia\\wgl_perl_hanford_data.json", 
                         "C:\\Users\\Jim\\Documents\\webcontent\\waconia\\wgl_perl_postToSheet.py",
                         $log_fh);

@@ -190,7 +190,7 @@ def processMultipleStations_xml(station_dictionary):
         enterInLog( message_str) 
         attemptWriteToDaysGleaned(database_type)
         
-        write_to_spreadsheet("aw-test", rowsForSpreadsheet)
+        write_to_spreadsheet("aw", rowsForSpreadsheet)
         
     else:
         print("")

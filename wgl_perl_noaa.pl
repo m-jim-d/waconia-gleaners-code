@@ -455,7 +455,7 @@ if ($TelemOK) {
 my $row_count = get_google_sheet_row_count();
 print "row_count = $row_count\n";
 if ($row_count > 0) {
-   send_to_google_sheet('noaa-test', 
+   send_to_google_sheet('noaa', 
                       "C:\\Users\\Jim\\Documents\\webcontent\\waconia\\wgl_perl_noaa_data.json", 
                       "C:\\Users\\Jim\\Documents\\webcontent\\waconia\\wgl_perl_postToSheet.py",
                       $log_fh);
