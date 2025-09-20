@@ -1,5 +1,5 @@
 # wgl_perl_module.pm
-# Jim Miller, 9:31 PM Tue March 21, 2023
+# Jim Miller, July 24, 2025
 
 package wgl_perl_module;
 

@@ -10,48 +10,52 @@ Written by: Jim Miller (7/6/2025)
 
 
 """
-An example of an XML report from a single station.
-
-Here is an example of a single-site query:
-https://aviationweather.gov/cgi-bin/data/dataserver.php?dataSource=metars&requestType=retrieve&format=xml&mostrecentforeachstation=constraint&hoursBeforeNow=2&stationString=KMKT
+An example of an XML report from a single station, most recent observation:
+https://aviationweather.gov/api/data/metar?format=xml&ids=KMKT
 
 And the XML report:
-<response version="1.2" xsi:noNamespaceSchemaLocation="http://aviationweather.gov/adds/schema/metar1_2.xsd">
-    <request_index>2337556</request_index>
-    <data_source name="metars"/>
-    <request type="retrieve"/>
-    <errors/>
-    <warnings/>
-    <time_taken_ms>3</time_taken_ms>
-    <data num_results="1">
-        <METAR>
-            <raw_text>
-                KMKT 292235Z AUTO 03013G19KT 10SM CLR 19/M02 A2998 RMK AO1
-            </raw_text>
-            <station_id>KMKT</station_id>
-            <observation_time>2015-04-29T22:35:00Z</observation_time>
-            <latitude>44.22</latitude>
-            <longitude>-93.92</longitude>
-            <temp_c>19.0</temp_c>
-            <dewpoint_c>-2.0</dewpoint_c>
-            <wind_dir_degrees>30</wind_dir_degrees>
-            <wind_speed_kt>13</wind_speed_kt>
-            <wind_gust_kt>19</wind_gust_kt>
-            <visibility_statute_mi>10.0</visibility_statute_mi>
-            <altim_in_hg>29.97933</altim_in_hg>
-            <quality_control_flags>
-                <auto>TRUE</auto>
-                <auto_station>TRUE</auto_station>
-            </quality_control_flags>
-            <sky_condition sky_cover="CLR"/>
-            <flight_category>VFR</flight_category>
-            <metar_type>METAR</metar_type>
-            <elevation_m>311.0</elevation_m>
-        </METAR>
-    </data>
+
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="https://aviationweather.gov/api/schema/metars2_0.xsd"
+          version="2.0">
+  <request_index>1758318657</request_index>
+  <data_source name="metars"/>
+  <request type="retrieve"/>
+  <errors/>
+  <warnings/>
+  <time_taken_ms>0</time_taken_ms>
+  <data num_results="1">
+    <METAR>
+      <raw_text>METAR KMKT 192056Z AUTO 13010KT 10SM -RA BKN095 BKN120 19/18 A2994 RMK AO2 LTG DSNT N AND W TSE02B12E27RAE32B55 SLP138 P0000 60003 T01890178 56008</raw_text>
+      <station_id>KMKT</station_id>
+      <observation_time>2025-09-19T20:56:00.000Z</observation_time>
+      <latitude>44.2184</latitude>
+      <longitude>-93.9179</longitude>
+      <temp_c>18.9</temp_c>
+      <dewpoint_c>17.8</dewpoint_c>
+      <wind_dir_degrees>130</wind_dir_degrees>
+      <wind_speed_kt>10</wind_speed_kt>
+      <visibility_statute_mi>10+</visibility_statute_mi>
+      <altim_in_hg>29.94</altim_in_hg>
+      <sea_level_pressure_mb>1013.8</sea_level_pressure_mb>
+      <quality_control_flags>
+        <auto>TRUE</auto>
+        <auto_station>TRUE</auto_station>
+      </quality_control_flags>
+      <wx_string>-RA</wx_string>
+      <sky_condition sky_cover="BKN" cloud_base_ft_agl="9500"/>
+      <sky_condition sky_cover="BKN" cloud_base_ft_agl="12000"/>
+      <flight_category>VFR</flight_category>
+      <three_hr_pressure_tendency_mb>-0.8</three_hr_pressure_tendency_mb>
+      <precip_in>0.005</precip_in>
+      <pcp3hr_in>0.03</pcp3hr_in>
+      <metar_type>METAR</metar_type>
+      <elevation_m>309</elevation_m>
+    </METAR>
+  </data>
 </response>
 """
-
 
 """
 Import supporting modules
@@ -91,19 +95,13 @@ def processMultipleStations_xml(station_dictionary):
     # Build the URL string to get data from Multiple stations by making one query to the server.
     # (returned on one page).
 
-    # Single station query for KMKT
-    # https://aviationweather.gov/cgi-bin/data/dataserver.php?dataSource=metars&requestType=retrieve&format=xml&mostrecentforeachstation=constraint&hoursBeforeNow=2&stationString=KMKT
-    # 
-    # https://aviationweather.gov/cgi-bin/data/dataserver.php (current server)
-    # https://aviationweather.gov/adds/dataserver_current/httpparam (old)
+    # Single station query for KMKT, most recent 2 hours.
+    # https://aviationweather.gov/api/data/metar?format=xml&hours=2&ids=KMKT
     
-    url_base = ("https://aviationweather.gov/cgi-bin/data/dataserver.php?" + 
-                    "dataSource=metars&" + 
-                    "requestType=retrieve&" +
-                    "format=xml&" +
-                    "mostrecentforeachstation=constraint&" + 
-                    "hoursBeforeNow=2&" +
-                    "stationString=")
+    url_base = ("https://aviationweather.gov/api/data/metar?" + 
+                    "format=xml&" + 
+                    "hours=2&" + 
+                    "ids=")
 
     # Get count of stations
     station_count = len(station_dictionary)
@@ -273,7 +271,24 @@ def buildSQL_xml(dom_object, data_index):
     # Parse the time string, which is in an ISO format, into a tuple. First, slice off the 
     # trailing "Z" in the time string. Note that the Z is for Zulu time, or also known as UTC time.
     # (year, month, day, hour, minute, second, weekday, yearday, daylightSavingAdjustment) 
-    time_tuple_UTC = time.strptime(time_ISO_UTC[:-1], "%Y-%m-%dT%H:%M:%S")
+    
+    # Handle both old format (2015-04-29T22:35:00Z) and new format (2015-04-29T22:35:00.000Z)
+    time_string_without_z = time_ISO_UTC[:-1]  # Remove the 'Z'
+    
+    try:
+        # Try parsing with microseconds first (new format)
+        if '.' in time_string_without_z:
+            time_tuple_UTC = time.strptime(time_string_without_z, "%Y-%m-%dT%H:%M:%S.%f")
+        else:
+            # Fall back to old format without microseconds
+            time_tuple_UTC = time.strptime(time_string_without_z, "%Y-%m-%dT%H:%M:%S")
+    except ValueError as e:
+        # If parsing fails, log the error and re-raise with more context
+        message_str = f"Failed to parse timestamp '{time_ISO_UTC}' for station {station_name}: {str(e)}"
+        enterInLog(message_str)
+        print(message_str)
+        raise
+
     print("time_tuple_UTC =", time_tuple_UTC)
     
     # The Unix epoch (or Unix time or POSIX time or Unix timestamp) is the number of seconds 
