@@ -11,7 +11,7 @@ use Win32::ODBC;
 
 our @EXPORT_OK = qw(connect_database get_null execute_sql close_database 
                     add_google_sheet_row clear_google_sheet_data 
-                    get_google_sheet_row_count send_to_google_sheet open_log_file);
+                    get_google_sheet_row_count send_to_sheetAndD1 open_log_file);
 
 # Module-level globals (not visible outside the module)
 my $database_handle;
@@ -149,7 +149,7 @@ sub close_database {
 }
 
 
-# Add a row to the Google Sheet data array
+# Stage a row of weather data for later batch-write to Google Sheet and Cloudflare D1
 sub add_google_sheet_row {
     my ($station, $year, $month, $day, $hour, $min, 
         $temp_avg, $dew_point, $wind_dir, $wind_avg, $wind_max, $bp_avg_sl, $log_file_handle) = @_;
@@ -192,8 +192,8 @@ sub get_google_sheet_row_count {
     return scalar @google_sheet_data;
 }
 
-# Send the data to Google Sheets
-sub send_to_google_sheet {
+# Send the data to Google Sheets and Cloudflare D1
+sub send_to_sheetAndD1 {
     my ($sheet_name, $json_file_path, $python_script_path, $log_file_handle) = @_;
     
     my $log_fh = $log_file_handle || $log_file;
@@ -201,7 +201,7 @@ sub send_to_google_sheet {
     
     if ($row_count <= 0) {
         if ($log_fh) {
-            print $log_fh localtime(time) . " No data to send to Google Sheet\n";
+            print $log_fh localtime(time) . " No data to send to Google Sheet / D1\n";
         }
         return (0, "No data to send");
     }
@@ -225,19 +225,19 @@ sub send_to_google_sheet {
         close $fh;
         
         # Execute Python script
-        my $cmd = "$python_script_path $json_file_path";
+        my $cmd = "py \"$python_script_path\" \"$json_file_path\"";
         system($cmd);
     };
     
     if ($@) {
         if ($log_fh) {
-            print $log_fh localtime(time) . " Error sending data to Google Sheet: $@\n";
+            print $log_fh localtime(time) . " Error sending data to Google Sheet / D1: $@\n";
         }
         return (0, $@);
     }
     
     if ($log_fh) {
-        print $log_fh localtime(time) . " Successfully sent $row_count rows to Google Sheet\n";
+        print $log_fh localtime(time) . " Successfully sent $row_count rows to Google Sheet / D1\n";
     }
     
     # Clear the data after sending

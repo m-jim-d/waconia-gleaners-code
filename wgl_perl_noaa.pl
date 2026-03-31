@@ -12,7 +12,7 @@ use JSON;
 use lib '.';
 use wgl_perl_module qw(connect_database get_null execute_sql close_database
                add_google_sheet_row clear_google_sheet_data 
-               get_google_sheet_row_count send_to_google_sheet open_log_file);
+               get_google_sheet_row_count send_to_sheetAndD1 open_log_file);
 
 use strict;
 
@@ -135,10 +135,11 @@ sub WriteToMDB {
       if ($TelemOK) {
          my ($success, $error) = execute_sql($sql, $log_fh);
          
-         if ($success) {            
-            # Prepare to add a new row to the googleSheet_data array.
-            my ($TheYear, $TheMonth, $TheDay) = Decode_Date_US($TheDate);
-            
+         # Prepare date parts for both Sheet and D1
+         my ($TheYear, $TheMonth, $TheDay) = Decode_Date_US($TheDate);
+         
+         # Only add to Google Sheet if MySQL insert succeeded (to minimize rows-written traffic)
+         if ($success) {
             # Add row to Google Sheet data using the module function
             # The module will handle DateTime creation and UTC conversion
             add_google_sheet_row(
@@ -451,14 +452,16 @@ if ($TelemOK) {
    close_database();
 }
 
-# Send the array of successful writes to the Google sheet using the module
+# Send the array of successful writes to the Google sheet and D1 using the module
 my $row_count = get_google_sheet_row_count();
-print "row_count = $row_count\n";
 if ($row_count > 0) {
-   send_to_google_sheet('noaa', 
+   send_to_sheetAndD1('noaa', 
                       "C:\\Users\\Jim\\Documents\\webcontent\\waconia\\wgl_perl_noaa_data.json", 
-                      "C:\\Users\\Jim\\Documents\\webcontent\\waconia\\wgl_perl_postToSheet.py",
+                      "C:\\Users\\Jim\\Documents\\webcontent\\waconia\\wgl_perl_postToSheetAndD1.py",
                       $log_fh);
+} else {
+   print "No new data to send to Sheet and D1 (noaa).\n";
+   print $log_fh localtime(time) . " No new data to send to Sheet and D1 (noaa).\n";
 }
 
 # Close the log file

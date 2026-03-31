@@ -1,3 +1,3 @@
 git add .
-git commit -m "Update weather gleaner scripts"
+git commit -m "Added Cloudflare D1 backend"
 git push -u origin main

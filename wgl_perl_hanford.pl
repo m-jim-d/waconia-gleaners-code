@@ -15,7 +15,7 @@ use JSON;
 use lib '.';
 use wgl_perl_module qw(connect_database get_null execute_sql close_database
                add_google_sheet_row clear_google_sheet_data 
-               get_google_sheet_row_count send_to_google_sheet open_log_file);
+               get_google_sheet_row_count send_to_sheetAndD1 open_log_file);
 
 use strict;
 
@@ -353,12 +353,12 @@ sub WriteToMDB {
 
       if ($TelemOK) {
          my ($success, $error) = execute_sql($sql);
+         
+         # Only add to Google Sheet and D1 if MySQL insert succeeded (to minimize rows-written traffic)
          if ($success) {
-            # Add a new row to the googleSheet array in the module.
-            #addRowToGoogleSheet();
             add_google_sheet_row($Station, $TheYear, $TheMonth, $TheDay, $TheHour, $TheMin, 
                               cS($TempAvg), cS($DewPoint), cS($WindDir), cS($WindAvg), 
-                              cS($WindMax), cS($BPAvg_sl), $log_fh);            
+                              cS($WindMax), cS($BPAvg_sl), $log_fh);
          }
       }
 
@@ -658,10 +658,13 @@ close_database();
 my $row_count = get_google_sheet_row_count();
 if ($row_count > 0) {
     # Let the module handle error reporting
-    send_to_google_sheet('hanford', 
+    send_to_sheetAndD1('hanford', 
                         "C:\\Users\\Jim\\Documents\\webcontent\\waconia\\wgl_perl_hanford_data.json", 
-                        "C:\\Users\\Jim\\Documents\\webcontent\\waconia\\wgl_perl_postToSheet.py",
+                        "C:\\Users\\Jim\\Documents\\webcontent\\waconia\\wgl_perl_postToSheetAndD1.py",
                         $log_fh);
+} else {
+    print "No new data to send to Sheet and D1 (hanford).\n";
+    print $log_fh localtime(time) . " No new data to send to Sheet and D1 (hanford).\n";
 }
 
 close($log_fh);

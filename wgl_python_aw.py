@@ -5,7 +5,6 @@ wgl_python_aw.py
 
 Description: An XML gleaner for collecting MN, WI, and IA METAR weather data.
 Written by: Jim Miller (7/6/2025)
-
 """
 
 
@@ -69,7 +68,7 @@ import time
 import datetime
 from xml.dom.minidom import parse # In support of XML parsing
 
-from wgl_python_module import (write_to_spreadsheet, openConnections, closeConnections, enterInLog, 
+from wgl_python_module import (write_to_spreadsheet, write_to_cloudflare, openConnections, closeConnections, enterInLog, 
     runSQL, attemptWriteToDaysGleaned, updateMaxStationDateTime
 )
 
@@ -91,6 +90,12 @@ def utc( timeTuple):
     return timeString
 
 
+def utc_iso( timeTuple):
+    # ISO format for D1: YYYY-MM-DD HH:MM:SS
+    timeString = "%04d-%02d-%02d %02d:%02d:%02d" % (timeTuple[0], timeTuple[1], timeTuple[2], timeTuple[3], timeTuple[4], timeTuple[5])
+    return timeString
+
+
 def processMultipleStations_xml(station_dictionary):
     # Build the URL string to get data from Multiple stations by making one query to the server.
     # (returned on one page).
@@ -102,6 +107,17 @@ def processMultipleStations_xml(station_dictionary):
                     "format=xml&" + 
                     "hours=2&" + 
                     "ids=")
+
+    """
+    # Example base for a longer time range starting at a specified date and
+    # time. Note that queries appear to be limited to 400 reports.
+    
+    url_base = ("https://aviationweather.gov/api/data/metar?" + 
+                    "format=xml&" + 
+                    "hours=48&" + 
+                    "date=202509190000&" +
+                    "ids=")
+    """
 
     # Get count of stations
     station_count = len(station_dictionary)
@@ -133,6 +149,7 @@ def processMultipleStations_xml(station_dictionary):
         return ''
 
     rowsForSpreadsheet = []
+    rowsForCloudflare = []
 
     # Check for error and warning messages in the XML. If found, write to log
     # and exit subroutine.
@@ -165,8 +182,9 @@ def processMultipleStations_xml(station_dictionary):
             # successful write is indicated, bump up the counter.
             if (runSQL( sqlForStation[0], sqlForStation[1])):
                 write_count = write_count + 1
-                
                 rowsForSpreadsheet.append( sqlForStation[2])
+                # Only add to D1 if MySQL insert succeeded (to minimize rows-written traffic)
+                rowsForCloudflare.append( sqlForStation[3])
 
         except Exception as e:
             # Get station name for better error reporting
@@ -189,10 +207,12 @@ def processMultipleStations_xml(station_dictionary):
         attemptWriteToDaysGleaned(database_type)
         
         write_to_spreadsheet("aw", rowsForSpreadsheet)
+        write_to_cloudflare(rowsForCloudflare, source="aw")
         
     else:
         print("")
         print("url = %s" % (webpage_url))
+        print("Cloudflare D1 and Google Sheet (meso): No new data to send.")
 
     print("%s successful writes from %s of %s stations returning data." % (write_count, n_data, station_count))
     #print("station names = ", station_names)
@@ -434,6 +454,18 @@ def buildSQL_xml(dom_object, data_index):
         'TempAvg', 'DewPoint', 'Pressure') 
         
     spreadSheetRow = [station_name, utc( time_tuple_UTC), nZS( temp_f), nZS( dewpoint_f), nZS( wind_dir_degrees), nZS( wind_speed_mph), nZS( wind_gust_mph), nZS( altim_in_hg)]
+    
+    # Build the Cloudflare D1 row (use ISO format for datetime)
+    d1Row = {
+        'station_name': station_name,
+        'datetime_utc': utc_iso( time_tuple_UTC),
+        'dry_bulb': nZS( temp_f),
+        'dew_point': nZS( dewpoint_f),
+        'wind_dir': nZS( wind_dir_degrees),
+        'wind_speed': nZS( wind_speed_mph),
+        'wind_gust': nZS( wind_gust_mph),
+        'barometer': nZS( altim_in_hg)
+    }
 
     sql_names = "INSERT INTO FifteenMinData ("
     sql_format = "VALUES ("
@@ -462,7 +494,7 @@ def buildSQL_xml(dom_object, data_index):
     print("SQL string = ", sql_string)
 
     # Return SQL string and data list (to be used with error messages)
-    return (sql_string, sql_data, spreadSheetRow)
+    return (sql_string, sql_data, spreadSheetRow, d1Row)
 
 
 """

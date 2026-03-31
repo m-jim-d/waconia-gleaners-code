@@ -228,3 +228,47 @@ def write_to_spreadsheet(sheetName, data):
     except:
         message_str = "Error opening URL."
         print(message_str + ", URL = " + sheet_url)
+
+
+def write_to_cloudflare(data, source=None):
+    """
+    Write weather data to Cloudflare D1 database via Worker API.
+    
+    Args:
+        data: A single record dict or list of dicts with keys:
+              station_name, datetime_utc, dry_bulb, dew_point, 
+              wind_speed, wind_gust, wind_dir, barometer
+        source: Optional source identifier ('meso', 'aw', 'hanford', 'noaa')
+    """
+    try:
+        from wgl_python_config import CLOUDFLARE_API_KEY, CLOUDFLARE_WORKER_URL
+    except ImportError:
+        print("Error: Could not import Cloudflare config from wgl_python_config.py")
+        return
+    
+    # Add source to each record if provided
+    if source:
+        if isinstance(data, list):
+            for record in data:
+                record['source'] = source
+        else:
+            data['source'] = source
+    
+    try:
+        headers = {
+            "Content-Type": "application/json",
+            "X-API-Key": CLOUDFLARE_API_KEY
+        }
+        
+        response = requests.post(CLOUDFLARE_WORKER_URL, json=data, headers=headers)
+        
+        if response.status_code == 200:
+            result = response.json()
+            source_str = f" ({source})" if source else ""
+            print(f"Cloudflare D1{source_str}: inserted={result.get('inserted', 0)}, duplicates={result.get('duplicates', 0)}")
+        else:
+            print(f"Cloudflare D1 error: {response.status_code} - {response.text}")
+            
+    except Exception as e:
+        message_str = f"Error writing to Cloudflare D1: {type(e).__name__} ==> {str(e)}"
+        print(message_str)

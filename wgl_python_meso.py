@@ -15,7 +15,7 @@ import math
 import time
 import datetime
 
-from wgl_python_module import (write_to_spreadsheet, openConnections, closeConnections, enterInLog, 
+from wgl_python_module import (write_to_spreadsheet, write_to_cloudflare, openConnections, closeConnections, enterInLog, 
     runSQL, attemptWriteToDaysGleaned, updateMaxStationDateTime
 )
 
@@ -116,6 +116,7 @@ def processMultipleStations_json( station_dictionary):
         print(message_str + ", URL = " + webpage_url)
 
     rowsForSpreadsheet = []
+    rowsForCloudflare = []
     write_count = 0
     
     for stationData in jsonObject["STATION"]:
@@ -225,6 +226,19 @@ def processMultipleStations_json( station_dictionary):
                 newRow = [stationName, utc( timestamp_literal), nN( temp_f), nN( dewPoint_f), nN( windDirection_deg), nN( windSpeed_mph), nN( windGust_mph), nN( pressure_inHg)]
                 rowsForSpreadsheet.append( newRow)
                 
+                # Only add to D1 if MySQL insert succeeded (to minimize rows-written traffic)
+                d1Row = {
+                    'station_name': stationName,
+                    'datetime_utc': utc( timestamp_literal),
+                    'dry_bulb': nN( temp_f),
+                    'dew_point': nN( dewPoint_f),
+                    'wind_dir': nN( windDirection_deg),
+                    'wind_speed': nN( windSpeed_mph),
+                    'wind_gust': nN( windGust_mph),
+                    'barometer': nN( pressure_inHg)
+                }
+                rowsForCloudflare.append( d1Row)
+                
         except Exception as e:
             message_str = f"Error in station {stationName} (ID: {station_dic[stationData['STID']]['ID']}): {type(e).__name__} ==> {str(e)}"
             enterInLog(message_str)
@@ -246,6 +260,10 @@ def processMultipleStations_json( station_dictionary):
         attemptWriteToDaysGleaned(database_type)
         
         write_to_spreadsheet("meso", rowsForSpreadsheet)
+        write_to_cloudflare(rowsForCloudflare, source="meso")
+    
+    else:
+        print("Cloudflare D1 and Google Sheet (meso): No new data to send.")
         
 
 def build_SQL_string( wd):
