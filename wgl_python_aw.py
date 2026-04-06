@@ -591,19 +591,20 @@ openConnections(database_type, "wgl_python_aw_log.txt")
 # Fetch one page, then parse and write to database once for each site 
 processMultipleStations_xml(station_dic)
 
-# Run cleanup query. Old records are deleted from the database.
-nDaysBack = datetime.date.today() - datetime.timedelta(days=+366)
-nDB = nDaysBack.timetuple()
-print("\nSQL initiated to remove old records from two tables.")
+# Run cleanup query. Old records, from all sources, are deleted from the database.
+nYearsBack = 3
+cutoffDate = datetime.date.today() - datetime.timedelta(days=+(nYearsBack * 365 + 1))
+cutoffDateTuple = cutoffDate.timetuple()
+print(f"\nSQL initiated to remove old records from two tables. Keeping data from last {nYearsBack} year(s).")
 
 if database_type == "Access":
     # MS Access syntax
-    access_date = f"{nDB[0]}/{nDB[1]}/{nDB[2]}"  # Format as YYYY/MM/DD
+    access_date = f"{cutoffDateTuple[0]}/{cutoffDateTuple[1]}/{cutoffDateTuple[2]}"  # Format as YYYY/MM/DD
     runSQL(f"DELETE * FROM [FifteenMinData] WHERE ([TimeMDY] < #{access_date}#)", "")
     runSQL(f"DELETE * FROM [DaysGleaned] WHERE ([TimeMDY] < #{access_date}#)", "")
 else:
     # MySQL syntax
-    mysql_date = f"{nDB[0]}-{nDB[1]:02d}-{nDB[2]:02d}"  # Format as YYYY-MM-DD
+    mysql_date = f"{cutoffDateTuple[0]}-{cutoffDateTuple[1]:02d}-{cutoffDateTuple[2]:02d}"  # Format as YYYY-MM-DD
     runSQL(f"DELETE FROM FifteenMinData WHERE TimeMDY < '{mysql_date}'", "")
     runSQL(f"DELETE FROM DaysGleaned WHERE TimeMDY < '{mysql_date}'", "")
 
