@@ -606,7 +606,7 @@ else:
     # MySQL syntax
     mysql_date = f"{cutoffDateTuple[0]}-{cutoffDateTuple[1]:02d}-{cutoffDateTuple[2]:02d}"  # Format as YYYY-MM-DD
     runSQL(f"DELETE FROM FifteenMinData WHERE TimeMDY < '{mysql_date}'", "")
-    runSQL(f"DELETE FROM DaysGleaned WHERE TimeMDY < '{mysql_date}'", "")
+    runSQL(f"DELETE FROM DaysGleaned WHERE TimeMDY < '{mysql_date}'", "")    
 
 # Close connections to database and log file.
 closeConnections()

@@ -6982,3 +6982,916 @@ Sun Apr  5 22:35:01 2026 from wgl_perl_hanford.pl
 Sun Apr  5 22:35:02 2026 No new data to send to Sheet and D1 (hanford).
 Sun Apr  5 22:40:01 2026 from wgl_perl_hanford.pl 
 Sun Apr  5 22:40:08 2026 Successfully sent 28 rows to Google Sheet / D1
+Sun Apr  5 22:45:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 22:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Sun Apr  5 22:50:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 22:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Sun Apr  5 22:55:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 22:55:10 2026 Successfully sent 28 rows to Google Sheet / D1
+Sun Apr  5 23:00:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 23:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Sun Apr  5 23:05:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 23:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Sun Apr  5 23:10:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 23:10:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Sun Apr  5 23:15:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 23:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Sun Apr  5 23:20:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 23:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Sun Apr  5 23:25:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 23:25:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Sun Apr  5 23:30:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 23:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Sun Apr  5 23:35:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 23:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Sun Apr  5 23:40:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 23:40:10 2026 Successfully sent 28 rows to Google Sheet / D1
+Sun Apr  5 23:45:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 23:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Sun Apr  5 23:50:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 23:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Sun Apr  5 23:55:01 2026 from wgl_perl_hanford.pl 
+Sun Apr  5 23:55:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 00:00:03 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 00:00:05 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 00:05:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 00:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 00:10:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 00:10:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 00:15:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 00:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 00:20:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 00:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 00:25:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 00:25:12 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 00:30:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 00:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 00:35:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 00:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 00:40:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 00:40:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 00:45:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 00:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 00:50:03 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 00:50:04 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 00:55:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 00:55:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 01:00:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 01:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 01:05:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 01:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 01:10:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 01:10:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 01:15:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 01:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 01:20:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 01:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 01:25:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 01:25:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 01:30:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 01:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 01:35:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 01:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 01:40:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 01:40:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 01:45:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 01:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 01:50:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 01:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 01:55:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 01:55:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 02:00:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 02:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 02:05:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 02:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 02:10:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 02:10:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 02:15:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 02:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 02:20:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 02:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 02:25:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 02:25:15 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 02:30:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 02:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 02:35:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 02:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 02:40:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 02:40:10 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 02:45:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 02:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 02:50:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 02:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 02:55:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 02:55:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 03:00:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 03:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 03:05:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 03:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 03:10:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 03:10:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 03:15:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 03:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 03:20:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 03:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 03:25:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 03:25:10 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 03:30:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 03:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 03:35:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 03:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 03:40:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 03:40:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 03:45:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 03:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 03:50:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 03:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 03:55:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 03:55:23 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 04:00:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 04:00:06 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 04:05:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 04:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 04:10:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 04:10:10 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 04:15:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 04:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 04:20:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 04:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 04:25:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 04:25:12 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 04:30:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 04:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 04:35:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 04:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 04:40:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 04:40:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 04:45:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 04:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 04:50:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 04:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 04:55:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 04:55:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 05:00:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 05:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 05:05:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 05:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 05:10:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 05:10:10 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 05:15:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 05:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 05:20:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 05:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 05:25:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 05:25:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 05:30:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 05:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 05:35:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 05:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 05:40:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 05:40:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 05:45:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 05:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 05:50:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 05:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 05:55:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 05:55:08 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 06:00:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 06:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 06:05:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 06:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 06:10:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 06:10:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 06:15:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 06:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 06:20:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 06:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 06:25:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 06:25:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 06:30:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 06:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 06:35:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 06:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 06:40:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 06:40:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 06:45:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 06:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 06:50:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 06:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 06:55:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 06:55:08 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 07:00:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 07:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 07:05:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 07:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 07:10:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 07:10:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 07:15:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 07:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 07:20:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 07:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 07:25:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 07:25:08 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 07:30:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 07:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 07:35:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 07:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 07:40:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 07:40:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 07:45:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 07:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 07:50:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 07:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 07:55:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 07:55:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 08:00:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 08:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 08:05:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 08:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 08:10:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 08:10:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 08:15:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 08:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 08:20:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 08:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 08:25:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 08:25:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 08:30:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 08:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 08:35:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 08:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 08:40:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 08:40:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 08:45:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 08:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 08:50:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 08:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 08:55:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 08:55:10 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 09:00:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 09:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 09:05:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 09:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 09:10:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 09:10:08 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 09:15:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 09:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 09:20:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 09:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 09:25:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 09:25:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 09:30:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 09:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 09:35:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 09:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 09:40:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 09:40:10 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 09:45:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 09:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 09:50:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 09:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 09:55:03 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 09:55:14 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 10:00:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 10:00:22 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 10:05:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 10:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 10:10:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 10:10:11 2026 Successfully sent 27 rows to Google Sheet / D1
+Mon Apr  6 10:15:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 10:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 10:20:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 10:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 10:25:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 10:25:10 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 10:30:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 10:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 10:35:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 10:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 10:40:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 10:40:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 10:45:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 10:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 10:50:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 10:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 10:55:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 10:55:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 11:00:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 11:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 11:05:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 11:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 11:10:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 11:10:08 2026 Successfully sent 27 rows to Google Sheet / D1
+Mon Apr  6 11:15:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 11:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 11:20:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 11:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 11:25:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 11:35:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 11:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 11:40:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 11:40:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 11:45:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 11:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 11:50:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 11:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 11:55:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 11:55:25 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 12:00:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 12:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 12:05:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 12:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 12:10:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 12:10:18 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 12:15:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 12:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 12:20:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 12:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 12:25:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 12:25:19 2026 Successfully sent 27 rows to Google Sheet / D1
+Mon Apr  6 12:30:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 12:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 12:35:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 12:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 12:40:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 12:40:17 2026 Successfully sent 27 rows to Google Sheet / D1
+Mon Apr  6 12:45:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 12:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 12:50:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 12:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 12:55:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 12:55:14 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 13:00:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 13:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 13:05:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 13:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 13:10:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 13:10:15 2026 Successfully sent 27 rows to Google Sheet / D1
+Mon Apr  6 13:15:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 13:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 13:20:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 13:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 13:25:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 13:25:09 2026 Successfully sent 27 rows to Google Sheet / D1
+Mon Apr  6 13:30:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 13:30:04 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 13:35:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 13:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 13:40:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 13:40:14 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 13:45:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 13:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 13:50:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 13:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 13:55:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 13:55:15 2026 Successfully sent 27 rows to Google Sheet / D1
+Mon Apr  6 14:00:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 14:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 14:05:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 14:05:04 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 14:10:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 14:10:18 2026 Successfully sent 27 rows to Google Sheet / D1
+Mon Apr  6 14:15:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 14:15:04 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 14:20:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 14:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 14:25:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 14:25:17 2026 Successfully sent 27 rows to Google Sheet / D1
+Mon Apr  6 14:30:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 14:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 14:35:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 14:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 14:40:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 14:40:14 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 14:45:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 14:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 14:50:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 14:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 14:55:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 14:55:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 15:00:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 15:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 15:05:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 15:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 15:10:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 15:10:15 2026 Successfully sent 27 rows to Google Sheet / D1
+Mon Apr  6 15:15:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 15:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 15:20:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 15:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 15:25:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 15:25:17 2026 Successfully sent 27 rows to Google Sheet / D1
+Mon Apr  6 15:30:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 15:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 15:35:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 15:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 15:40:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 15:40:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 15:45:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 15:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 15:50:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 15:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 15:55:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 15:55:17 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 16:00:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 16:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 16:05:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 16:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 16:10:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 16:10:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 16:15:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 16:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 16:20:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 16:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 16:25:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 16:25:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 16:30:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 16:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 16:35:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 16:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 16:40:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 16:40:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 16:45:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 16:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 16:50:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 16:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 16:55:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 16:55:18 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 17:00:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 17:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 17:05:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 17:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 17:10:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 17:10:12 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 17:15:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 17:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 17:20:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 17:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 17:25:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 17:25:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 17:30:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 17:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 17:35:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 17:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 17:40:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 17:40:12 2026 Successfully sent 27 rows to Google Sheet / D1
+Mon Apr  6 17:45:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 17:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 17:50:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 17:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 17:55:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 17:55:12 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 18:00:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 18:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 18:05:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 18:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 18:10:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 18:10:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 18:15:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 18:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 18:20:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 18:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 18:25:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 18:25:08 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 18:30:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 18:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 18:35:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 18:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 18:40:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 18:40:14 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 18:45:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 18:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 18:50:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 18:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 18:55:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 18:55:14 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 19:00:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 19:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 19:05:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 19:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 19:10:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 19:10:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 19:15:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 19:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 19:20:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 19:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 19:25:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 19:25:15 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 19:30:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 19:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 19:35:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 19:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 19:40:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 19:40:12 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 19:45:02 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 19:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 19:50:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 19:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 19:55:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 19:55:12 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 20:00:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 20:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 20:05:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 20:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 20:10:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 20:10:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 20:15:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 20:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 20:20:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 20:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 20:25:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 20:25:16 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 20:30:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 20:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 20:35:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 20:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 20:40:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 20:40:16 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 20:45:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 20:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 20:50:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 20:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 20:55:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 20:55:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 21:00:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 21:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 21:05:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 21:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 21:10:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 21:10:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 21:15:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 21:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 21:20:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 21:20:17 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 21:25:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 21:25:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 21:30:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 21:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 21:35:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 21:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 21:40:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 21:40:15 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 21:45:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 21:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 21:50:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 21:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 21:55:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 21:55:16 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 22:00:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 22:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 22:05:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 22:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 22:10:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 22:10:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 22:15:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 22:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 22:20:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 22:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 22:25:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 22:25:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 22:30:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 22:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 22:35:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 22:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 22:40:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 22:40:20 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 22:45:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 22:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 22:50:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 22:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 22:55:03 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 22:55:20 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 23:00:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 23:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 23:05:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 23:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 23:10:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 23:10:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 23:15:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 23:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 23:20:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 23:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 23:25:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 23:25:16 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 23:30:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 23:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 23:35:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 23:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 23:40:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 23:40:16 2026 Successfully sent 28 rows to Google Sheet / D1
+Mon Apr  6 23:45:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 23:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 23:50:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 23:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Mon Apr  6 23:55:01 2026 from wgl_perl_hanford.pl 
+Mon Apr  6 23:55:16 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 00:00:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 00:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 00:05:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 00:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 00:10:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 00:10:17 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 00:15:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 00:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 00:20:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 00:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 00:25:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 00:25:19 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 00:30:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 00:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 00:35:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 00:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 00:40:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 00:40:19 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 00:45:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 00:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 00:50:03 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 00:50:05 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 00:55:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 00:55:18 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 01:00:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 01:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 01:05:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 01:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 01:10:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 01:10:19 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 01:15:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 01:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 01:20:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 01:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 01:25:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 01:25:17 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 01:30:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 01:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 01:35:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 01:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 01:40:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 01:40:16 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 01:45:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 01:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 01:50:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 01:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 01:55:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 01:55:17 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 02:00:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 02:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 02:05:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 02:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 02:10:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 02:10:17 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 02:15:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 02:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 02:20:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 02:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 02:25:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 02:25:19 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 02:30:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 02:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 02:35:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 02:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 02:40:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 02:40:18 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 02:45:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 02:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 02:50:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 02:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 02:55:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 02:55:17 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 03:00:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 03:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 03:05:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 03:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 03:10:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 03:10:17 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 03:15:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 03:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 03:20:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 03:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 03:25:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 03:25:20 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 03:30:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 03:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 03:35:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 03:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 03:40:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 03:40:20 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 03:45:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 03:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 03:50:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 03:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 03:55:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 03:55:19 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 04:00:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 04:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 04:05:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 04:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 04:10:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 04:10:39 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 04:15:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 04:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 04:20:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 04:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 04:25:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 04:25:20 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 04:30:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 04:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 04:35:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 04:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 04:40:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 04:40:18 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 04:45:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 04:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 04:50:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 04:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 04:55:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 04:55:14 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 05:00:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 05:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 05:05:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 05:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 05:10:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 05:10:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 05:15:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 05:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 05:20:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 05:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 05:25:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 05:25:18 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 05:30:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 05:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 05:35:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 05:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 05:40:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 05:40:18 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 05:45:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 05:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 05:50:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 05:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 05:55:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 05:55:18 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 06:00:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 06:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 06:05:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 06:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 06:10:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 06:10:19 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 06:15:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 06:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 06:20:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 06:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 06:25:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 06:25:18 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 06:30:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 06:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 06:35:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 06:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 06:40:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 06:40:22 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 06:45:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 06:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 06:50:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 06:50:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 06:55:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 06:55:17 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 07:00:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 07:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 07:05:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 07:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 07:10:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 07:10:18 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 07:15:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 07:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 07:20:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 07:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 07:25:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 07:25:18 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 07:30:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 07:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 07:35:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 07:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 07:40:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 07:40:16 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 07:45:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 07:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 07:50:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 07:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 07:55:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 07:55:19 2026 Successfully sent 27 rows to Google Sheet / D1
+Tue Apr  7 08:00:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 08:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 08:05:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 08:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 08:10:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 08:10:11 2026 Successfully sent 27 rows to Google Sheet / D1
+Tue Apr  7 08:15:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 08:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 08:20:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 08:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 08:25:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 08:25:19 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 08:30:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 08:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 08:35:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 08:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 08:40:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 08:40:18 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 08:45:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 08:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 08:50:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 08:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 08:55:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 08:55:21 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 09:00:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 09:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 09:05:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 09:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 09:10:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 09:10:20 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 09:15:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 09:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 09:20:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 09:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 09:25:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 09:25:17 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 09:30:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 09:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 09:35:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 09:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 09:40:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 09:40:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 09:45:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 09:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 09:50:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 09:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 09:55:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 09:55:08 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 10:00:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 10:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 10:05:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 10:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 10:10:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 10:10:17 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 10:15:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 10:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 10:20:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 10:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 10:25:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 10:25:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 10:30:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 10:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 10:35:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 10:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 10:40:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 10:40:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 10:45:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 10:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 10:50:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 10:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 10:55:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 10:55:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 11:00:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 11:00:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 11:05:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 11:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 11:10:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 11:10:20 2026 Successfully sent 27 rows to Google Sheet / D1
+Tue Apr  7 11:15:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 11:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 11:20:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 11:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 11:25:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 11:25:11 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 11:30:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 11:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 11:35:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 11:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 11:40:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 11:40:08 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 11:45:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 11:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 11:50:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 11:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 11:55:03 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 11:55:12 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 12:00:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 12:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 12:05:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 12:05:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 12:10:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 12:10:17 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Apr  7 12:15:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 12:15:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 12:20:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 12:20:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 12:25:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 12:25:10 2026 Successfully sent 27 rows to Google Sheet / D1
+Tue Apr  7 12:30:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 12:30:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 12:35:02 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 12:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 12:40:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 12:40:11 2026 Successfully sent 27 rows to Google Sheet / D1
+Tue Apr  7 12:45:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 12:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Apr  7 12:50:01 2026 from wgl_perl_hanford.pl 
+Tue Apr  7 12:50:02 2026 No new data to send to Sheet and D1 (hanford).
