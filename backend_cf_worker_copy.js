@@ -1,5 +1,8 @@
 // Cloudflare worker: weather-api
-// Handles GET (query), POST (insert), and scheduled cleanup for weather data
+// Handles GET /weather (time-range query), 
+//         GET /weather/current (latest per station), 
+//         POST /weather (insert), 
+//         and scheduled cleanup
 
 export default {
   // Scheduled cleanup - runs on cron trigger
@@ -10,40 +13,44 @@ export default {
       .toISOString()
       .replace('T', ' ')
       .slice(0, 19);  // Format: "YYYY-MM-DD HH:MM:SS"
-    
+
     const result = await env.DB.prepare(
       "DELETE FROM weather_data WHERE datetime_utc < ?"
     ).bind(cutoffDate).run();
-    
+
     console.log(`Cleanup: deleted ${result.meta.changes} old records`);
   },
 
   async fetch(request, env) {
     const url = new URL(request.url);
-    
+
     // CORS headers for browser requests
     const corsHeaders = {
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
       "Access-Control-Allow-Headers": "Content-Type, X-API-Key",
     };
-    
+
     // Handle preflight
     if (request.method === "OPTIONS") {
       return new Response(null, { headers: corsHeaders });
     }
-    
+
     try {
       if (request.method === "GET" && url.pathname === "/weather") {
         return await handleQuery(url, env, corsHeaders);
       }
-      
+
+      if (request.method === "GET" && url.pathname === "/weather/current") {
+        return await handleCurrent(env, corsHeaders);
+      }
+
       if (request.method === "POST" && url.pathname === "/weather") {
         return await handleInsert(request, env, corsHeaders);
       }
-      
+
       return new Response("Not Found", { status: 404, headers: corsHeaders });
-      
+
     } catch (error) {
       return new Response(JSON.stringify({ error: error.message }), {
         status: 500,
@@ -57,23 +64,50 @@ async function handleQuery(url, env, corsHeaders) {
   const station = url.searchParams.get("station");
   const start = url.searchParams.get("start");
   const end = url.searchParams.get("end");
-  
+
   if (!station || !start || !end) {
     return new Response(JSON.stringify({ error: "Missing required params: station, start, end" }), {
       status: 400,
       headers: { ...corsHeaders, "Content-Type": "application/json" }
     });
   }
-  
+
   const sql = `
     SELECT datetime_utc, dry_bulb, dew_point, wind_speed, wind_gust, wind_dir, barometer, station_name
     FROM weather_data
     WHERE station_name = ? AND datetime_utc >= ? AND datetime_utc <= ?
     ORDER BY datetime_utc DESC
   `;
-  
+
   const results = await env.DB.prepare(sql).bind(station, start, end).all();
-  
+
+  return new Response(JSON.stringify(results.results), {
+    headers: { ...corsHeaders, "Content-Type": "application/json" }
+  });
+}
+
+async function handleCurrent(env, corsHeaders) {
+  // Return the most recent record for every station, within the last 48 hours
+  const cutoff = new Date(Date.now() - 48 * 60 * 60 * 1000)
+    .toISOString()
+    .replace('T', ' ')
+    .slice(0, 19);
+
+  const sql = `
+    SELECT datetime_utc, dry_bulb, dew_point, wind_speed, wind_gust, wind_dir, barometer, station_name
+    FROM (
+      SELECT datetime_utc, dry_bulb, dew_point, wind_speed, wind_gust, wind_dir, barometer, station_name,
+             ROW_NUMBER() OVER (PARTITION BY station_name ORDER BY datetime_utc DESC) AS rn
+      FROM weather_data
+      WHERE datetime_utc >= '${cutoff}'
+        AND datetime_utc LIKE '20__-__-__%'
+    )
+    WHERE rn = 1
+    ORDER BY station_name
+  `;
+
+  const results = await env.DB.prepare(sql).all();
+
   return new Response(JSON.stringify(results.results), {
     headers: { ...corsHeaders, "Content-Type": "application/json" }
   });
@@ -88,15 +122,15 @@ async function handleInsert(request, env, corsHeaders) {
       headers: { ...corsHeaders, "Content-Type": "application/json" }
     });
   }
-  
+
   const data = await request.json();
-  
+
   // Support single record or array of records
   const records = Array.isArray(data) ? data : [data];
-  
+
   let inserted = 0;
   let duplicates = 0;
-  
+
   for (const record of records) {
     try {
       await env.DB.prepare(`
@@ -122,7 +156,7 @@ async function handleInsert(request, env, corsHeaders) {
       }
     }
   }
-  
+
   return new Response(JSON.stringify({ inserted, duplicates }), {
     headers: { ...corsHeaders, "Content-Type": "application/json" }
   });

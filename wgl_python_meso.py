@@ -175,14 +175,34 @@ def processMultipleStations_json( station_dictionary):
             mdy = "%s/%s/%s" % (ts_month, ts_day, ts_year)
             
         windDirection_deg = getSensorDataDict( stationData, "wind_direction")["value"]
-        windDirection_timeStamp = getSensorDataDict( stationData, "wind_direction")["date_time"]
         
-        windSpeed_mph = round( getSensorDataDict( stationData, "wind_speed")["value"] * knots_to_mph, 1)
-        windGust_timeStamp = getSensorDataDict( stationData, "wind_gust")["date_time"]
-        if (windGust_timeStamp == windDirection_timeStamp):
-            windGust_mph = round( getSensorDataDict( stationData, "wind_gust")["value"] * knots_to_mph, 1)
+        # Some stations don't have wind sensors (anemometers)
+        if (station_dic[ stationData['STID']].get('WSD', 'present') is not None):
+            
+            windSpeed_raw = getSensorDataDict( stationData, "wind_speed")["value"]
+            if (windSpeed_raw != 'NULL'):
+                windSpeed_mph = round( windSpeed_raw * knots_to_mph, 1)
+                windSpeed_timeStamp = getSensorDataDict( stationData, "wind_speed").get("date_time", None)
+            else:
+                windSpeed_mph = "NULL"
+                windSpeed_timeStamp = None
+
+            windGust_raw = getSensorDataDict( stationData, "wind_gust")["value"]
+            if (windGust_raw != 'NULL') and (windSpeed_raw != 'NULL'):
+                windGust_timeStamp = getSensorDataDict( stationData, "wind_gust").get("date_time", None)
+                if (windGust_timeStamp == windSpeed_timeStamp):
+                    windGust_mph = round( windGust_raw * knots_to_mph, 1)
+                else:
+                    windGust_mph = windSpeed_mph
+            else:
+                windGust_mph = "NULL"
+                windGust_timeStamp = None
+
         else:
-            windGust_mph = windSpeed_mph
+            windSpeed_mph = "NULL"
+            windSpeed_timeStamp = None
+            windGust_mph = "NULL"
+            windGust_timeStamp = None
         
         # Some stations don't have a pressure sensor
         pressure_raw = getSensorDataDict( stationData, "sea_level_pressure")["value"]
@@ -308,6 +328,7 @@ knots_to_mph = 1.15078030303
 # to be gleaned and associated parameters. Add more stations here if you like...
 
 station_dic = {
+    # WSD (Wind Sensor Disabled): add 'WSD':None for stations without an anemometer
     # Washington
     'KRLD':{'ID':'318','longName':'KRLD','dst':True},    # Richland, WA
     'KMWH':{'ID':'357','longName':'KMWH','dst':True},    # Moses Lake, WA
@@ -330,7 +351,15 @@ station_dic = {
     # Oregon
     'HOXO':{'ID':'354','longName':'HOXO','dst':True},    # Hood River, OR
     'KOTH':{'ID':'356','longName':'KOTH','dst':True},    # North Bend, OR
-        
+
+    # Columbia River (for delta-p chart)
+    'KDLS':{'ID':'166','longName':'KDLS','dst':True},    # Dalles, WA 
+    'KTTD':{'ID':'167','longName':'KTTD','dst':True},    # Troutdale, OR 
+    'KHRI':{'ID':'168','longName':'KHRI','dst':True},    # Hermiston, OR 
+
+    # California
+    'ISWC1':{'ID':'1369','longName':'ISWC1','dst':True},  # Death Valley National Park, CA 
+
     # Fritz's sites on the cape...
     'KHSE':{'ID':'358','longName':'KHSE.2','dst':True},  # Cape Hatteras, NC
     'KCQX':{'ID':'359','longName':'KCQX.2','dst':True},  # Chatham, MA
@@ -351,11 +380,13 @@ station_dic = {
     'KMKT':{'ID':'355','longName':'KMKT.2','dst':True},  # Mankato, MN
     'KSOM5':{'ID':'361','longName':'KSOM5','dst':True},  # Kasota Prairie, MN
     'MN073':{'ID':'362','longName':'MN073','dst':True},  # Mankato, MN
-
-    # Columbia River (for delta-p chart)
-    'KDLS':{'ID':'166','longName':'KDLS','dst':True},    # Dalles, WA 
-    'KTTD':{'ID':'167','longName':'KTTD','dst':True},    # Troutdale, OR 
-    'KHRI':{'ID':'168','longName':'KHRI','dst':True},    # Hermiston, OR 
+    'XL049':{'ID':'363','longName':'XL049','dst':True},  # Saint Peter (XL Mobile), MN
+    'XL045':{'ID':'364','longName':'XL045','dst':True},  # Nicollet, MN
+    'F3063':{'ID':'1365','longName':'F3063','dst':True}, # Mendota Heights, MN
+    'MN090':{'ID':'1366','longName':'MN090','dst':True}, # Inver Grove Heights, MN
+    'G0687':{'ID':'1367','longName':'G0687','dst':True}, # West Saint Paul, MN
+    'G6147':{'ID':'1368','longName':'G6147','dst':True,'WSD':None}, # Saint Peter (Tom Huber), MN
+    'KSTP':{'ID':'1369','longName':'KSTP.2','dst':True}, # Saint Paul / Holman Field, MN
 
     # Florida
     'KAPF':{'ID':'396','longName':'KAPF','dst':True},    # Naples, FL 

@@ -168,8 +168,13 @@ def parse_gviz_response(text):
                 elif val is None:
                     rec[col_name] = None
                 else:
-                    # Already a string in some usable format
-                    rec[col_name] = str(val)
+                    # May be slash-formatted from the aw sheet: M/D/YYYY H:M:S
+                    sval = str(val)
+                    try:
+                        dt = datetime.datetime.strptime(sval, "%m/%d/%Y %H:%M:%S")
+                        rec[col_name] = dt.strftime("%Y-%m-%d %H:%M:%S")
+                    except ValueError:
+                        rec[col_name] = sval
             else:
                 # Numeric or string value; pass through, None stays None
                 rec[col_name] = val
