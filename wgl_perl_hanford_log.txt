@@ -40302,3 +40302,77 @@ Tue Jun  2 11:00:01 2026 from wgl_perl_hanford.pl
 Tue Jun  2 11:00:02 2026 No new data to send to Sheet and D1 (hanford).
 Tue Jun  2 11:05:01 2026 from wgl_perl_hanford.pl 
 Tue Jun  2 11:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 11:10:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 11:10:12 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Jun  2 11:15:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 11:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 11:20:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 11:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 11:25:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 11:25:09 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Jun  2 11:30:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 11:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 11:35:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 11:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 11:40:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 11:40:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Jun  2 11:45:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 11:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 11:50:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 11:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 11:55:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 11:55:12 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Jun  2 12:00:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 12:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 12:05:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 12:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 12:10:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 12:10:12 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Jun  2 12:15:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 12:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 12:20:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 12:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 12:25:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 12:25:14 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Jun  2 12:30:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 12:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 12:35:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 12:35:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 12:40:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 12:40:15 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Jun  2 12:45:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 12:45:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 12:50:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 12:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 12:55:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 12:55:12 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Jun  2 13:00:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 13:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 13:05:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 13:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 13:10:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 13:10:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Jun  2 13:15:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 13:15:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 13:20:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 13:20:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 13:25:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 13:25:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Jun  2 13:30:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 13:30:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 13:35:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 13:35:03 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 13:40:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 13:40:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Jun  2 13:45:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 13:45:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 13:50:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 13:50:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 13:55:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 13:55:13 2026 Successfully sent 28 rows to Google Sheet / D1
+Tue Jun  2 14:00:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 14:00:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 14:05:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 14:05:02 2026 No new data to send to Sheet and D1 (hanford).
+Tue Jun  2 14:10:01 2026 from wgl_perl_hanford.pl 
+Tue Jun  2 14:10:13 2026 Successfully sent 28 rows to Google Sheet / D1

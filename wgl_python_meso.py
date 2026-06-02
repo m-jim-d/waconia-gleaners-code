@@ -385,7 +385,7 @@ station_dic = {
     'F3063':{'ID':'1365','longName':'F3063','dst':True}, # Mendota Heights, MN
     'MN090':{'ID':'1366','longName':'MN090','dst':True}, # Inver Grove Heights, MN
     'G0687':{'ID':'1367','longName':'G0687','dst':True}, # West Saint Paul, MN
-    'G6147':{'ID':'1368','longName':'G6147','dst':True,'WSD':None}, # Saint Peter (Tom Huber), MN
+    'G6147':{'ID':'1368','longName':'G6147','dst':True,'WSD':None}, # Saint Peter (Tom H.), MN
     'KSTP':{'ID':'1369','longName':'KSTP.2','dst':True}, # Saint Paul / Holman Field, MN
 
     # Florida
