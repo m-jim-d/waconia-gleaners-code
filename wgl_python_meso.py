@@ -387,6 +387,7 @@ station_dic = {
     'G0687':{'ID':'1367','longName':'G0687','dst':True}, # West Saint Paul, MN
     'G6147':{'ID':'1368','longName':'G6147','dst':True,'WSD':None}, # Saint Peter (Tom H.), MN
     'KSTP':{'ID':'1369','longName':'KSTP.2','dst':True}, # Saint Paul / Holman Field, MN
+    'XL063':{'ID':'1370','longName':'XL063','dst':True}, # Waconia, MN 2.5ENE
 
     # Florida
     'KAPF':{'ID':'396','longName':'KAPF','dst':True},    # Naples, FL 

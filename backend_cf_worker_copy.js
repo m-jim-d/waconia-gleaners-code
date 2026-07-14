@@ -45,6 +45,10 @@ export default {
         return await handleCurrent(env, corsHeaders);
       }
 
+      if (request.method === "GET" && url.pathname === "/weather/aggregate") {
+        return await handleAggregate(url, env, corsHeaders);
+      }
+
       if (request.method === "POST" && url.pathname === "/weather") {
         return await handleInsert(request, env, corsHeaders);
       }
@@ -103,6 +107,47 @@ async function handleCurrent(env, corsHeaders) {
         AND datetime_utc LIKE '20__-__-__%'
     )
     WHERE rn = 1
+    ORDER BY station_name
+  `;
+
+  const results = await env.DB.prepare(sql).all();
+
+  return new Response(JSON.stringify(results.results), {
+    headers: { ...corsHeaders, "Content-Type": "application/json" }
+  });
+}
+
+async function handleAggregate(url, env, corsHeaders) {
+  const mode = (url.searchParams.get("mode") || "maximum").toLowerCase();
+  const daysParam = url.searchParams.get("days");
+
+  // Determine hours from days param ("24h" => 24, "2" => 48, "5" => 120, etc.)
+  let hours;
+  if (daysParam && daysParam.endsWith('h')) {
+    hours = parseInt(daysParam, 10) || 24;
+  } else {
+    hours = Math.round((parseFloat(daysParam) || 1) * 24);
+  }
+
+  const aggFn = (mode === 'minimum') ? 'MIN' : 'MAX';
+
+  const cutoff = new Date(Date.now() - hours * 60 * 60 * 1000)
+    .toISOString()
+    .replace('T', ' ')
+    .slice(0, 19);
+
+  const sql = `
+    SELECT station_name,
+           ${aggFn}(dry_bulb)   AS dry_bulb,
+           ${aggFn}(dew_point)  AS dew_point,
+           ${aggFn}(wind_speed) AS wind_speed,
+           ${aggFn}(wind_gust)  AS wind_gust,
+           ${aggFn}(barometer)  AS barometer,
+           MAX(datetime_utc)   AS datetime_utc
+    FROM weather_data
+    WHERE datetime_utc >= '${cutoff}'
+      AND datetime_utc LIKE '20__-__-__%'
+    GROUP BY station_name
     ORDER BY station_name
   `;
 
