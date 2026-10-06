@@ -197500,3 +197500,273 @@ Mon Oct  5 22:05:04 2026 from wgl_perl_noaa.pl
 Mon Oct  5 22:05:07 2026 No new data to send to Sheet and D1 (noaa).
 Mon Oct  5 22:10:12 2026 from wgl_perl_noaa.pl 
 Mon Oct  5 22:10:13 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 22:15:03 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 22:15:04 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 22:20:03 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 22:20:11 2026 Successfully sent 7 rows to Google Sheet / D1
+Mon Oct  5 22:25:18 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 22:25:23 2026 Successfully sent 1 rows to Google Sheet / D1
+Mon Oct  5 22:30:03 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 22:30:03 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 22:35:03 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 22:35:04 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 22:40:13 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 22:40:14 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 22:45:03 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 22:45:04 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 22:50:03 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 22:50:04 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 22:55:14 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 22:55:16 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 23:00:03 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 23:00:05 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 23:05:03 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 23:05:04 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 23:10:13 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 23:10:14 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 23:15:03 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 23:15:09 2026 Successfully sent 1 rows to Google Sheet / D1
+Mon Oct  5 23:20:03 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 23:20:08 2026 Successfully sent 7 rows to Google Sheet / D1
+Mon Oct  5 23:25:09 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 23:25:10 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 23:30:03 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 23:30:05 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 23:35:03 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 23:35:04 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 23:40:16 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 23:40:16 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 23:45:03 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 23:45:05 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 23:50:03 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 23:50:04 2026 No new data to send to Sheet and D1 (noaa).
+Mon Oct  5 23:55:16 2026 from wgl_perl_noaa.pl 
+Mon Oct  5 23:55:17 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 00:00:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 00:00:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 00:05:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 00:05:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 00:10:12 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 00:10:13 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 00:15:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 00:15:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 00:20:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 00:20:09 2026 Successfully sent 8 rows to Google Sheet / D1
+Tue Oct  6 00:25:09 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 00:25:10 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 00:30:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 00:30:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 00:35:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 00:35:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 00:40:15 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 00:40:16 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 00:45:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 00:45:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 00:50:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 00:50:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 00:55:09 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 00:55:10 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 01:00:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 01:00:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 01:05:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 01:05:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 01:10:12 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 01:10:13 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 01:15:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 01:15:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 01:20:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 01:20:08 2026 Successfully sent 8 rows to Google Sheet / D1
+Tue Oct  6 01:25:12 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 01:25:13 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 01:30:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 01:30:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 01:35:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 01:35:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 01:40:14 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 01:40:15 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 01:45:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 01:45:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 01:50:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 01:50:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 01:55:09 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 01:55:10 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 02:00:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 02:00:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 02:05:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 02:05:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 02:10:14 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 02:10:15 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 02:15:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 02:15:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 02:20:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 02:20:09 2026 Successfully sent 8 rows to Google Sheet / D1
+Tue Oct  6 02:25:10 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 02:25:11 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 02:30:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 02:30:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 02:35:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 02:35:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 02:40:13 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 02:40:14 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 02:45:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 02:45:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 02:50:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 02:50:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 02:55:09 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 02:55:10 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 03:00:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 03:00:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 03:05:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 03:05:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 03:10:15 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 03:10:16 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 03:15:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 03:15:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 03:20:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 03:20:09 2026 Successfully sent 8 rows to Google Sheet / D1
+Tue Oct  6 03:25:18 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 03:25:19 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 03:30:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 03:30:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 03:35:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 03:35:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 03:40:14 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 03:40:15 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 03:45:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 03:45:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 03:50:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 03:50:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 03:55:15 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 03:55:16 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 04:00:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 04:00:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 04:05:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 04:05:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 04:10:13 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 04:10:13 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 04:15:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 04:15:09 2026 Successfully sent 1 rows to Google Sheet / D1
+Tue Oct  6 04:20:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 04:20:08 2026 Successfully sent 7 rows to Google Sheet / D1
+Tue Oct  6 04:25:09 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 04:25:10 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 04:30:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 04:30:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 04:35:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 04:35:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 04:40:13 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 04:40:14 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 04:45:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 04:45:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 04:50:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 04:50:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 04:55:14 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 04:55:15 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 05:00:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 05:00:06 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 05:05:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 05:05:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 05:10:14 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 05:10:15 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 05:15:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 05:15:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 05:20:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 05:20:14 2026 Successfully sent 8 rows to Google Sheet / D1
+Tue Oct  6 05:25:11 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 05:25:12 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 05:30:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 05:30:03 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 05:35:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 05:35:03 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 05:40:13 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 05:40:14 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 05:45:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 05:45:03 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 05:50:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 05:50:03 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 05:55:13 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 05:55:14 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 06:00:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 06:00:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 06:05:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 06:05:03 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 06:10:13 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 06:10:14 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 06:15:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 06:15:03 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 06:20:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 06:20:14 2026 Successfully sent 8 rows to Google Sheet / D1
+Tue Oct  6 06:25:09 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 06:25:10 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 06:30:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 06:30:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 06:35:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 06:35:03 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 06:40:14 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 06:40:15 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 06:45:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 06:45:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 06:50:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 06:50:03 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 06:55:13 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 06:55:14 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 07:00:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 07:00:03 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 07:05:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 07:05:03 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 07:10:14 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 07:10:15 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 07:15:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 07:15:03 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 07:20:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 07:20:14 2026 Successfully sent 8 rows to Google Sheet / D1
+Tue Oct  6 07:25:13 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 07:25:14 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 07:30:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 07:30:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 07:35:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 07:35:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 07:40:26 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 07:40:27 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 07:45:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 07:45:03 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 07:50:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 07:50:03 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 07:55:21 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 07:55:22 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 08:00:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 08:00:06 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 08:05:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 08:05:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 08:10:27 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 08:10:28 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 08:15:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 08:15:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 08:20:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 08:20:47 2026 Successfully sent 8 rows to Google Sheet / D1
+Tue Oct  6 08:25:34 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 08:25:36 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 08:30:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 08:30:05 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 08:35:02 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 08:35:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 08:40:21 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 08:40:22 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 08:45:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 08:45:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 08:50:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 08:50:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 08:55:23 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 08:55:24 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 09:00:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 09:00:03 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 09:05:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 09:05:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 09:10:13 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 09:10:15 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 09:15:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 09:15:04 2026 No new data to send to Sheet and D1 (noaa).
+Tue Oct  6 09:20:03 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 09:20:21 2026 Successfully sent 7 rows to Google Sheet / D1
+Tue Oct  6 09:25:09 2026 from wgl_perl_noaa.pl 
+Tue Oct  6 09:25:10 2026 No new data to send to Sheet and D1 (noaa).

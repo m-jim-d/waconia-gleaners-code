@@ -232,8 +232,8 @@ async function handleAggregate(url, env, ctx, corsHeaders) {
   const aggFn = (mode === 'minimum') ? 'MIN' : 'MAX';
 
   // Gate expensive min/max queries based on today's running total.
-  // Debug: ?gatingTest=N simulates N rows already read today (a floor, never a bypass).
-  const testUsage = Number(url.searchParams.get('gatingTest')) || 0;
+  // Debug: ?gatingTest=4.6M simulates 4,600,000 rows read (a floor, never a bypass).
+  const testUsage = parseUsageValue(url.searchParams.get('gatingTest'));
   const priorRows = Math.max(await getTodayUsage(env), testUsage);
   const isHourly = daysParam && daysParam.endsWith('h');
   const daysNum = parseFloat(daysParam) || 1;
@@ -301,6 +301,15 @@ async function handleUsage(env, corsHeaders) {
 // Cloudflare resets the free D1 allowance at 00:00 UTC, so the counter key is
 // the UTC date. The one-row lookup itself consumes a small number of D1 reads;
 // those bookkeeping reads are not recursively added to the counter.
+function parseUsageValue(value) {
+  if (!value) return 0;
+  const match = String(value).trim().match(/^([0-9]+(?:\.[0-9]+)?)\s*([KM]?)$/i);
+  if (!match) return 0;
+  const multiplier = match[2].toUpperCase() === 'M' ? 1_000_000 :
+                     match[2].toUpperCase() === 'K' ? 1_000 : 1;
+  return Math.round(Number(match[1]) * multiplier);
+}
+
 async function getTodayUsage(env) {
   const day = new Date().toISOString().slice(0, 10);
   const result = await env.DB.prepare("SELECT rows_read FROM read_usage WHERE day = ?").bind(day).first();
