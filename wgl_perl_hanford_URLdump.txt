@@ -32,7 +32,10 @@
 			<link rel="STYLESHEET" type="text/css" href="style/hanford2023/ie8.css" />
 			<![endif]-->
 		<title>Hanford Meteorological Station - Hanford Site</title>
-
+		  
+                
+                <script async type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOE&subagency=HFO"></script>
+            
 	</head>
 	<body>
 
@@ -103,7 +106,11 @@
 				
 				<ul>
 					<li><a href="https://www.hanford.gov/"><img src="appimages/hanford2023/Logos/Hanford/hanford_site_logo.png" title="Hanford Site logo" alt="Hanford Site logo" /></a></li>
-					<li class="right"><img src="appimages/hanford2023/Logos/DOE/doe_logo.png" title="US Department of Energy Logo"alt="US Department of Energy Logo"></li>
+					<li class="right">
+					
+					
+					 <a href="#" target="_blank"><img src="appimages/hanford2023/Logos/DOE/transparent5_x5.png" title="." alt="."></a> 
+					</li>
 				</ul>
 				
 			</div>
@@ -168,16 +175,16 @@
  Station# 1 ( PROS) at 479 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction = 243
- Ave Wind Speed     =   2
- Max Wind Speed     =   5
+ Ave Wind Direction = 326
+ Ave Wind Speed     =   8
+ Max Wind Speed     =  11
 
                          Celsius
- Ave Temp = 83.5          28.63
- Max Temp = 84.6          29.21
- Min Temp = 83.0          28.32
+ Ave Temp = 65.5          18.63
+ Max Temp = 66.9          19.38
+ Min Temp = 63.3          17.40
 
  Rain Gauge =   0.00
 
@@ -190,16 +197,16 @@
  Station# 2 (  EOC) at 1240 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction = 217
- Ave Wind Speed     =   4
- Max Wind Speed     =   6
+ Ave Wind Direction = 307
+ Ave Wind Speed     =  11
+ Max Wind Speed     =  15
 
                          Celsius
- Ave Temp = 80.9          27.17
- Max Temp = 81.9          27.72
- Min Temp = 80.0          26.68
+ Ave Temp = 72.5          22.49
+ Max Temp = 73.0          22.76
+ Min Temp = 71.6          21.98
 
  Rain Gauge =   0.00
 
@@ -212,16 +219,16 @@
  Station# 3 ( ARMY) at 578 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction = 130
- Ave Wind Speed     =   4
- Max Wind Speed     =   6
+ Ave Wind Direction = 260
+ Ave Wind Speed     =   5
+ Max Wind Speed     =   8
 
                          Celsius
- Ave Temp = 82.0          27.79
- Max Temp = 82.6          28.12
- Min Temp = 81.3          27.37
+ Ave Temp = 69.3          20.70
+ Max Temp = 71.5          21.94
+ Min Temp = 67.2          19.56
 
  Rain Gauge =   0.00
 
@@ -234,16 +241,16 @@
  Station# 4 ( RSPG) at 686 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction = 122
- Ave Wind Speed     =   2
- Max Wind Speed     =   5
+ Ave Wind Direction = 209
+ Ave Wind Speed     =   3
+ Max Wind Speed     =   8
 
                          Celsius
- Ave Temp = 82.3          27.95
- Max Temp = 82.7          28.15
- Min Temp = 81.9          27.70
+ Ave Temp = 67.2          19.55
+ Max Temp = 67.9          19.95
+ Min Temp = 66.2          19.02
 
  Rain Gauge =   0.00
 
@@ -256,16 +263,16 @@
  Station# 5 ( EDNA) at 404 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  82
+ Ave Wind Direction = 260
  Ave Wind Speed     =   3
- Max Wind Speed     =   9
+ Max Wind Speed     =   6
 
                          Celsius
- Ave Temp = 84.8          29.31
- Max Temp = 87.4          30.79
- Min Temp = 82.4          28.01
+ Ave Temp = 66.8          19.31
+ Max Temp = 68.7          20.36
+ Min Temp = 64.5          18.06
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -276,23 +283,23 @@
  Station# 6 ( 200E) at 685 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 18:45:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  95
- Ave Wind Speed     =   4
- Max Wind Speed     =   6
+ Ave Wind Direction = 290
+ Ave Wind Speed     =   8
+ Max Wind Speed     =  11
 
                                                Questemp 46
- Ave BP = 29.179 in/Hg    741.142 mm/Hg        Wet Bulb   = 64.8
- Max BP = 29.179 in/Hg    741.151 mm/Hg        Globe      = 85.6
- Min BP = 29.178 in/Hg    741.125 mm/Hg        Dry Bulb   = 88.2
-                                                WBGT Out   = 71.4
+ Ave BP = 29.277 in/Hg    743.636 mm/Hg        Wet Bulb   = 58.1
+ Max BP = 29.278 in/Hg    743.649 mm/Hg        Globe      = 71.6
+ Min BP = 29.276 in/Hg    743.612 mm/Hg        Dry Bulb   = 74.1
+                                                WBGT Out   = 62.4
 
- Ave SLP =  29.892 in/Hg    1012.246 mbs
+ Ave SLP =  30.007 in/Hg    1016.153 mbs
 
- Ave Temp =  86.7        Dew Point =  42.5
- Max Temp =  87.0               RH =  21.5
- Min Temp =  86.1
+ Ave Temp =  72.9        Dew Point =  39.3
+ Max Temp =  73.0               RH =  29.4
+ Min Temp =  72.7
 
  Rain Gauge =   0.00
 
@@ -305,16 +312,16 @@
  Station# 7 ( 200W) at 636 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction = 110
- Ave Wind Speed     =   5
- Max Wind Speed     =   7
+ Ave Wind Direction = 303
+ Ave Wind Speed     =   8
+ Max Wind Speed     =  15
 
                          Celsius
- Ave Temp = 84.0          28.87
- Max Temp = 85.5          29.73
- Min Temp = 82.0          27.76
+ Ave Temp = 74.5          23.63
+ Max Temp = 76.0          24.45
+ Min Temp = 72.4          22.44
 
  Rain Gauge =   0.00
 
@@ -327,22 +334,22 @@
  Station# 8 ( BVLY) at 509 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  10
+ Ave Wind Direction = 315
  Ave Wind Speed     =   4
- Max Wind Speed     =   7
+ Max Wind Speed     =  15
 
- Ave BP = 29.356 in/Hg    745.654 mm/Hg
- Max BP = 29.361 in/Hg    745.774 mm/Hg
- Min BP = 29.348 in/Hg    745.433 mm/Hg
+ Ave BP = 29.457 in/Hg    748.215 mm/Hg
+ Max BP = 29.461 in/Hg    748.318 mm/Hg
+ Min BP = 29.452 in/Hg    748.077 mm/Hg
 
- Ave SLP =  29.950 in/Hg    1014.209 mbs
+ Ave SLP =  30.068 in/Hg    1018.210 mbs
 
                          Celsius
- Ave Temp = 77.3          25.19
- Max Temp = 80.9          27.19
- Min Temp = 73.9          23.27
+ Ave Temp = 72.3          22.40
+ Max Temp = 73.4          23.02
+ Min Temp = 70.9          21.62
 
  Rain Gauge =   0.00
 
@@ -355,27 +362,27 @@
  Station# 9 ( FFTF) at 573 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction 60m =  51    Ave Temp 60m = 88.5
- Ave Wind Speed 60m     =  12
- Ave Wind Direction 25m =  48
- Ave Wind Speed 25m     =   7
- Ave Wind Direction 10m =  35    Ave Temp 10m = 86.1
- Ave Wind Speed 10m     =   5
- Max Wind Speed 10m     =   7
+ Ave Wind Direction 60m = 278    Ave Temp 60m = 75.4
+ Ave Wind Speed 60m     =   8
+ Ave Wind Direction 25m = 311
+ Ave Wind Speed 25m     =  10
+ Ave Wind Direction 10m = 320    Ave Temp 10m = 70.2
+ Ave Wind Speed 10m     =   8
+ Max Wind Speed 10m     =  12
 
- Ave BP = 29.313 in/Hg    744.557 mm/Hg
- Max BP = 29.315 in/Hg    744.607 mm/Hg
- Min BP = 29.312 in/Hg    744.516 mm/Hg
+ Ave BP = 29.419 in/Hg    747.237 mm/Hg
+ Max BP = 29.425 in/Hg    747.400 mm/Hg
+ Min BP = 29.413 in/Hg    747.094 mm/Hg
 
- Ave SLP =  29.919 in/Hg    1013.160 mbs
+ Ave SLP =  30.042 in/Hg    1017.322 mbs
 
- Ave Temp 2m =  85.0        Dew-Point 2m =  51.1
- Max Temp 2m =  85.4        Rel-Humidity =  31.3
- Min Temp 2m =  84.3
+ Ave Temp 2m =  68.4        Dew-Point 2m =  47.0
+ Max Temp 2m =  69.8        Rel-Humidity =  45.9
+ Min Temp 2m =  67.1
 
- Delta Temp 60m-10m =   2.40
+ Delta Temp 60m-10m =   5.22
 
  Rain Gauge =   0.00
 
@@ -388,22 +395,22 @@
  Station# 10 ( YAKB) at 796 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  98
- Ave Wind Speed     =   6
- Max Wind Speed     =   8
+ Ave Wind Direction = 314
+ Ave Wind Speed     =  19
+ Max Wind Speed     =  30
 
- Ave BP = 29.093 in/Hg    738.961 mm/Hg
- Max BP = 29.101 in/Hg    739.173 mm/Hg
- Min BP = 29.085 in/Hg    738.750 mm/Hg
+ Ave BP = 29.185 in/Hg    741.302 mm/Hg
+ Max BP = 29.199 in/Hg    741.647 mm/Hg
+ Min BP = 29.168 in/Hg    740.854 mm/Hg
 
- Ave SLP =  29.926 in/Hg    1013.392 mbs
+ Ave SLP =  30.032 in/Hg    1016.992 mbs
 
                          Celsius
- Ave Temp = 81.9          27.71
- Max Temp = 82.9          28.28
- Min Temp = 81.2          28.28
+ Ave Temp = 75.9          24.36
+ Max Temp = 76.3          24.59
+ Min Temp = 75.5          24.59
 
  Rain Gauge =   0.00
 
@@ -416,29 +423,29 @@
  Station# 11 ( 300A) at 405 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction 60m =  39    Ave Temp 60m = 89.1
- Ave Wind Speed 60m     =  10
- Ave Wind Direction 25m =  36
- Ave Wind Speed 25m     =   8
- Ave Wind Direction 10m =  26    Ave Temp 10m = 87.9
- Ave Wind Speed 10m     =   6
- Max Wind Speed 10m     =  11
+ Ave Wind Direction 60m = 140    Ave Temp 60m = 77.8
+ Ave Wind Speed 60m     =   5
+ Ave Wind Direction 25m = 140
+ Ave Wind Speed 25m     =   5
+ Ave Wind Direction 10m = 142    Ave Temp 10m = 72.3
+ Ave Wind Speed 10m     =   4
+ Max Wind Speed 10m     =   7
 
                                                Questemp 46
- Ave BP = 29.479 in/Hg    748.775 mm/Hg        Wet Bulb   = 65.1
- Max BP = 29.480 in/Hg    748.798 mm/Hg        Globe      = 84.4
- Min BP = 29.478 in/Hg    748.730 mm/Hg        Dry Bulb   = 85.8
-                                                WBGT Out   = 70.7
+ Ave BP = 29.578 in/Hg    751.291 mm/Hg        Wet Bulb   = 60.6
+ Max BP = 29.578 in/Hg    751.292 mm/Hg        Globe      = 66.7
+ Min BP = 29.578 in/Hg    751.290 mm/Hg        Dry Bulb   = 69.4
+                                                WBGT Out   = 62.2
 
- Ave SLP =  29.903 in/Hg    1012.611 mbs
+ Ave SLP =  30.022 in/Hg    1016.649 mbs
 
- Ave Temp 2m =  85.5        Dew-Point 2m =  45.2
- Max Temp 2m =  87.6        Rel-Humidity =  24.5
- Min Temp 2m =  83.2
+ Ave Temp 2m =  66.3        Dew-Point 2m =  50.0
+ Max Temp 2m =  70.4        Rel-Humidity =  53.0
+ Min Temp 2m =  60.4
 
- Delta Temp 60m-10m =   1.21
+ Delta Temp 60m-10m =   5.43
 
  Rain Gauge =   0.00
 
@@ -451,16 +458,16 @@
  Station# 12 ( WYEB) at 555 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  69
- Ave Wind Speed     =   4
- Max Wind Speed     =   5
+ Ave Wind Direction = 290
+ Ave Wind Speed     =   8
+ Max Wind Speed     =   9
 
                          Celsius
- Ave Temp = 84.2          29.01
- Max Temp = 84.5          29.17
- Min Temp = 83.8          28.80
+ Ave Temp = 71.3          21.81
+ Max Temp = 72.0          22.21
+ Min Temp = 70.4          21.34
 
  Rain Gauge =   0.00
 
@@ -473,29 +480,29 @@
  Station# 13 ( 100N) at 470 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction 60m =  81    Ave Temp 60m = 98.5
- Ave Wind Speed 60m     =   9
- Ave Wind Direction 25m = 110
- Ave Wind Speed 25m     =   6
- Ave Wind Direction 10m = 106    Ave Temp 10m = 87.4
+ Ave Wind Direction 60m = 275    Ave Temp 60m = 76.7
+ Ave Wind Speed 60m     =   8
+ Ave Wind Direction 25m = 257
+ Ave Wind Speed 25m     =   5
+ Ave Wind Direction 10m = 231    Ave Temp 10m = 73.2
  Ave Wind Speed 10m     =   4
  Max Wind Speed 10m     =   8
 
                                                Questemp 46
- Ave BP = 29.411 in/Hg    747.050 mm/Hg        Wet Bulb   = 1111.0
- Max BP = 29.414 in/Hg    747.113 mm/Hg        Globe      = 1111.0
- Min BP = 29.410 in/Hg    747.016 mm/Hg        Dry Bulb   = 1111.0
-                                              WBGT Out   = 1111.0
+ Ave BP = 29.520 in/Hg    749.803 mm/Hg        Wet Bulb   = 58.6
+ Max BP = 29.520 in/Hg    749.811 mm/Hg        Globe      = 61.3
+ Min BP = 29.519 in/Hg    749.787 mm/Hg        Dry Bulb   = 65.5
+                                                WBGT Out   = 59.7
 
- Ave SLP =  29.908 in/Hg    1012.783 mbs
+ Ave SLP =  30.033 in/Hg    1017.045 mbs
 
- Ave Temp 2m =  83.8        Dew-Point 2m =  42.3
- Max Temp 2m =  84.5        Rel-Humidity =  23.2
- Min Temp 2m =  82.9
+ Ave Temp 2m =  67.6        Dew-Point 2m =  48.5
+ Max Temp 2m =  69.8        Rel-Humidity =  50.3
+ Min Temp 2m =  64.9
 
- Delta Temp 60m-10m =  11.08
+ Delta Temp 60m-10m =   3.53
 
  Rain Gauge =   0.00
 
@@ -508,16 +515,16 @@
  Station# 14 ( WPPS) at 455 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  46
- Ave Wind Speed     =   5
- Max Wind Speed     =   6
+ Ave Wind Direction = 318
+ Ave Wind Speed     =   6
+ Max Wind Speed     =   9
 
                          Celsius
- Ave Temp = 82.1          27.82
- Max Temp = 82.9          28.29
- Min Temp = 81.2          27.34
+ Ave Temp = 65.9          18.84
+ Max Temp = 66.7          19.29
+ Min Temp = 65.1          18.39
 
  Rain Gauge =   0.00
 
@@ -530,16 +537,16 @@
  Station# 15 ( FRNK) at 877 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  48
- Ave Wind Speed     =   5
- Max Wind Speed     =   8
+ Ave Wind Direction = 142
+ Ave Wind Speed     =   3
+ Max Wind Speed     =   4
 
                          Celsius
- Ave Temp = 80.1          26.70
- Max Temp = 81.6          27.54
- Min Temp = 77.8          25.44
+ Ave Temp = 61.0          16.09
+ Max Temp = 62.5          16.96
+ Min Temp = 60.2          15.66
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -550,16 +557,16 @@
  Station# 16 ( GABL) at 1084 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  73
- Ave Wind Speed     =   8
- Max Wind Speed     =  14
+ Ave Wind Direction = 311
+ Ave Wind Speed     =  18
+ Max Wind Speed     =  20
 
                          Celsius
- Ave Temp = 86.1          30.03
- Max Temp = 86.5          30.27
- Min Temp = 85.6          29.79
+ Ave Temp = 73.8          23.21
+ Max Temp = 74.7          23.75
+ Min Temp = 73.1          22.85
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -570,16 +577,16 @@
  Station# 17 ( RING) at 619 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  45
- Ave Wind Speed     =   5
- Max Wind Speed     =   7
+ Ave Wind Direction = 292
+ Ave Wind Speed     =   2
+ Max Wind Speed     =   4
 
                          Celsius
- Ave Temp = 78.0          25.57
- Max Temp = 79.5          26.37
- Min Temp = 76.9          24.97
+ Ave Temp = 61.9          16.59
+ Max Temp = 63.4          17.47
+ Min Temp = 60.7          15.96
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -610,22 +617,22 @@ Decommissioned or temporarily unavailable.
  Station# 19 (  PFP) at 677 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  87
- Ave Wind Speed     =   7
- Max Wind Speed     =  10
+ Ave Wind Direction = 300
+ Ave Wind Speed     =   2
+ Max Wind Speed     =   7
 
- Ave BP = 29.175 in/Hg    741.046 mm/Hg
- Max BP = 29.182 in/Hg    741.217 mm/Hg
- Min BP = 29.167 in/Hg    740.834 mm/Hg
+ Ave BP = 29.275 in/Hg    743.587 mm/Hg
+ Max BP = 29.281 in/Hg    743.748 mm/Hg
+ Min BP = 29.271 in/Hg    743.494 mm/Hg
 
- Ave SLP =  29.883 in/Hg    1011.941 mbs
+ Ave SLP =  30.000 in/Hg    1015.912 mbs
 
                          Celsius
- Ave Temp = 88.3          31.30
- Max Temp = 88.7          31.48
- Min Temp = 87.8          31.00
+ Ave Temp = 73.3          22.96
+ Max Temp = 73.8          23.22
+ Min Temp = 72.7          22.63
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -636,20 +643,20 @@ Decommissioned or temporarily unavailable.
  Station# 20 ( RMTN) at 3534 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  76.8       >>RM Young =  90.2
- Ave Wind Speed     =   4.8       >>RM Young =   4.0
- Max Wind Speed     =   7.7       >>RM Young =   6.7
+ Ave Wind Direction =   2.1       >>RM Young =   5.4
+ Ave Wind Speed     =   7.8       >>RM Young =   8.6
+ Max Wind Speed     =  12.8       >>RM Young =  11.9
 
                          Celsius
- Ave Temp = 74.7          23.74
- Max Temp = 74.8          23.80
- Min Temp = 74.6          23.68
+ Ave Temp = 64.4          18.01
+ Max Temp = 64.5          18.07
+ Min Temp = 64.3          17.94
 
- Relative Humidity = 27.8
- Dew Point = 38.9
- Solar Radiation = 0.6 W/m^2
+ Relative Humidity = 31.4
+ Dew Point = 33.0
+ Solar Radiation = 0.0 W/m^2
 
  Rain Gauge =   0.00
 
@@ -662,32 +669,32 @@ Decommissioned or temporarily unavailable.
  Station# 21 (  HMS) at 729 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  94
+ Ave Wind Direction = 297
  Ave Wind Speed     =   8
- Max Wind Speed     =   9
+ Max Wind Speed     =  15
 
- Ave BP = 29.121 in/Hg    739.667 mm/Hg
- Max BP = 29.132 in/Hg    739.951 mm/Hg
- Min BP = 29.110 in/Hg    739.403 mm/Hg
+ Ave BP = 29.230 in/Hg    742.448 mm/Hg
+ Max BP = 29.233 in/Hg    742.509 mm/Hg
+ Min BP = 29.228 in/Hg    742.387 mm/Hg
 
- Ave SLP =  29.599 in/Hg    1002.333 mbs
+ Ave SLP =  29.723 in/Hg    1006.531 mbs
 
                          Celsius
- Ave Temp = 86.5          30.28
- Max Temp = 86.8          30.45
- Min Temp = 86.2          30.11
+ Ave Temp = 73.4          23.01
+ Max Temp = 73.7          23.16
+ Min Temp = 73.1          22.86
 
 Building 622R
- DewPt    =  41.9           RH      =  23.6%
- Ave Temp =  82.8           RH Temp =  83.0
+ DewPt    =  39.3           RH      =  29.5%
+ Ave Temp =  72.9           RH Temp =  72.7
 
  Top of the Tower (400ft)            Questemp 44
- Solar =   0.7 W/m^2                Wet Bulb   =  63.9
- RH    =  17.2%                     Globe      =  81.5
- DewPt =  38.2                      Dry Bulb   =  83.8
- AirT  =  88.1                      WBGT Out   =  69.4
+ Solar =   0.0 W/m^2                Wet Bulb   =  58.5
+ RH    =  25.4%                     Globe      =  71.8
+ DewPt =  37.8                      Dry Bulb   =  74.5
+ AirT  =  75.3                      WBGT Out   =  62.8
 
  Rain Gauge =   0.00
 
@@ -700,16 +707,16 @@ Building 622R
  Station# 22 ( PASC) at 407 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction = 332
- Ave Wind Speed     =   5
- Max Wind Speed     =   7
+ Ave Wind Direction = 340
+ Ave Wind Speed     =   2
+ Max Wind Speed     =   4
 
                          Celsius
- Ave Temp = 85.1          29.49
- Max Temp = 85.7          29.82
- Min Temp = 84.6          29.25
+ Ave Temp = 69.3          20.70
+ Max Temp = 70.3          21.28
+ Min Temp = 68.6          20.32
 
  Rain Gauge =   0.00
 
@@ -722,16 +729,16 @@ Building 622R
  Station# 23 ( GABW) at 490 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  81
- Ave Wind Speed     =   6
- Max Wind Speed     =   7
+ Ave Wind Direction = 302
+ Ave Wind Speed     =   3
+ Max Wind Speed     =   4
 
                          Celsius
- Ave Temp = 84.7          29.29
- Max Temp = 85.6          29.78
- Min Temp = 84.2          29.00
+ Ave Temp = 64.5          18.04
+ Max Temp = 66.5          19.14
+ Min Temp = 63.4          17.42
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -742,16 +749,16 @@ Building 622R
  Station# 24 ( 100F) at 412 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  61
- Ave Wind Speed     =   5
- Max Wind Speed     =   8
+ Ave Wind Direction =  45
+ Ave Wind Speed     =   2
+ Max Wind Speed     =   3
 
                          Celsius
- Ave Temp = 83.0          28.33
- Max Temp = 84.2          29.02
- Min Temp = 81.7          27.60
+ Ave Temp = 65.9          18.85
+ Max Temp = 66.8          19.33
+ Min Temp = 64.8          18.25
 
  Rain Gauge =   0.00
 
@@ -764,16 +771,16 @@ Building 622R
  Station# 25 ( VERN) at 434 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  79
- Ave Wind Speed     =   4
- Max Wind Speed     =   6
+ Ave Wind Direction = 267
+ Ave Wind Speed     =  10
+ Max Wind Speed     =  15
 
                          Celsius
- Ave Temp = 81.4          27.42
- Max Temp = 82.9          28.27
- Min Temp = 80.1          26.72
+ Ave Temp = 71.7          22.04
+ Max Temp = 72.4          22.42
+ Min Temp = 71.2          21.79
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -846,20 +853,20 @@ Decommissioned or temporarily unavailable.
  Station# 29 ( 100K) at 467 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction = 129
- Ave Wind Speed     =   4
- Max Wind Speed     =   6
+ Ave Wind Direction = 313
+ Ave Wind Speed     =   1
+ Max Wind Speed     =   2
 
- Ave BP = 29.396 in/Hg    746.658 mm/Hg
- Max BP = 29.402 in/Hg    746.800 mm/Hg
- Min BP = 29.392 in/Hg    746.556 mm/Hg
+ Ave BP = 29.502 in/Hg    749.352 mm/Hg
+ Max BP = 29.503 in/Hg    749.369 mm/Hg
+ Min BP = 29.501 in/Hg    749.320 mm/Hg
 
                          Celsius
- Ave Temp = 80.7          27.03
- Max Temp = 82.0          27.80
- Min Temp = 79.8          26.57
+ Ave Temp = 67.8          19.87
+ Max Temp = 68.4          20.22
+ Min Temp = 67.2          19.53
 
  Rain Gauge =   0.00
 
@@ -872,21 +879,21 @@ Decommissioned or temporarily unavailable.
  Station# 30 ( HAMR) at 500 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  11
- Ave Wind Speed     =   2
- Max Wind Speed     =   3
+ Ave Wind Direction = 239
+ Ave Wind Speed     =   3
+ Max Wind Speed     =   4
 
                          Celsius
- Ave Temp = 84.9          29.38
- Max Temp = 85.8          29.88
- Min Temp = 84.3          29.03
+ Ave Temp = 68.9          20.53
+ Max Temp = 69.5          20.82
+ Min Temp = 68.0          20.03
 
- Wet Bulb = 65.1
- Globe    = 84.0
- Dry Bulb = 86.0
- WBGT Out = 70.9
+ Wet Bulb = 59.0
+ Globe    = 67.8
+ Dry Bulb = 70.0
+ WBGT Out = 61.9
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -897,16 +904,16 @@ Decommissioned or temporarily unavailable.
  Station# 31 ( 233S) at 688 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  77
- Ave Wind Speed     =   7
- Max Wind Speed     =   8
+ Ave Wind Direction = 309
+ Ave Wind Speed     =   5
+ Max Wind Speed     =   9
 
                          Celsius
- Ave Temp = 85.1          29.51
- Max Temp = 86.1          30.03
- Min Temp = 84.3          29.06
+ Ave Temp = 73.0          22.79
+ Max Temp = 74.6          23.67
+ Min Temp = 72.2          22.31
 
 </pre>
 		<a href="page.cfm/HMS/realTimeMetData">Return to Map</a>
@@ -917,16 +924,16 @@ Decommissioned or temporarily unavailable.
  Station# 32 (  IDF) at 723 ft above MSL     
 
 
- Time: 20:15:00 PST      Date: 7/13/2026
+ Time: 19:00:00 PST      Date: 10/5/2026
 
- Ave Wind Direction =  92
- Ave Wind Speed     =   4
- Max Wind Speed     =   6
+ Ave Wind Direction = 293
+ Ave Wind Speed     =   6
+ Max Wind Speed     =  10
 
                          Celsius
- Ave Temp = 86.6          30.31
- Max Temp = 87.2          30.65
- Min Temp = 86.2          30.13
+ Ave Temp = 71.9          22.15
+ Max Temp = 72.4          22.42
+ Min Temp = 71.2          21.79
 
  Rain Gauge =   0.00
 
@@ -958,78 +965,77 @@ Decommissioned or temporarily unavailable.
 		<pre> 
  Station# 21 Telemetry Data 
 
- 400 Foot Tower Information         Mon Jul 13      20:19:25 PST 2026
+ 400 Foot Tower Information         Mon Oct 05      19:04:11 PST 2026
 
                             Prevailing Wind              Peak Gust
  yr mo day hr   Solar    Degrees Speed Direction   Degrees  Speed   Time Stab
-  26 7 13   1    0.00     320.0    7.3     NW       305.4  10.530  01:00   G
-  26 7 13   2    0.00     320.0    8.0     NW       319.0  11.690  01:45   G
-  26 7 13   3    0.00     310.0    7.1     NW       307.3  10.710  02:15   G
-  26 7 13   4    0.00     290.0    4.6    WNW       286.3   7.578  03:45   G
-  26 7 13   5    0.00     300.0    6.0    WNW       288.3   9.100  04:45   G
-  26 7 13   6    0.03     280.0    4.9      W       318.2   7.399  05:45   G
-  26 7 13   7    0.15     300.0    4.1    WNW       289.5   6.773  06:45   D
-  26 7 13   8    0.42     320.0    4.6     NW       315.0   9.370  08:00   A
-  26 7 13   9    0.67     290.0    6.6    WNW       299.7  11.780  09:00   A
-  26 7 13  10    0.89     110.0    5.7    ESE        40.4  10.530  09:45   A
-  26 7 13  11    1.08     140.0    4.8     SE       189.6  11.510  10:15   A
-  26 7 13  12    1.20     140.0    4.4     SE       138.8  14.020  11:45   A
-  26 7 13  13    1.27     130.0    3.9     SE       102.1  11.600  12:45   A
-  26 7 13  14    1.28     130.0    4.6     SE       102.4  11.070  14:00   A
-  26 7 13  15    1.21     130.0    4.9     SE       141.5  14.820  15:00   A
-  26 7 13  16    1.03     160.0    5.3    SSE       206.8  14.380  15:30   A
-  26 7 13  17    0.89     130.0    6.5     SE       107.1  15.630  16:30   A
-  26 7 13  18    0.66     130.0    5.2     SE       137.5  15.630  17:30   A
-  26 7 13  19    0.40     100.0    5.4      E        56.6  13.480  19:00   A
-  26 7 13  20    0.21      60.0    7.1    ENE        72.3  16.970  20:00   A
-  26 7 13  21    0.04      80.0    7.9      E        75.8  13.210  20:15   D
+  26 10 5   1    0.00     300.0    3.4    WNW       291.6   4.715  00:45   G
+  26 10 5   2    0.00     190.0    2.2      S       213.7   5.252  01:30   G
+  26 10 5   3    0.00      40.0    2.8     NE        60.7   5.789  02:15   G
+  26 10 5   4    0.00     150.0    1.9    SSE       200.7   4.894  04:00   G
+  26 10 5   5    0.00     180.0    2.4      S        92.5   4.894  05:00   G
+  26 10 5   6    0.00     110.0    2.6    ESE       133.3   4.626  05:45   G
+  26 10 5   7    0.00     180.0    1.9      S       141.0   5.162  06:15   G
+  26 10 5   8    0.08     120.0    1.9    ESE        90.3   4.357  07:30   G
+  26 10 5   9    0.29      60.0    2.5    ENE        47.7   5.252  09:00   D
+  26 10 5  10    0.51      70.0    2.9    ENE        52.3   5.162  09:15   A
+  26 10 5  11    0.70     120.0    2.7    ESE        94.3   6.057  11:00   A
+  26 10 5  12    0.74     150.0    2.4    SSE       136.1  10.260  12:00   A
+  26 10 5  13    0.90     150.0    5.3     SE       156.1  13.120  12:30   A
+  26 10 5  14    0.89     140.0    3.6     SE       139.8   9.640  13:45   A
+  26 10 5  15    0.76     140.0    3.6     SE       130.9   8.470  15:00   A
+  26 10 5  16    0.45     180.0    2.9      S       122.0   6.415  15:30   A
+  26 10 5  17    0.30     220.0    2.9     SW       245.2   6.773  16:45   A
+  26 10 5  18    0.12     180.0    5.8      S       180.7   8.380  18:00   D
+  26 10 5  19    0.01     290.0    6.7    WNW       305.1  10.800  19:00   F
+  26 10 5  20    0.00     300.0    6.4    WNW       296.9  14.560  20:00   G
 
    Tower       Current  Temperature            Wind    Speed
    Level        Max     Avg     Min      Dir    Max     Avg    Min
    --------    ------  ------  ------  ------  -----  ------  ------
-   400 foot     88.4    88.1    87.9    87.1    16.2    12.6    12.6
-   300 foot     88.6    88.0    87.7   -99.9   -99.9   -99.9   -99.9
-   250 foot     88.5    87.9    87.7   -99.9   -99.9   -99.9   -99.9
-   200 foot     88.1    87.9    87.8    86.4    14.6    12.6    12.6
-   100 foot     88.5    88.2    88.0   -99.9   -99.9   -99.9   -99.9
-    50 foot     88.2    87.8    87.6    94.4     9.5     8.2     8.2
-    30 foot     86.8    86.5    86.2    93.9     8.6     7.5     7.5
-     3 foot     82.9    81.6    80.9   -99.9   -99.9   -99.9   -99.9
-  0.5" Soil     90.3    89.8    89.3
- 15.0" Soil     81.6    81.6    81.6
- 36.0" Soil     76.5    76.5    76.5
+   400 foot     75.6    75.3    75.2   306.7    25.0    22.5    22.5
+   300 foot     75.3    75.1    75.0   -99.9   -99.9   -99.9   -99.9
+   250 foot     74.8    74.7    74.7   -99.9   -99.9   -99.9   -99.9
+   200 foot     75.4    75.3    75.1   301.3    23.5    16.5    16.5
+   100 foot     75.7    75.2    74.7   -99.9   -99.9   -99.9   -99.9
+    50 foot     74.8    74.5    74.1   297.4    16.3     8.9     8.9
+    30 foot     73.7    73.4    73.1   296.9    14.6     7.9     7.9
+     3 foot     72.7    71.8    71.0   -99.9   -99.9   -99.9   -99.9
+  0.5" Soil     68.8    68.7    68.7
+ 15.0" Soil     68.2    68.2    68.1
+ 36.0" Soil     69.2    69.2    69.2
 
- Delta T1 = T200 - T3  =    6.3                 Pasquill Category = F
- Delta T2 = T250 - T50 =    0.1                 200 ft Winds      = 87.9
- Delta T3 = T200 - T30 =    1.4 (NRC)           Least Dilution    =  2.4
+ Delta T1 = T200 - T3  =    3.5                 Pasquill Category = F
+ Delta T2 = T250 - T50 =    0.3                 200 ft Winds      = 75.3
+ Delta T3 = T200 - T30 =    1.9 (NRC)           Least Dilution    =  2.4
 
-        Daily Tower WIND Data            Mon Jul 13 08:19:25 PST 2026
+        Daily Tower WIND Data            Mon Oct 05 07:04:11 PST 2026
 
    Tower     * 15-Minute AVE *   * 15-Min PEAK GUST *      * DAY PEAK GUST *
    Level         DIR    SPD        DIR   SPD   @TIME       DIR   SPD   @TIME
    --------     -----  -----      ----- -----  -----      ----- -----  -----
-   400 foot       87    12.6        87   16.2  20:15       303   21.8  03:45
-   200 foot       86    12.6        86   14.6  20:15       314   19.1  02:00
-    50 foot       94     8.2        94    9.5  20:15        73   17.1  19:00
-    30 foot       94     7.5        94    8.6  20:15        72   17.0  19:00
+   400 foot      307    22.5       307   25.0  19:00       307   25.0  19:00
+   200 foot      301    16.5       301   23.5  19:00       301   23.5  19:00
+    50 foot      297     8.9       297   16.3  19:00       297   16.3  19:00
+    30 foot      297     7.9       297   14.6  19:00       297   14.6  19:00
 
-    Daily Tower TEMPERATURE Data            Mon Jul 13 08:19:25 PST 2026
+    Daily Tower TEMPERATURE Data            Mon Oct 05 07:04:11 PST 2026
 
    Tower         15-Minute     DAILY                   DAILY
    Level            Ave       Maximum      @Time      Minimum      @Time
    --------      ---------    -------      -----      -------      -----
-   400 foot        78.4         91.9       17:30        63.9       07:30
-   300 foot        78.3         92.0       17:30        63.7       07:15
-   250 foot        78.5         92.4       17:30        63.6       07:00
-   200 foot        78.6         92.6       17:45        63.2       07:00
-   100 foot        79.1         94.2       17:30        63.4       06:30
-    50 foot        78.8         93.9       17:30        63.1       06:45
-    30 foot        80.8         98.6       17:30        62.3       06:15
-     3 foot        79.3         99.0       15:30        56.7       04:15
+   400 foot        70.0         80.6       16:30        56.6       09:15
+   300 foot        69.1         81.0       16:45        54.3       09:00
+   250 foot        68.6         81.2       16:30        54.0       09:00
+   200 foot        68.5         82.0       16:30        53.8       09:00
+   100 foot        68.4         84.5       16:30        52.3       06:45
+    50 foot        67.3         82.6       16:45        49.4       06:45
+    30 foot        68.2         87.5       15:15        48.8       07:15
+     3 foot        64.7         85.7       16:30        42.8       07:30
   Stability F
- -0.5" Soil        89.3        111.1       15:15        71.8       06:15
- 15.0" Soil        81.3         82.0       00:45        80.6       14:00
- 36.0" Soil        76.4         76.5       21:00        76.3       02:00
+ -0.5" Soil        63.4         75.7       14:15       -99.9       18:00
+ 15.0" Soil        68.4         68.9       02:45        67.8       16:15
+ 36.0" Soil        69.2         69.2       17:00        69.1       03:30
 
 
 
@@ -1091,7 +1097,12 @@ Decommissioned or temporarily unavailable.
 					
 				<div class="footerAddressBar">
 					<p>For questions or comments please contact <a href="c.cfm/feedback">the Webmaster</a></p>
-					<p class="doe_logo"><img src="appimages/hanford2023/Logos/DOE/doe_logo.png" title="US Department of Energy Logo"alt="US Department of Energy Logo"></p>
+					
+					
+						<p class="doe_logo">
+							<a href="#" target="_blank"><img src="appimages/hanford2023/Logos/DOE/transparent5_x5.png" title="." alt="."></a>
+						</p>
+					 
 				</div>
 			</div>
 		</div> 
